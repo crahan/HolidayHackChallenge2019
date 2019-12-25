@@ -6,7 +6,7 @@ After searching for the avatar for Krampus as part of [challenge 7](/challenges/
 
 [elf15.png](https://2019.kringlecon.com/images/avatars/elf15.png), the 6th elf from the left in the image below, is used as a generic image which is then replaced with the correct NPC's avatar. Probably a remnant from the development stages to ensure all NPCs showed up on screen, even if it was with a default image (this includes Santa himself). Worth noting is that not only do some of the Elf characters in the game use a generic `elfX.png` filename, there's also more elf avatar images available than are used in the game.
 
-![Unknown Elves](/img/misc/unknown_elves.png)
+![Unknown Elves](../img/misc/unknown_elves.png)
 
 Unused elves, from left to right: [elf5.png](https://2019.kringlecon.com/images/avatars/elves/elf5.png), [elf6.png](https://2019.kringlecon.com/images/avatars/elves/elf6.png), [elf10.png](https://2019.kringlecon.com/images/avatars/elves/elf10.png), [elf11.png](https://2019.kringlecon.com/images/avatars/elves/elf10.png), [elf14.png](https://2019.kringlecon.com/images/avatars/elves/elf14.png), [elf15.png](https://2019.kringlecon.com/images/avatars/elves/elf15.png) (default NPC avatar), [elf17.png](https://2019.kringlecon.com/images/avatars/elves/elf17.png), [elf18.png](https://2019.kringlecon.com/images/avatars/elves/elf18.png), [elf19.png](https://2019.kringlecon.com/images/avatars/elves/elf19.png), [elf20.png](https://2019.kringlecon.com/images/avatars/elves/elf20.png), [elf21.png](https://2019.kringlecon.com/images/avatars/elves/elf21.png), and [elf22.png](https://2019.kringlecon.com/images/avatars/elves/elf22.png). In some cases the CSS also references the generic PNG files with an actual Elf name, even when the Elf doesn't make an appearance in the game. This is the case for both [elf10.png](https://2019.kringlecon.com/images/avatars/elves/elf10.png) aka Morcel Nougat and [elf11.png](https://2019.kringlecon.com/images/avatars/elves/elf11.png) aka Elinor Twinkletoes, two characters from last year's KringleCon event who seem to have hitched a ride in this year's CSS file.
 
@@ -23,7 +23,7 @@ Unused elves, from left to right: [elf5.png](https://2019.kringlecon.com/images/
 
 Another group of avatars that tagged along from the previous event are toy and elf soldiers (6 color variants of each). I guess Santa must've thought it would be good to have a handful of muscle at the ready just in case. Luckily it wasn't needed this time around and we were able to apprehend the Tooth Fairy without the use of force.
 
-![Soldier Avatars](/img/misc/soldier_avatars.png)
+![Soldier Avatars](../img/misc/soldier_avatars.png)
 
 **Toy Soldiers**:
 
@@ -58,26 +58,26 @@ The CSS also references a version of Krampus which, based on the `.npc-krampus-n
 
 ## Dorm Access Code
 
-![Dorm Wall](/img/misc/dorm-hall_crop.png)
+![Dorm Wall](../img/misc/dorm-hall_crop.png)
 
 Not quite sure why Tangle Coalbox was having issues with accessing the dorm in the [Frosty Keypad](/hints/h6/) challenge  as he could've probably just peered through the windows and see that the actual code, `7331`, is written on the left side of the dorm wall. Looks like we also have some Doctor Who fans at Elf University judging by the [TARDIS](https://en.wikipedia.org/wiki/TARDIS) drawn around the second door from the left.
 
 ## Lucky Elf
 
-![Lucky Elf](/img/misc/lucky_elf.png)
+![Lucky Elf](../img/misc/lucky_elf.png)
 
 The second Elf from the right at the bottom right table in the Netwars room looks like a real winner. If you download the [laptop image](https://2019.kringlecon.com/textures/lappys.png) you'll see that one of the laptop screens is displaying an  golden ticket and while other laptops are duplicated across some of the Netwars participants in the room, the laptop with the [golden ticket](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory) is used only once. Congratulations mystery Elf!
 
 
 ## Bag of Teeth, Literally
 
-![Bell Tower](/img/misc/bell_tower.png)
+![Bell Tower](../img/misc/bell_tower.png)
 
 If you're like me and thought that white pile in the top right corner of the Elf Univesity Bell Tower was just a heap of snow then you might be unpleasantly surprised. It's actually, as the file name for the image texture puts it, [quite-literally-a-huge-pile-of-teeth](https://2019.kringlecon.com/textures/quite-literally-a-huge-pile-of-teeth.png). Say what you want about the Tooth Fairy, but that is one pretty impressive dental haul right there. 
 
 ## Jack Frost & KringleCon 3
 
-![Letter](/img/misc/letter.png)
+![Letter](../img/misc/letter.png)
 
 The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [final note](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. Jack Frost was apparently helping the Tooth Fairy. Cliff hanger indeed!
 

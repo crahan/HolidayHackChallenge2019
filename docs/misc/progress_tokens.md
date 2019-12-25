@@ -1,6 +1,6 @@
 # Progress Tokens
 
-![Progress Tokens](/img/misc/progress_tokens.png)
+![Progress Tokens](../img/misc/progress_tokens.png)
 
 As you progress through the game and solve challenges, additional `token` classes will be added to the `hhc-game-elements` div element. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade. 
 

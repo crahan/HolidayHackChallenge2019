@@ -8,26 +8,26 @@ I was very honored to finish KringleCon with a [super honorable mention](https:/
 Thanks for taking the time to read through my write-up and I hope you gain something from it. If you have any questions, please feel free to ping me on [Twitter]([mailto:crahan-at-n00-dot-be](https://twitter.com/crahan)) or simply leave a comment on one of the videos.
 
 ## Answers
-1. [Talk to Santa & Find the Turtle Doves](challenges/c1/): `Student Union fireplace`
-2. [Unredact Threatening Document](challenges/c2/): `DEMAND`
-3. [Windows Log Analysis: Evaluate Attack Outcome](challenges/c3/): `supatree`
-4. [Windows Log Analysis: Determine Attacker Technique](challenges/c4/): `ntdsutil`
-5. [Network Log Analysis: Determine Compromised System](challenges/c5/): `192.168.134.130`
-6. [Splunk](challenges/c6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
-7. [Get Access To The Steam Tunnels](challenges/c7/): `Krampus Hollyfeld`
-8. [Bypassing the Frido Sleigh CAPTEHA](challenges/c8/): `8Ia8LiZEwvyZr2WO`
-9. [Retrieve Scraps of Paper from Server](challenges/c9/): `Super Sled-o-matic`
-10. [Recover Cleartext Document](challenges/c10/): `Machine Learning Sleigh Route Finder`
-11. [Open the Sleigh Shop Door](challenges/c11/): `The Tooth Fairy`
-12. [Filter Out Poisoned Sources of Weather Data](challenges/c12/): `0807198508261964`
+1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
+2. [Unredact Threatening Document](./challenges/c2/): `DEMAND`
+3. [Windows Log Analysis: Evaluate Attack Outcome](./challenges/c3/): `supatree`
+4. [Windows Log Analysis: Determine Attacker Technique](./challenges/c4/): `ntdsutil`
+5. [Network Log Analysis: Determine Compromised System](./challenges/c5/): `192.168.134.130`
+6. [Splunk](./challenges/c6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
+7. [Get Access To The Steam Tunnels](./challenges/c7/): `Krampus Hollyfeld`
+8. [Bypassing the Frido Sleigh CAPTEHA](./challenges/c8/): `8Ia8LiZEwvyZr2WO`
+9. [Retrieve Scraps of Paper from Server](./challenges/c9/): `Super Sled-o-matic`
+10. [Recover Cleartext Document](./challenges/c10/): `Machine Learning Sleigh Route Finder`
+11. [Open the Sleigh Shop Door](./challenges/c11/): `The Tooth Fairy`
+12. [Filter Out Poisoned Sources of Weather Data](./challenges/c12/): `0807198508261964`
 
-**Note**: *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated [here](challenges/c1/).
+**Note**: *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated [here](./challenges/c1/).
 
-![Challenges](img/misc/objectives.png)
+![Challenges](./img/misc/objectives.png)
 
 ## Elf University Map
-[Click](img/misc/map_large.png) for larger version.  
-![Elf University Map](img/misc/map_small.png)
+[Click](./img/misc/map_large.png) for larger version.  
+![Elf University Map](./img/misc/map_small.png)
 
 ## Full Narrative
 
@@ -94,4 +94,4 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 ## KringleCon 3: Jack Frost?
 After thwarting the Tooth Fairy's dastardly plans and meeting up with Santa and Krampus at the top of the Bell Tower at Elf University you'll find a letter in the back left corner of the room. It appears that the Tooth Fairy wasn't working alone! Could this be a hint for 2020? Will we be facing off with Jack Frost at KringleCon 3? I'll guess we'll have to wait and see... *queue ominous music*.
 
-![Letter](/img/misc/letter.png)
+![Letter](./img/misc/letter.png)
