@@ -55,12 +55,12 @@
     /*color: #2fa4e7;*/
 }
 
-a {
+a, a code {
     color: #e4453a;
     /*color: #2fa4e7;*/
 }
 
-a:hover, a:focus {
+a:hover, a:focus, a code:hover, a code:focus {
     color: #a71d13;
     /*color: #157ab5;*/
 }
