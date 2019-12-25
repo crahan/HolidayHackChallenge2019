@@ -25,7 +25,7 @@ Another group of avatars that tagged along from the previous event are toy and e
 
 ![Soldier Avatars](../img/misc/soldier_avatars.png)
 
-**Toy Soldiers**:
+**Toy Soldiers CSS class and image**:
 
 - `.npc-toysoldier1`: [/images/avatars/soldiers/kc18_soldiers_blue_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_blue_2.png)
 - `.npc-toysoldier2`: [/images/avatars/soldiers/kc18_soldiers_green_3.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_green_3.png)
@@ -34,7 +34,7 @@ Another group of avatars that tagged along from the previous event are toy and e
 - `.npc-toysoldier5`: [/images/avatars/soldiers/kc18_soldiers_red_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_2.png)
 - `.npc-toysoldier6`: [/images/avatars/soldiers/kc18_soldiers_red_3.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_3.png)
 
-**Elf Soldiers**:
+**Elf Soldiers CSS class and image**:
 
 - `.npc-elfsoldier1`: [/images/avatars/reveal/kc18_soldiers2_blue_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_blue_2.png)
 - `.npc-elfsoldier2`: [/images/avatars/reveal/kc18_soldiers2_green_3.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_green_3.png)
