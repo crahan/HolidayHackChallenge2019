@@ -1,14 +1,17 @@
 site_name: KringleCon 2019 Write-Up
+copyright: Copyright Thomas Bouve (@CraHan)
 theme:
-    name: mkdocs
-    highlightjs: true
-    hljs_languages:
-        - pythons
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - pythons
 extra_css:
-    - css/extra.css
+  - css/extra.css
 markdown_extensions:
-    - toc:
-        permalink: "#"
+  - attr_list
+  - toc:
+      permalink: "#"
+
 nav:
 - TL;DR: 'index.md'
 - Challenges:
