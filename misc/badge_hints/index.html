@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Badge Hints - KringleCon 2019 Write-Up</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">KringleCon 2019 Write-Up</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">TL;DR</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Challenges <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../challenges/c1/">Talk to Santa & Find the Turtle Doves</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c2/">Unredact Threatening Document</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c4/">Windows Log Analysis - Determine Attacker Technique</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c5/">Network Log Analysis - Determine Compromised System</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c6/">Splunk</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c7/">Get Access to the Steam Tunnels</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c8/">Bypassing the Frido Sleigh CAPTEHA</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c9/">Retrieve the Scraps of Paper from Server</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c10/">Recover Cleartext Document</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c11/">Open the Sleigh Shop Door</a>
+</li>
+                                    
+<li >
+    <a href="../../challenges/c12/">Filter Out Poisoned Sources of Weather Data</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hints <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../hints/h3/">Bushy Evergreen - Escape Ed</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h4/">SugarPlum Mary - Linux Path</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h6/">Tangle Coalbox - Frosty Keypad</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h7/">Minty Candycane - Holiday Hack Trail</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h8/">Alabaster Snowball - Nyanshell</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h9/">Pepper Minstix - Graylog</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h10/">Holly Evergreen - Mongo Pilfer</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h11/">Kent Tinseltooth - Smart Braces</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h12/">Wunorse Openslae - Zeek JSON Analysis</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/krampus/">Krampus</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/professor-banas/">Professor Banas</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/santa/">Santa</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
+</li>
+                                    
+<li >
+    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Misc <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../progress_tokens/">Progress Tokens</a>
+</li>
+                                    
+<li >
+    <a href="../interesting_ui/">Interesting UI Elements</a>
+</li>
+                                    
+<li >
+    <a href="../user_accounts/">User Accounts</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Badge Hints</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../user_accounts/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#badge-hints">Badge Hints</a></li>
+            <li><a href="#minty-candycane">Minty Candycane</a></li>
+            <li><a href="#kent-tinseltooth">Kent Tinseltooth</a></li>
+            <li><a href="#bushy-evergreen">Bushy Evergreen</a></li>
+            <li><a href="#holy-evergreen">Holy Evergreen</a></li>
+            <li><a href="#tanble-coalbox">Tanble Coalbox</a></li>
+            <li><a href="#pepper-minstix">Pepper Minstix</a></li>
+            <li><a href="#sugarplum-mary">SugarPlum Mary</a></li>
+            <li><a href="#wunorse-openslae">Wunorse Openslae</a></li>
+            <li><a href="#alabaster-snowball">Alabaster Snowball</a></li>
+            <li><a href="#sparkle-redberry">Sparkle Redberry</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="badge-hints">Badge Hints<a class="headerlink" href="#badge-hints" title="Permanent link">#</a></h1>
+<h2 id="minty-candycane">Minty Candycane<a class="headerlink" href="#minty-candycane" title="Permanent link">#</a></h2>
+<p><strong>Web App Pen Testing</strong>: <a href="https://youtu.be/0T6-DQtzCgM">Web Apps: A Trailhead</a><br />
+<strong>Bitting Templates</strong>: <a href="https://github.com/deviantollam/decoding">Deviant's Key Decoding Templates</a><br />
+<strong>Key Bitting</strong>: <a href="https://youtu.be/KU6FJnbkeLA">Optical Decoding of Keys</a>  </p>
+<h2 id="kent-tinseltooth">Kent Tinseltooth<a class="headerlink" href="#kent-tinseltooth" title="Permanent link">#</a></h2>
+<p><strong>Iptables</strong>: <a href="https://upcloud.com/community/tutorials/configure-iptables-centos/">Iptables</a><br />
+<strong>Chrome Dev Tools</strong>: <a href="https://developers.google.com/web/tools/chrome-devtools">Chrome Dev Tools</a><br />
+<strong>Edge Dev Tools</strong>: <a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/console">Edge Dev Tools</a><br />
+<strong>Firefox Dev Tools</strong>: <a href="https://developer.mozilla.org/en-US/docs/Tools">Firefox Dev Tools</a><br />
+<strong>Safari Dev Tools</strong>: <a href="https://developer.apple.com/safari/tools/">Safari Dev Tools</a><br />
+<strong>Curl Dev Tools</strong>: <a href="https://curl.haxx.se/docs/manpage.html">Curl Dev Tools</a><br />
+<strong>Lynx Dev Tools</strong>: <a href="https://xkcd.com/325/">Lynx Dev Tools</a>  </p>
+<h2 id="bushy-evergreen">Bushy Evergreen<a class="headerlink" href="#bushy-evergreen" title="Permanent link">#</a></h2>
+<p><strong>Deep Blue CLI Posting</strong>: <a href="https://www.ericconrad.com/2016/09/deepbluecli-powershell-module-for-hunt.html">Eric Conrad on DeepBlueCLI</a><br />
+<strong>Deep Blue CLI on Github</strong>: <a href="https://github.com/sans-blue-team/DeepBlueCLI">Github page for DeepBlueCLI</a><br />
+<strong>ed Editor Basics</strong>: <a href="http://cs.wellesley.edu/~cs249/Resources/ed_is_the_standard_text_editor.html">Ed Is The Standard Text Editor</a>  </p>
+<h2 id="holy-evergreen">Holy Evergreen<a class="headerlink" href="#holy-evergreen" title="Permanent link">#</a></h2>
+<p><strong>MongoDB</strong>: <a href="https://docs.mongodb.com/manual/reference/command/listDatabases/#dbcmd.listDatabases">MongoDB Documentation</a><br />
+<strong>Reverse Engineering</strong>: <a href="https://youtu.be/obJdpKDpFBA">Reversing Crypto the Easy Way</a>  </p>
+<h2 id="tanble-coalbox">Tanble Coalbox<a class="headerlink" href="#tanble-coalbox" title="Permanent link">#</a></h2>
+<p><strong>Frosty Keypad</strong>: <em>"One digit is repeated once, it's prime, and you can see which keys were used</em>  </p>
+<h2 id="pepper-minstix">Pepper Minstix<a class="headerlink" href="#pepper-minstix" title="Permanent link">#</a></h2>
+<p><strong>SQLMap Tamper Scripts</strong>: <a href="https://pen-testing.sans.org/blog/2017/10/13/sqlmap-tamper-scripts-for-the-win">Sqlmap Tamper Scripts</a><br />
+<strong>SQL Injection</strong>: <a href="https://www.owasp.org/index.php/SQL_Injection">SQL Injection from OWASP</a><br />
+<strong>Graylog</strong>: <a href="http://docs.graylog.org/en/3.1/pages/queries.html">Graylog Docs</a><br />
+<strong>Event IDs and Sysmon</strong>: (Events and Sysmon)  </p>
+<h2 id="sugarplum-mary">SugarPlum Mary<a class="headerlink" href="#sugarplum-mary" title="Permanent link">#</a></h2>
+<p><strong>Event Query Language</strong>: <a href="https://pen-testing.sans.org/blog/2019/12/10/eql-threat-hunting/">EQL Threat Hunting</a><br />
+<strong>Sysmon</strong>: <a href="https://www.darkoperator.com/blog/2014/8/8/sysinternals-sysmon">Sysmon By Carlos Perez</a><br />
+<strong>Linux Path</strong>: <em>"Green words matter, files must be found, and the terminal's $PATH matters."</em>  </p>
+<h2 id="wunorse-openslae">Wunorse Openslae<a class="headerlink" href="#wunorse-openslae" title="Permanent link">#</a></h2>
+<p><strong>Jq</strong>: <a href="https://pen-testing.sans.org/blog/2019/12/03/parsing-zeek-json-logs-with-jq-2">Parsing Zeek JSON Logs with JQ</a><br />
+<strong>Finding Bad in Web Logs</strong>: <em>"Do you see any <a href="https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion">LFI</a>, <a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">XSS</a>, <a href="https://en.wikipedia.org/wiki/Shellshock_(software_bug)">Shellshock</a>, or <a href="https://www.owasp.org/index.php/SQL_Injection">SQLi</a>?"</em>  </p>
+<h2 id="alabaster-snowball">Alabaster Snowball<a class="headerlink" href="#alabaster-snowball" title="Permanent link">#</a></h2>
+<p><strong>Machine Learning</strong>: <a href="https://youtu.be/jmVPLwjm_zs">Machine Learning Use Cases for Cyber Security</a><br />
+<strong>User's Shells</strong>: <em>"On Linux, a user's shell is determined by the contents of /etc/passwd"</em><br />
+<strong>Chatter?</strong>: <em>"sudo -l says I can run a command as root. What does it do?"</em>  </p>
+<h2 id="sparkle-redberry">Sparkle Redberry<a class="headerlink" href="#sparkle-redberry" title="Permanent link">#</a></h2>
+<p><strong>PowerShell</strong>: <a href="https://blogs.sans.org/pen-testing/files/2016/05/PowerShellCheatSheet_v41.pdf">SANS' PowerShell Cheat Sheet</a><br />
+<strong>RITA</strong>: <a href="https://www.activecountermeasures.com/free-tools/rita/">RITA's homepage</a>  </p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
