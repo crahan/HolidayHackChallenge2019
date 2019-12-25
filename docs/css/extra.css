@@ -73,3 +73,13 @@ blockquote p {
 .col-md-9 img {
     margin: 15px auto 15px auto;
 }
+
+img.right {
+    float: right; 
+    margin: 0px 0px 15px 25px;
+}
+
+img.elf_avatar {
+    float: right; 
+    margin: 10px 0px 15px 25px;
+}

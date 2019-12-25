@@ -1,7 +1,7 @@
 # TL;DR
 
 ## Introduction
-<img style="float: right; margin: 0px 0px 15px 25px" src="img/misc/logo.png">Welcome to my write-up of the 2019 [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). After having such an awesome time helping Santa and all the Elves during KringleCon in 2018 I was super excited when an even bigger event was announcement for 2019. Elf University is one of the most renowned places on earth and a location I've always wanted to visit. No way I was going to miss this opportunity!
+<img class="right" src="./img/misc/logo.png"/>Welcome to my write-up of the 2019 [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). After having such an awesome time helping Santa and all the Elves during KringleCon in 2018 I was super excited when an even bigger event was announcement for 2019. Elf University is one of the most renowned places on earth and a location I've always wanted to visit. No way I was going to miss this opportunity!
 
 I was very honored to finish KringleCon with a [super honorable mention](https://www.holidayhackchallenge.com/2018/winners_answers.html) and while I initially only planned to help my festive friends at the North Pole out with a new series of exciting challenges I ultimately decided that I couldn't really skip submitting a write-up. Last year I went with a [PDF report](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf) and this year I'm submitting both this [online write-up](http://fix-this-url) and a [series of videos](http://youtube.com/something) to help illustrate how I solved each of the main and hint challenges.
 
@@ -10,9 +10,9 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 ## Answers
 1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
 2. [Unredact Threatening Document](./challenges/c2/): `DEMAND`
-3. [Windows Log Analysis: Evaluate Attack Outcome](./challenges/c3/): `supatree`
-4. [Windows Log Analysis: Determine Attacker Technique](./challenges/c4/): `ntdsutil`
-5. [Network Log Analysis: Determine Compromised System](./challenges/c5/): `192.168.134.130`
+3. [Windows Log Analysis - Evaluate Attack Outcome](./challenges/c3/): `supatree`
+4. [Windows Log Analysis - Determine Attacker Technique](./challenges/c4/): `ntdsutil`
+5. [Network Log Analysis - Determine Compromised System](./challenges/c5/): `192.168.134.130`
 6. [Splunk](./challenges/c6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
 7. [Get Access To The Steam Tunnels](./challenges/c7/): `Krampus Hollyfeld`
 8. [Bypassing the Frido Sleigh CAPTEHA](./challenges/c8/): `8Ia8LiZEwvyZr2WO`
