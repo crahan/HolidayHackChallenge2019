@@ -18,7 +18,6 @@ Unused elves, from left to right: [elf5.png](https://2019.kringlecon.com/images/
   background-image: url(/images/avatars/elves/elf11.png); }
 ```
 
-
 ## Elf Soldiers
 
 Another group of avatars that tagged along from the previous event are toy and elf soldiers (6 color variants of each). I guess Santa must've thought it would be good to have a handful of muscle at the ready just in case. Luckily it wasn't needed this time around and we were able to apprehend the Tooth Fairy without the use of force.
