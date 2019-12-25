@@ -27,21 +27,21 @@ Another group of avatars that tagged along from the previous event are toy and e
 
 **Toy Soldiers**:
 
-- [`.npc-toysoldier1`](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_blue_2.png): /images/avatars/soldiers/kc18_soldiers_blue_2.png
-- [`.npc-toysoldier2`](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_green_3.png): /images/avatars/soldiers/kc18_soldiers_green_3.png
-- [`.npc-toysoldier3`](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_orange_2.png): /images/avatars/soldiers/kc18_soldiers_orange_2.png
-- [`.npc-toysoldier4`](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_pink_1.png): /images/avatars/soldiers/kc18_soldiers_pink_1.png
-- [`.npc-toysoldier5`](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_2.png): /images/avatars/soldiers/kc18_soldiers_red_2.png
-- [`.npc-toysoldier6`](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_3.png): /images/avatars/soldiers/kc18_soldiers_red_3.png
+- `.npc-toysoldier1`: [/images/avatars/soldiers/kc18_soldiers_blue_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_blue_2.png)
+- `.npc-toysoldier2`: [/images/avatars/soldiers/kc18_soldiers_green_3.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_green_3.png)
+- `.npc-toysoldier3`: [/images/avatars/soldiers/kc18_soldiers_orange_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_orange_2.png)
+- `.npc-toysoldier4`: [/images/avatars/soldiers/kc18_soldiers_pink_1.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_pink_1.png)
+- `.npc-toysoldier5`: [/images/avatars/soldiers/kc18_soldiers_red_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_2.png)
+- `.npc-toysoldier6`: [/images/avatars/soldiers/kc18_soldiers_red_3.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_3.png)
 
 **Elf Soldiers**:
 
-- [`.npc-elfsoldier1`](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_blue_2.png): /images/avatars/reveal/kc18_soldiers2_blue_2.png
-- [`.npc-elfsoldier2`](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_green_3.png): /images/avatars/reveal/kc18_soldiers2_green_3.png
-- [`.npc-elfsoldier3`](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_orange_2.png): /images/avatars/reveal/kc18_soldiers2_orange_2.png
-- [`.npc-elfsoldier4`](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_pink_1.png): /images/avatars/reveal/kc18_soldiers2_pink_1.png
-- [`.npc-elfsoldier5`](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_red_2.png): /images/avatars/reveal/kc18_soldiers2_red_2.png
-- [`.npc-elfsoldier6`](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_red_3.png): /images/avatars/reveal/kc18_soldiers2_red_3.png
+- `.npc-elfsoldier1`: [/images/avatars/reveal/kc18_soldiers2_blue_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_blue_2.png)
+- `.npc-elfsoldier2`: [/images/avatars/reveal/kc18_soldiers2_green_3.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_green_3.png)
+- `.npc-elfsoldier3`: [/images/avatars/reveal/kc18_soldiers2_orange_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_orange_2.png)
+- `.npc-elfsoldier4`: [/images/avatars/reveal/kc18_soldiers2_pink_1.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_pink_1.png) 
+- `.npc-elfsoldier5`: [/images/avatars/reveal/kc18_soldiers2_red_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_red_2.png) 
+- `.npc-elfsoldier6`: [/images/avatars/reveal/kc18_soldiers2_red_3.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_red_3.png)
 
 ## Netwars Krampus
 
