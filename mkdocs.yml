@@ -1,0 +1,63 @@
+site_name: KringleCon 2019 Write-Up
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - pythons
+extra_css:
+    - css/extra.css
+markdown_extensions:
+    - toc:
+        permalink: "#"
+nav:
+- TL;DR: 'index.md'
+- Challenges:
+  - Talk to Santa & Find the Turtle Doves: 'challenges/c1.md'
+  - Unredact Threatening Document: 'challenges/c2.md'
+  - Windows Log Analysis - Evaluate Attack Outcome: 'challenges/c3.md'
+  - Windows Log Analysis - Determine Attacker Technique: 'challenges/c4.md'
+  - Network Log Analysis - Determine Compromised System: 'challenges/c5.md'
+  - Splunk: 'challenges/c6.md'
+  - Get Access to the Steam Tunnels: 'challenges/c7.md'
+  - Bypassing the Frido Sleigh CAPTEHA: 'challenges/c8.md'
+  - Retrieve the Scraps of Paper from Server: 'challenges/c9.md'
+  - Recover Cleartext Document: 'challenges/c10.md'
+  - Open the Sleigh Shop Door: 'challenges/c11.md'
+  - Filter Out Poisoned Sources of Weather Data:  'challenges/c12.md'
+- Hints:
+  - Bushy Evergreen - Escape Ed: 'hints/h3.md'
+  - SugarPlum Mary - Linux Path: 'hints/h4.md'
+  - Sparkle Redberry - Xmas Cheer: 'hints/h5.md'
+  - Tangle Coalbox - Frosty Keypad: 'hints/h6.md'
+  - Minty Candycane - Holiday Hack Trail: 'hints/h7.md'
+  - Alabaster Snowball - Nyanshell:  'hints/h8.md'
+  - Pepper Minstix - Graylog: 'hints/h9.md'
+  - Holly Evergreen - Mongo Pilfer: 'hints/h10.md'
+  - Kent Tinseltooth - Smart Braces: 'hints/h11.md'
+  - Wunorse Openslae - Zeek JSON Analysis: 'hints/h12.md'
+- Conversations:
+  - Alabaster Snowball: 'conversations/alabaster-snowball.md'
+  - Bushy Evergreen: 'conversations/bushy-evergreen.md'
+  - Holly Evergreen: 'conversations/holly-evergreen.md'
+  - Kent Tinseltooth: 'conversations/kent-tinseltooth.md'
+  - Krampus: 'conversations/krampus.md'
+  - Minty Candycane: 'conversations/minty-candycane.md'
+  - Pepper Minstix: 'conversations/pepper-minstix.md'
+  - Professor Banas: 'conversations/professor-banas.md'
+  - Santa: 'conversations/santa.md'
+  - Shinny Upatree: 'conversations/shinny-upatree.md'
+  - Sparkle Redberry: 'conversations/sparkle-redberry.md'
+  - SugarPlum Mary: 'conversations/sugarplum-mary.md'
+  - Tangle Coalbox: 'conversations/tangle-coalbox.md'
+  - Tooth Fairy: 'conversations/tooth-fairy.md'
+  - Turtle Doves:  'conversations/turtle-doves.md'
+  - Wunorse Openslae: 'conversations/wunorse-openslae.md'
+- Scripts:
+  - Frosty Keypad: 'scripts/frosty-keypad.md'
+  - Frido Sleigh CAPTEHA: 'scripts/frido-sleigh-capteha.md'
+  - Poisoned Source Filter: 'scripts/poisoned-source-filter.md'
+- Misc:
+  - Progress Tokens: 'misc/progress_tokens.md'
+  - Interesting UI Elements: 'misc/interesting_ui.md'
+  - User Accounts: 'misc/user_accounts.md'
+  - Badge Hints: 'misc/badge_hints.md'
