@@ -1,11 +1,14 @@
 site_name: KringleCon 2019 Write-Up
-copyright: 'Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a>'
+site_author: Thomas Bouve
+copyright: Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a>
 theme:
   name: mkdocs
   highlightjs: true
   hljs_languages:
     - python
     - css
+    - powershell
+    - bash
 extra_css:
   - css/extra.css
 markdown_extensions:
