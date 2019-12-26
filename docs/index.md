@@ -94,7 +94,7 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 > And Jack Frost hasn't made a peep,  
 > And Jack Frost hasn't made a peep...
 
-## KringleCon 3: Jack Frost?
+## KringleCon 3: Jack Frost
 After thwarting the Tooth Fairy's dastardly plans and meeting up with Santa and Krampus at the top of the Bell Tower at Elf University you'll find a letter in the back left corner of the room. It appears that the Tooth Fairy wasn't working alone! Could this be a hint for 2020? Will we be facing off with Jack Frost at KringleCon 3? I'll guess we'll have to wait and see... *queue ominous music*.
 
 ![Letter](./img/misc/letter.png)
