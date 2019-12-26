@@ -33,7 +33,6 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 ![Elf University Map](./img/misc/map_small.png)
 
 ## Full Narrative
-
 > *Arrive*  
 > Whose grounds these are, I think I know  
 > His home is in the North Pole though  

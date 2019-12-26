@@ -2,9 +2,11 @@
 
 ![Progress Tokens](../img/misc/progress_tokens.png)
 
-As you progress through the game and solve challenges, additional `token` classes will be added to the `hhc-game-elements` div element. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade. 
+As you progress through the game and solve challenges, additional `token` classes will be added to the `hhc-game-elements` div element. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade.
 
-Below is an overview of all tokens I was able to collect and while I completed all main objectives and hint challenges it appears I still might have missed a few of them. For example, even after solving [challenge 12](/challenges/c12/), Krampus keeps repeating the same line *"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"*
+![Terminal](../img/misc/unlocked_messages.png)
+
+Below is an overview of all tokens I was able to collect and, while I completed all main objectives and hint challenges, it appears I still might have missed a few of them. For example, even after solving [challenge 12](/challenges/c12/), Krampus keeps repeating the same line *"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"*
 
 ## Areas Visited
 - token-trainstation_visited
