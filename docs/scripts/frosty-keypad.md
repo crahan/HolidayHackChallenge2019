@@ -1,6 +1,6 @@
 # Frosty Keypad
-```
-#!/usr/bin/env prime
+```python
+#!/usr/bin/env python3
 """Tangle Coalbox Frosty Keypad challenge."""
 import itertools
 

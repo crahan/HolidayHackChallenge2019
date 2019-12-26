@@ -1,6 +1,6 @@
 # Poisoned Source Filter
-```
-#!/usr/bin/env python
+```python
+#!/usr/bin/env python3
 """Find matching user_agent strings."""
 
 

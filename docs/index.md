@@ -1,7 +1,8 @@
 # TL;DR
 
 ## Introduction
-<img class="right" src="./img/misc/logo.png"/>Welcome to my write-up of the 2019 [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). After having such an awesome time helping Santa and all the Elves during KringleCon in 2018 I was super excited when an even bigger event was announcement for 2019. Elf University is one of the most renowned places on earth and a location I've always wanted to visit. No way I was going to miss this opportunity!
+![KringleCon Logo](./img/misc/logo.png){: .right}
+Welcome to my write-up of the 2019 [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). After having such an awesome time helping Santa and all the Elves during KringleCon in 2018 I was super excited when an even bigger event was announcement for 2019. Elf University is one of the most renowned places on earth and a location I've always wanted to visit. No way I was going to miss this opportunity!
 
 I was very honored to finish KringleCon with a [super honorable mention](https://www.holidayhackchallenge.com/2018/winners_answers.html) and while I initially only planned to help my festive friends at the North Pole out with a new series of exciting challenges I ultimately decided that I couldn't really skip submitting a write-up. Last year I went with a [PDF report](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf) and this year I'm submitting both this [online write-up](http://fix-this-url) and a [series of videos](http://youtube.com/something) to help illustrate how I solved each of the main and hint challenges.
 
@@ -21,12 +22,14 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 11. [Open the Sleigh Shop Door](./challenges/c11/): `The Tooth Fairy`
 12. [Filter Out Poisoned Sources of Weather Data](./challenges/c12/): `0807198508261964`
 
-**Note**: *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated [here](./challenges/c1/).
+!!! note "Note"
+    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under [Talk to Santa & Find the Turtle Doves](./challenges/c1/).
 
 ![Challenges](./img/misc/objectives.png)
 
 ## Elf University Map
-[Click](./img/misc/map_large.png) for larger version.  
+[Click](./img/misc/map_large.png) for larger version.
+
 ![Elf University Map](./img/misc/map_small.png)
 
 ## Full Narrative

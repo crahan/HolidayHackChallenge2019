@@ -1,6 +1,6 @@
 # Frido Sleigh CAPTEHA
-```
-#!/usr/bin/python3
+```python
+#!/usr/bin/env python3
 # Image Recognition Using Tensorflow Exmaple.
 # Code based on example at:
 # https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py

@@ -10,7 +10,7 @@ After searching for the avatar for Krampus as part of [challenge 7](/challenges/
 
 Unused elves, from left to right: [elf5.png](https://2019.kringlecon.com/images/avatars/elves/elf5.png), [elf6.png](https://2019.kringlecon.com/images/avatars/elves/elf6.png), [elf10.png](https://2019.kringlecon.com/images/avatars/elves/elf10.png), [elf11.png](https://2019.kringlecon.com/images/avatars/elves/elf10.png), [elf14.png](https://2019.kringlecon.com/images/avatars/elves/elf14.png), [elf15.png](https://2019.kringlecon.com/images/avatars/elves/elf15.png) (default NPC avatar), [elf17.png](https://2019.kringlecon.com/images/avatars/elves/elf17.png), [elf18.png](https://2019.kringlecon.com/images/avatars/elves/elf18.png), [elf19.png](https://2019.kringlecon.com/images/avatars/elves/elf19.png), [elf20.png](https://2019.kringlecon.com/images/avatars/elves/elf20.png), [elf21.png](https://2019.kringlecon.com/images/avatars/elves/elf21.png), and [elf22.png](https://2019.kringlecon.com/images/avatars/elves/elf22.png). In some cases the CSS also references the generic PNG files with an actual Elf name, even when the Elf doesn't make an appearance in the game. This is the case for both [elf10.png](https://2019.kringlecon.com/images/avatars/elves/elf10.png) aka Morcel Nougat and [elf11.png](https://2019.kringlecon.com/images/avatars/elves/elf11.png) aka Elinor Twinkletoes, two characters from last year's KringleCon event who seem to have hitched a ride in this year's CSS file.
 
-```
+```css
 .viewport .ent.npc.npc-morcelnougat .npc-avatar {
   background-image: url(/images/avatars/elves/elf10.png); }
 
@@ -46,7 +46,7 @@ Elf Soldiers CSS classes and images:
 
 The CSS also references a version of Krampus which, based on the `.npc-krampus-netwars` class name used, should appear in the Netwars room. Either I didn't trigger the right series of events while playing the game or this code wasn't actually used. `.npc-krampus-steamtunnel`, `.npc-krampus-sleighroom` and `.npc-krampus-lastroom` refer to the different instances of Krampus you talk to, except for the version of Krampus that appears to scamper away in Minty's dorm room, which uses a different type of CSS styling. As with the other CSS classes, it uses the same [high-res Krampus avatar](https://2019.kringlecon.com/images/avatars/elves/krampus.png) and only differs in the location name used in the class name.
 
-```
+```css
 .viewport .ent.npc.npc-krampus-netwars .npc-avatar {
   width: 100px;
   height: 188px;
