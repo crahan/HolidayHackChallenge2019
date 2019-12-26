@@ -18,29 +18,55 @@ Unused elves, from left to right: [elf5.png](https://2019.kringlecon.com/images/
   background-image: url(/images/avatars/elves/elf11.png); }
 ```
 
-## Elf Soldiers
+## Toy & Elf Soldiers
 
-Another group of avatars that tagged along from the previous event are toy and elf soldiers (6 color variants of each). I guess Santa must've thought it would be good to have a handful of muscle at the ready just in case. Luckily it wasn't needed this time around and we were able to apprehend the Tooth Fairy without the use of force.
+Another group of avatars that tagged along from the previous event are toy and elf soldiers, 6 color variants for each set. I guess Santa must've thought it would be good to have a handful of muscle at the ready just in case. Luckily it wasn't needed this time around and we were able to apprehend the Tooth Fairy without a show of force.
 
 ![Soldier Avatars](../img/misc/soldier_avatars.png)
 
-Toy Soldiers CSS classes and images:
+Toy Soldiers CSS:
 
-- `.npc-toysoldier1`: [/images/avatars/soldiers/kc18_soldiers_blue_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_blue_2.png)
-- `.npc-toysoldier2`: [/images/avatars/soldiers/kc18_soldiers_green_3.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_green_3.png)
-- `.npc-toysoldier3`: [/images/avatars/soldiers/kc18_soldiers_orange_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_orange_2.png)
-- `.npc-toysoldier4`: [/images/avatars/soldiers/kc18_soldiers_pink_1.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_pink_1.png)
-- `.npc-toysoldier5`: [/images/avatars/soldiers/kc18_soldiers_red_2.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_2.png)
-- `.npc-toysoldier6`: [/images/avatars/soldiers/kc18_soldiers_red_3.png](https://2019.kringlecon.com/images/avatars/soldiers/kc18_soldiers_red_3.png)
+```css
+.viewport .ent.npc.npc-toysoldier1 .npc-avatar {
+  background-image: url(/images/avatars/soldiers/kc18_soldiers_blue_2.png); }
 
-Elf Soldiers CSS classes and images:
+.viewport .ent.npc.npc-toysoldier2 .npc-avatar {
+  background-image: url(/images/avatars/soldiers/kc18_soldiers_green_3.png); }
 
-- `.npc-elfsoldier1`: [/images/avatars/reveal/kc18_soldiers2_blue_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_blue_2.png)
-- `.npc-elfsoldier2`: [/images/avatars/reveal/kc18_soldiers2_green_3.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_green_3.png)
-- `.npc-elfsoldier3`: [/images/avatars/reveal/kc18_soldiers2_orange_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_orange_2.png)
-- `.npc-elfsoldier4`: [/images/avatars/reveal/kc18_soldiers2_pink_1.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_pink_1.png) 
-- `.npc-elfsoldier5`: [/images/avatars/reveal/kc18_soldiers2_red_2.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_red_2.png) 
-- `.npc-elfsoldier6`: [/images/avatars/reveal/kc18_soldiers2_red_3.png](https://2019.kringlecon.com/images/avatars/reveal/kc18_soldiers2_red_3.png)
+.viewport .ent.npc.npc-sysoldier3 .npc-avatar {
+  background-image: url(/images/avatars/soldiers/kc18_soldiers_orange_2.png); }
+
+.viewport .ent.npc.npc-toysoldier4 .npc-avatar {
+  background-image: url(/images/avatars/soldiers/kc18_soldiers_pink_1.png); }
+
+.viewport .ent.npc.npc-toysoldier5 .npc-avatar {
+  background-image: url(/images/avatars/soldiers/kc18_soldiers_red_2.png); }
+
+.viewport .ent.npc.npc-toysoldier6 .npc-avatar {
+  background-image: url(/images/avatars/soldiers/kc18_soldiers_red_3.png); }
+```
+
+Elf Soldiers CSS:
+
+```css
+.viewport .ent.npc.npc-elfsoldier1 .npc-avatar {
+  background-image: url(/images/avatars/reveal/kc18_soldiers2_blue_2.png); }
+
+.viewport .ent.npc.npc-elfsoldier2 .npc-avatar {
+  background-image: url(/images/avatars/reveal/kc18_soldiers2_green_3.png); }
+
+.viewport .ent.npc.npc-elfsoldier3 .npc-avatar {
+  background-image: url(/images/avatars/reveal/kc18_soldiers2_orange_2.png); }
+
+.viewport .ent.npc.npc-elfsoldier4 .npc-avatar {
+  background-image: url(/images/avatars/reveal/kc18_soldiers2_pink_1.png); }
+
+.viewport .ent.npc.npc-elfsoldier5 .npc-avatar {
+  background-image: url(/images/avatars/reveal/kc18_soldiers2_red_2.png); }
+
+.viewport .ent.npc.npc-elfsoldier6 .npc-avatar {
+  background-image: url(/images/avatars/reveal/kc18_soldiers2_red_3.png); }
+```
 
 ## Netwars Krampus
 
