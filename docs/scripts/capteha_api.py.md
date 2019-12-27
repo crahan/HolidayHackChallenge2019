@@ -1,4 +1,4 @@
-# capteha_api.py.md
+# capteha_api.py
 ```python
 #!/usr/bin/env python3
 # Image Recognition Using Tensorflow Exmaple.
