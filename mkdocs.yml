@@ -70,6 +70,7 @@ nav:
 - Scripts:
   - find-code.py: 'scripts/find-code.py.md'
   - capteha_api.py: 'scripts/capteha_api.py.md'
+  - decrypt_pdf.py: 'scripts/decrypt_pdf.py.md'
   - gimme_more_badness.py: 'scripts/gimme_more_badness.py.md'
 - Misc:
   - Progress Tokens: 'misc/progress_tokens.md'

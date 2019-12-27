@@ -1,4 +1,4 @@
-# Poisoned Source Filter
+# gimme_more_badness.py
 ```python
 #!/usr/bin/env python3
 """Find matching user_agent strings."""
