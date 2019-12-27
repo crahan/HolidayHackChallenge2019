@@ -68,10 +68,10 @@ nav:
   - Turtle Doves:  'conversations/turtle-doves.md'
   - Wunorse Openslae: 'conversations/wunorse-openslae.md'
 - Scripts:
-  - find-code.py: 'scripts/find-code.py.md'
+  - find_code.py: 'scripts/find_code.py.md'
   - capteha_api.py: 'scripts/capteha_api.py.md'
   - decrypt_pdf.py: 'scripts/decrypt_pdf.py.md'
-  - gimme_more_badness.py: 'scripts/gimme_more_badness.py.md'
+  - match_user_agents.py: 'scripts/match_user_agents.py.md'
 - Misc:
   - Progress Tokens: 'misc/progress_tokens.md'
   - Interesting UI Elements: 'misc/interesting_ui.md'

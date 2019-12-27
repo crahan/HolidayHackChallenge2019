@@ -1,4 +1,4 @@
-# find-code.py
+# find_code.py
 ```python
 #!/usr/bin/env python3
 """Tangle Coalbox - Frosty Keypad challenge."""

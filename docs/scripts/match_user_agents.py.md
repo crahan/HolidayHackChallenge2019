@@ -1,4 +1,4 @@
-# gimme_more_badness.py
+# match_user_agents.py
 ```python
 #!/usr/bin/env python3
 """Find matching user_agent strings."""
@@ -44,7 +44,7 @@ def main():
     list_bad = list(dict.fromkeys(list_bad))
 
     # Tadaaaaa!
-    print(f'Badness: {",".join(list_bad)}')
+    print(f'Bad IPs: {",".join(list_bad)}')
 
 
 if __name__ == "__main__":
