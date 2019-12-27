@@ -4,6 +4,14 @@ copyright: Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a>
 theme:
   name: mkdocs
   highlightjs: true
+  #hljs_style: solarized-light
+  #hljs_style: solarized-dark
+  #hljs_style: tomorrow-night
+  #hljs_style: tomorrow
+  #hljs_style: atom-one-light
+  hljs_style: gruvbox-light
+  #hljs_style: hybrid
+  #hljs_style: railscasts
   hljs_languages:
     - python
     - css
@@ -61,8 +69,8 @@ nav:
   - Wunorse Openslae: 'conversations/wunorse-openslae.md'
 - Scripts:
   - find-code.py: 'scripts/find-code.py.md'
-  - Frido Sleigh CAPTEHA: 'scripts/frido-sleigh-capteha.md'
-  - Poisoned Source Filter: 'scripts/poisoned-source-filter.md'
+  - capteha_api.py: 'scripts/capteha_api.py.md'
+  - gimme_more_badness.py: 'scripts/gimme_more_badness.py.md'
 - Misc:
   - Progress Tokens: 'misc/progress_tokens.md'
   - Interesting UI Elements: 'misc/interesting_ui.md'
