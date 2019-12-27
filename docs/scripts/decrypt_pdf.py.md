@@ -1,6 +1,7 @@
 # decrypt_pdf.py
 ```python
 #!/usr/bin/env python3
+"""Decrypt Encrypted PDF.""" 
 from Crypto.Cipher import DES
 
 seed = 0
@@ -38,41 +39,47 @@ def generate_key(val):
     return ''.join(encrypted)
 
 
-# File names
-encinfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc'
-pdfoutfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf'
+def main():
+    """Execute."""
+    # File names
+    encinfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc'
+    pdfoutfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf'
 
-# Friday, December 6, 2019 7:00:00 PM
-start = 1575658800
+    # Friday, December 6, 2019 7:00:00 PM
+    start = 1575658800
 
-# Loop over 2 hours and generate the key for each
-for x in range(7200):
-    keyseed = start + x
-    key = generate_key(keyseed)
-    bytekey = bytearray.fromhex(key)
+    # Loop over 2 hours and generate the key for each
+    for x in range(7200):
+        keyseed = start + x
+        key = generate_key(keyseed)
+        bytekey = bytearray.fromhex(key)
 
-    # Prep for decrypting DES-CBC
-    cipher = DES.new(
-        bytekey,
-        DES.MODE_CBC,
-        iv=bytearray.fromhex('0000000000000000')
-    )
+        # Prep for decrypting DES-CBC
+        cipher = DES.new(
+            bytekey,
+            DES.MODE_CBC,
+            iv=bytearray.fromhex('0000000000000000')
+        )
 
-    # Read encrypted file
-    f = open(encinfile, 'rb')
-    encrypted = f.read()
+        # Read encrypted file
+        f = open(encinfile, 'rb')
+        encrypted = f.read()
 
-    # Decrypt using the current key
-    msg = (cipher.iv + cipher.decrypt(encrypted))
+        # Decrypt using the current key
+        msg = (cipher.iv + cipher.decrypt(encrypted))
 
-    # Check if decryption was successful
-    if msg[9:12] == b'PDF':
-        # Yes, we got a PDF!
-        print(f'Pass {x}: {key} decrypts to a PDF!')
-        f = open(pdfoutfile, 'wb')
-        f.write(msg)
-        break
-    else:
-        # Womp womp! On to the next.
-        print(f'Pass {x}: {key} is no bueno!')
+        # Check if decryption was successful
+        if msg[9:12] == b'PDF':
+            # Yes, we got a PDF!
+            print(f'Pass {x}: {key} decrypts to a PDF!')
+            f = open(pdfoutfile, 'wb')
+            f.write(msg)
+            break
+        else:
+            # Womp womp! On to the next.
+            print(f'Pass {x}: {key} is no bueno!')
+
+
+if __name__ == "__main__":
+    main()
 ```
