@@ -23,7 +23,7 @@
 **MongoDB**: [MongoDB Documentation](https://docs.mongodb.com/manual/reference/command/listDatabases/#dbcmd.listDatabases)  
 **Reverse Engineering**: [Reversing Crypto the Easy Way](https://youtu.be/obJdpKDpFBA)  
 
-## Tanble Coalbox
+## Tangle Coalbox
 **Frosty Keypad**: *"One digit is repeated once, it's prime, and you can see which keys were used*  
 
 ## Pepper Minstix

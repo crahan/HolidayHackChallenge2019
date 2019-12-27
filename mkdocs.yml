@@ -60,7 +60,7 @@ nav:
   - Turtle Doves:  'conversations/turtle-doves.md'
   - Wunorse Openslae: 'conversations/wunorse-openslae.md'
 - Scripts:
-  - Frosty Keypad: 'scripts/frosty-keypad.md'
+  - find-code.py: 'scripts/find-code.py.md'
   - Frido Sleigh CAPTEHA: 'scripts/frido-sleigh-capteha.md'
   - Poisoned Source Filter: 'scripts/poisoned-source-filter.md'
 - Misc:
