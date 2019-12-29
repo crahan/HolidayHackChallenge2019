@@ -87,3 +87,8 @@ img.elf_avatar {
 .admonition {
     margin-top: 20px;
 }
+
+.admonition.note a {
+    text-decoration: underline;
+    color: #3a87ad;
+}

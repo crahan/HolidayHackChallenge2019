@@ -23,7 +23,7 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 12. [Filter Out Poisoned Sources of Weather Data](./challenges/c12/): `0807198508261964`
 
 !!! note "Note"
-    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled *Talk to Santa & Find the Turtle Doves*.
+    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./challenges/c1/).
 
 ![Challenges](./img/misc/objectives.png)
 
