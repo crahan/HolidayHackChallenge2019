@@ -1,6 +1,7 @@
 # User Accounts
 
 ### Nyanshell
+**URL**: <https://docker2019.kringlecon.com/?challenge=nyanshell>  
 **Username**: `alabaster_snowball`  
 **Password**: `Password2`
 
