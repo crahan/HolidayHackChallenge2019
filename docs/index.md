@@ -11,16 +11,16 @@ Thanks for taking the time to read through my write-up and I hope you gain somet
 ## Answers
 1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
 2. [Unredact Threatening Document](./challenges/c2/): `DEMAND`
-3. [Windows Log Analysis - Evaluate Attack Outcome](./challenges/c3/): `supatree`
-4. [Windows Log Analysis - Determine Attacker Technique](./challenges/c4/): `ntdsutil`
-5. [Network Log Analysis - Determine Compromised System](./challenges/c5/): `192.168.134.130`
+3. [Evaluate Attack Outcome](./challenges/c3/): `supatree`
+4. [Determine Attacker Technique](./challenges/c4/): `ntdsutil`
+5. [Determine Compromised System](./challenges/c5/): `192.168.134.130`
 6. [Splunk](./challenges/c6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
 7. [Get Access To The Steam Tunnels](./challenges/c7/): `Krampus Hollyfeld`
 8. [Bypassing the Frido Sleigh CAPTEHA](./challenges/c8/): `8Ia8LiZEwvyZr2WO`
 9. [Retrieve Scraps of Paper from Server](./challenges/c9/): `Super Sled-o-matic`
 10. [Recover Cleartext Document](./challenges/c10/): `Machine Learning Sleigh Route Finder`
 11. [Open the Sleigh Shop Door](./challenges/c11/): `The Tooth Fairy`
-12. [Filter Out Poisoned Sources of Weather Data](./challenges/c12/): `0807198508261964`
+12. [Filter Out Poisoned Data Sources](./challenges/c12/): `0807198508261964`
 
 !!! note "Note"
     *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./challenges/c1/).
