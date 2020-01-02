@@ -103,12 +103,11 @@ def main():
     sess = tf.compat.v1.Session(graph=graph)
 
     url = "https://fridosleigh.com/"
-    answers = []
 
     # Create session
     s = requests.Session()
 
-    # Get captcha images
+    # Get CAPTEHA images and types
     r = s.post(f'{url}api/capteha/request')
     if (r.json()['request']):
         images = r.json()['images']
@@ -118,7 +117,7 @@ def main():
     # Can use queues and threading to spead up the processing
     q = queue.Queue()
 
-    # Going to interate over each of our images.
+    # Going to iterate over each of our images.
     for image in images:
         img_uuid = image['uuid']
         img_base64 = image['base64']
@@ -187,7 +186,7 @@ def main():
     # of entries till we win
     userinfo = {
         'name': 'Krampus Hollyfeld',
-        'email': 'crahan@n00.be',
+        'email': 'crahan@example.com',
         'age': 180,
         'about': "Cause they're so flippin yummy!",
         'favorites': 'thickmints'
@@ -197,7 +196,7 @@ def main():
     # wrong.
     entry_response = ''
     entry_count = 1
-    while 'crahan@n00.be' not in entry_response and entry_count < 200:
+    while 'crahan@example.com' not in entry_response and entry_count < 200:
         print(
             f'Submitting lots of entries until '
             f'we win the contest! Entry #{entry_count}'
