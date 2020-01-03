@@ -8,8 +8,7 @@ seed = 0
 
 
 def rand():
-    """Calculate seed value."""
-    # super_secure_random
+    """Generate random value."""
     # 1. get seed value
     # 2. multiply seed by 214013
     # 3. add 2531011 (this is our new seed value)
