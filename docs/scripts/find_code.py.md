@@ -1,4 +1,6 @@
 # find_code.py
+**Purpose**: generate valid [keypad codes](../hints/h6.md)
+
 ```python
 #!/usr/bin/env python3
 """Tangle Coalbox - Frosty Keypad challenge."""

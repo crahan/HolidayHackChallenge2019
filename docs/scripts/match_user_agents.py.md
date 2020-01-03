@@ -1,4 +1,6 @@
 # match_user_agents.py
+**Purpose**: find IP addresses by [matching user agent strings](../challenges/c12.md)
+
 ```python
 #!/usr/bin/env python3
 """Find matching user_agent strings."""

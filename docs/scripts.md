@@ -1,4 +1,42 @@
-# capteha_api.py
+# Scripts
+
+## find_code.py
+**Purpose**: generate valid [keypad codes](../hints/h6.md)
+
+```python
+#!/usr/bin/env python3
+"""Tangle Coalbox - Frosty Keypad challenge."""
+import itertools
+
+
+def is_prime(number):
+    """Verify if a number is a prime."""
+    return 2 in [number, 2**number % number]
+
+
+def main():
+    """Execute."""
+    digit_sets = [
+        ['1', '1', '3', '7'],
+        ['1', '3', '3', '7'],
+        ['1', '3', '7', '7']
+    ]
+
+    primes = []
+
+    for digits in digit_sets:
+        for subset in itertools.permutations(digits):
+            val = int(''.join(subset))
+            if is_prime(val) and val not in primes:
+                primes.append(val)
+                print(f'{val} is a prime number')
+
+
+if __name__ == "__main__":
+    main()
+```
+
+## capteha_api.py
 **Purpose**: bypass the [Frido Sleigh CAPTEHA](../challenges/c8.md)
 
 ```python
@@ -210,6 +248,179 @@ def main():
         entry_count += 1
 
     print(entry_response)
+
+
+if __name__ == "__main__":
+    main()
+```
+
+## token_proxy.py
+**Purpose**: translate [token responses](../challenges/c9.md) for sqlmap
+
+```python
+#!/usr/bin/env python3
+# token_proxy.py
+import requests
+from flask import Flask, Response
+app = Flask(__name__)
+
+
+@app.route("/")
+def token():
+    """Return a token."""
+    url = 'https://studentportal.elfu.org/validator.php'
+    token = requests.Session().get(url).text
+    # Put the token in the body, input tag, and header.
+    resp = Response(
+        f'Token:{token}\n'
+        '<form>\n'
+        f'  <input type="hidden" id="token" name="token" value="{token}"/>\n'
+        '</form>\n'
+    )
+    resp.headers['token'] = token
+    return resp
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+```
+
+## decrypt_pdf.py
+**Purpose**: decrypt [ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc](../challenges/c10.md)
+
+```python
+#!/usr/bin/env python3
+"""Decrypt Encrypted PDF.""" 
+from Crypto.Cipher import DES
+
+seed = 0
+
+
+def rand():
+    """Generate random value."""
+    # 1. get seed value
+    # 2. multiply seed by 214013
+    # 3. add 2531011 (this is our new seed value)
+    # 4. right shift seed by 16
+    # 5. bitwise AND with 32767
+    global seed
+    seed = (214013 * seed + 2531011)
+    val = seed >> 16
+    return (val & 32767)
+
+
+def generate_key(val):
+    """Generate encryption key."""
+    global seed
+    seed = val
+    encrypted = []
+    for _x in range(8):
+        tmp = hex(rand())
+        if len(str(tmp)) == 6:
+            encrypted.append(str(tmp)[4:])
+        elif len(str(tmp)) == 5:
+            encrypted.append(str(tmp)[3:])
+        elif len(str(tmp)) == 4:
+            encrypted.append(str(tmp)[2:])
+        elif len(str(tmp)) == 3:
+            encrypted.append(f"0{str(tmp)[-1]}")
+    return ''.join(encrypted)
+
+
+def main():
+    """Execute."""
+    # File names
+    encinfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc'
+    pdfoutfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf'
+
+    # Friday, December 6, 2019 7:00:00 PM
+    start = 1575658800
+
+    # Loop over 2 hours and generate the key for each
+    for x in range(7200):
+        keyseed = start + x
+        key = generate_key(keyseed)
+        bytekey = bytearray.fromhex(key)
+
+        # Prep for decrypting DES-CBC
+        cipher = DES.new(
+            bytekey,
+            DES.MODE_CBC,
+            iv=bytearray.fromhex('0000000000000000')
+        )
+
+        # Read encrypted file
+        f = open(encinfile, 'rb')
+        encrypted = f.read()
+
+        # Decrypt using the current key
+        msg = (cipher.iv + cipher.decrypt(encrypted))
+
+        # Check if decryption was successful
+        if msg[9:12] == b'PDF':
+            # Yes, we got a PDF!
+            print(f'Pass {x}: {key} decrypts to a PDF!')
+            f = open(pdfoutfile, 'wb')
+            f.write(msg)
+            break
+        else:
+            # Womp womp! On to the next.
+            print(f'Pass {x}: {key} is no bueno!')
+
+
+if __name__ == "__main__":
+    main()
+```
+
+## match_user_agents.py
+**Purpose**: find IP addresses by [matching user agent strings](../challenges/c12.md)
+
+```python
+#!/usr/bin/env python3
+"""Find matching user_agent strings."""
+
+
+def main():
+    """Execute."""
+    file_bad = 'IPs_bad.csv'
+    file_all = 'IPs_all.csv'
+    list_bad = []
+    list_all = []
+
+    # Read the full data log
+    with open(file_all) as fp:
+        line = fp.readline()
+
+        while line:
+            list_all.append(line.split('\t'))
+            line = fp.readline()
+
+    # Read the bad IP data and match on user_agent but only
+    # keep the results if less than 4 matches are found.
+    with open(file_bad) as fp:
+        line = fp.readline()
+
+        while line:
+            tmp = []
+            line_bad = line.split('\t')
+
+            for line_all in list_all:
+                if line_all[4] == line_bad[4]:
+                    tmp.append(line_all[0])
+
+            # Only add if less than 4 matches
+            if len(tmp) < 4:
+                list_bad.extend(tmp)
+
+            # Add the original IP as well
+            list_bad.append(line_bad[0])
+            line = fp.readline()
+
+    # Remove duplicates
+    list_bad = list(dict.fromkeys(list_bad))
+
+    # Tadaaaaa!
+    print(f'Bad IPs: {",".join(list_bad)}')
 
 
 if __name__ == "__main__":

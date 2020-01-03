@@ -1,4 +1,6 @@
 # decrypt_pdf.py
+**Purpose**: decrypt [ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc](../challenges/c10.md)
+
 ```python
 #!/usr/bin/env python3
 """Decrypt Encrypted PDF.""" 

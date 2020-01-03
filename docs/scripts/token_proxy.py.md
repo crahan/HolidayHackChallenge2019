@@ -1,4 +1,5 @@
 # token_proxy.py
+**Purpose**: translate [token responses](../challenges/c9.md) for sqlmap
 
 ```python
 #!/usr/bin/env python3
