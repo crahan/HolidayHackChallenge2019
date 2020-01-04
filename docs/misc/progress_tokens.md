@@ -2,11 +2,26 @@
 
 ![Progress Tokens](../img/misc/progress_tokens.png)
 
-As you progress through the game and solve challenges, additional `token` classes will be added to the `hhc-game-elements` div element. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade.
+As you progress through the game and solve challenges, additional `token` classes will be added to the `hhc-game-elements` div. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade. The token information is probably what triggers the notifications that pop up as you progress throughout the game.
 
 ![Terminal](../img/misc/unlocked_messages.png)
 
-Below is an overview of all tokens I was able to collect and, while I completed all main objectives and hint challenges, it appears I still might have missed a few of them. For example, even after solving [challenge 12](/challenges/c12/), Krampus keeps repeating the same line *"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"*
+Below is an overview of all tokens I was able to collect and, while I completed all main objectives and hint challenges, it appears I still might have missed a few of them. For example, even after solving [challenge 12](/challenges/c12/), Krampus keeps repeating the same line *"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"*.
+
+This appears to be confirmed by the `hhtTotals` const in the [`con.js`](https://2019.kringlecon.com/data/con.js) script. Totals for `narrative`, `objective`, and `area` match up with the number of tokens collected, but `hints` is off by one. Looks like I might be missing `token-give-hint-rita2`.
+
+```javascript
+const hhcTotals = {
+    "hint": 32,
+    "achievement": 25,
+    "objective": 13,
+    "narrative": 10,
+    "info": 2,
+    "areas": 20,
+    "collectibles": 0,
+    "talks": 15
+};
+```
 
 ## Areas Visited
 - token-trainstation_visited
@@ -125,28 +140,28 @@ Below is an overview of all tokens I was able to collect and, while I completed 
 - token-sleighroutefinder_attempted
 
 ## Completed
-- token-bitting_completed
-- token-bitting-keyhole_completed
-- token-iptables_completed
-- token-graylog_completed
-- token-nyanshell_completed
+- token-edescape_completed
+- token-path_completed
+- token-powershell_completed
 - token-keypad_completed
 - token-trail_completed
-- token-edescape_completed
-- token-capteha_completed
-- token-jq_completed
-- token-powershell_completed
-- token-path_completed
+- token-nyanshell_completed
+- token-graylog_completed
 - token-mongo_completed
-- token-deepbluecli_completed
-- token-consolehack_completed
-- token-eql_completed
-- token-sqlmap_completed
+- token-iptables_completed
+- token-jq_completed
 - token-turtledoves_completed
-- token-rita_completed
-- token-elfscrow_completed
 - token-redacted_completed
+- token-deepbluecli_completed
+- token-eql_completed
+- token-rita_completed
 - token-splunk_completed
+- token-bitting_completed
+- token-bitting-keyhole_completed
+- token-capteha_completed
+- token-sqlmap_completed
+- token-elfscrow_completed
+- token-consolehack_completed
 - token-flightroute_completed
 - token-hhc19_completed
 

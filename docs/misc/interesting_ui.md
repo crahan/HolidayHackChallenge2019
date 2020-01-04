@@ -1,5 +1,11 @@
 # Interesting UI Elements
 
+## Epic Beard Craze
+
+I'm not quite sure if it's because of the stress from all these KringleCon events or if there's some weird hipster craze hitting the North Pole, but some of these elves have gone through quite the transformation in the past year. Pretty epic facial hair, Bushy.
+
+![Unknown Elves](../img/misc/aged_elves.png)
+
 ## Unused Elves
 
 After searching for the avatar for Krampus as part of [challenge 7](/challenges/c7/) I went back and looked at the rest of the elf avatars as some of the avatar images had a filename that matched the name of the elf (e.g. [mintycandycane.png](https://2019.kringlecon.com/images/avatars/elves/mintycandycane.png), [kent.png](https://2019.kringlecon.com/images/avatars/elves/kent.png)) while others used a more generic `elfX.png` file naming convention. Minty Candycane is also the only elf whose avatar looks the same as last year.
@@ -70,7 +76,7 @@ Elf Soldiers CSS:
 
 ## Netwars Krampus
 
-The CSS also references a version of Krampus which, based on the `.npc-krampus-netwars` class name used, should appear in the Netwars room. Either I didn't trigger the right series of events while playing the game or this code wasn't actually used. `.npc-krampus-steamtunnel`, `.npc-krampus-sleighroom` and `.npc-krampus-lastroom` refer to the different instances of Krampus you talk to, except for the version of Krampus that appears to scamper away in Minty's dorm room, which uses a different type of CSS styling. As with the other CSS classes, it uses the same [high-res Krampus avatar](https://2019.kringlecon.com/images/avatars/elves/krampus.png) and only differs in the location name used in the class name.
+The CSS also references a version of Krampus which, based on the `.npc-krampus-netwars` class name used, should appear in the Netwars room. Either I didn't trigger the right series of events while playing the game or this code wasn't actually used. `.npc-krampus-steamtunnel`, `.npc-krampus-sleighroom` and `.npc-krampus-lastroom` refer to the different instances of Krampus you talk to, except for the version of Krampus that appears to scamper away in Minty's dorm room, which uses a different type of CSS styling. As with the other CSS classes, it uses the same [high-res Krampus avatar](https://2019.kringlecon.com/images/avatars/elves/krampus.png) background image and only differs in the location string in the class name.
 
 ```css
 .viewport .ent.npc.npc-krampus-netwars .npc-avatar {
@@ -85,13 +91,13 @@ The CSS also references a version of Krampus which, based on the `.npc-krampus-n
 
 ![Dorm Wall](../img/misc/dorm-hall_crop.png)
 
-Not quite sure why Tangle Coalbox was having issues with accessing the dorm in the [Frosty Keypad](/hints/h6/) challenge  as he could've probably just peered through the windows and see that the actual code, `7331`, is written on the left side of the dorm wall. Looks like we also have some Doctor Who fans at Elf University judging by the [TARDIS](https://en.wikipedia.org/wiki/TARDIS) drawn around the second door from the left.
+Not quite sure why Tangle Coalbox was having issues with the keypad code in the [Frosty Keypad](/hints/h6/) challenge as he could've probably just peered through the windows and see that the actual code, `7331`, is written on the left side of the dorm wall. Looks like we also have some Doctor Who fans at Elf University judging by the [TARDIS](https://en.wikipedia.org/wiki/TARDIS) drawn around the second door from the left.
 
 ## Lucky Elf
 
 ![Lucky Elf](../img/misc/lucky_elf.png)
 
-The second Elf from the right at the bottom right table in the Netwars room looks like a real winner. If you download the [laptop image](https://2019.kringlecon.com/textures/lappys.png) you'll see that one of the laptop screens is displaying an  golden ticket and while other laptops are duplicated across some of the Netwars participants in the room, the laptop with the [golden ticket](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory) is used only once. Congratulations mystery Elf!
+The second Elf from the right at the bottom right table in the Netwars room looks like a real winner. If you download the [laptop image](https://2019.kringlecon.com/textures/lappys.png) you'll see that one of the laptop screens is displaying a golden ticket and while other laptops are duplicated across some of the Netwars participants in the room, the laptop with the [golden ticket](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory) is used only once. Congratulations mystery Elf!
 
 
 ## Bag of Teeth, Literally
