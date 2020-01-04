@@ -3,7 +3,7 @@
 
 ```python
 #!/usr/bin/env python3
-"""Find matching user_agent strings."""
+"""KringleCon 2 - Filter Out Poisoned Data Sources Challenge."""
 
 
 def main():

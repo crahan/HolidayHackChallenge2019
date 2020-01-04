@@ -5,7 +5,7 @@
 
 ```python
 #!/usr/bin/env python3
-"""Tangle Coalbox - Frosty Keypad challenge."""
+"""KringleCon 2 - Frosty Keypad Hint."""
 import itertools
 
 
@@ -41,6 +41,7 @@ if __name__ == "__main__":
 
 ```python
 #!/usr/bin/env python3
+"""KringleCon 2 - Bypassing the Frido Sleigh CAPTEHA Challenge."""
 # Image Recognition Using Tensorflow Exmaple.
 # Code based on example at:
 # https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py
@@ -259,7 +260,7 @@ if __name__ == "__main__":
 
 ```python
 #!/usr/bin/env python3
-# token_proxy.py
+"""KringleCon 2 - Retrieve Scraps of Paper from Server Challenge."""
 import requests
 from flask import Flask, Response
 app = Flask(__name__)
@@ -290,7 +291,7 @@ if __name__ == '__main__':
 
 ```python
 #!/usr/bin/env python3
-"""Decrypt Encrypted PDF.""" 
+"""KringleCon 2 - Recover Cleartext Document Challenge.""" 
 from Crypto.Cipher import DES
 
 seed = 0
@@ -377,7 +378,7 @@ if __name__ == "__main__":
 
 ```python
 #!/usr/bin/env python3
-"""Find matching user_agent strings."""
+"""KringleCon 2 - Filter Out Poisoned Data Sources Challenge."""
 
 
 def main():

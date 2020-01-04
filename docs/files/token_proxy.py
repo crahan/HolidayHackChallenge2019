@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# token_proxy.py
+"""KringleCon 2 - Retrieve Scraps of Paper from Server Challenge."""
 import requests
 from flask import Flask, Response
 app = Flask(__name__)
