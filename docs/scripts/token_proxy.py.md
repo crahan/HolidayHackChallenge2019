@@ -1,5 +1,5 @@
 # token_proxy.py
-**Purpose**: translate [token responses](../challenges/c9.md) for sqlmap
+**Purpose**: translate tokens for the [Retrieve the Scraps of Paper from Server](../challenges/c9.md) challenge.
 
 ```python
 #!/usr/bin/env python3

@@ -1,5 +1,5 @@
 # decrypt_pdf.py
-**Purpose**: decrypt [ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc](../challenges/c10.md)
+**Purpose**: decrypt the PDF in the [Recover Cleartext Document](../challenges/c10.md) challenge.
 
 ```python
 #!/usr/bin/env python3

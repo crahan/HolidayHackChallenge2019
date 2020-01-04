@@ -1,5 +1,5 @@
 # find_code.py
-**Purpose**: generate valid [keypad codes](../hints/h6.md)
+**Purpose**: generate access codes for the [Frosty Keypad](../hints/h6.md) hint.
 
 ```python
 #!/usr/bin/env python3

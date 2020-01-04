@@ -1,5 +1,5 @@
 # match_user_agents.py
-**Purpose**: find IP addresses by [matching user agent strings](../challenges/c12.md)
+**Purpose**: find additional bad IPs in the [Filter Out Poisoned Data Sources](../challenges/c12.md) challenge.
 
 ```python
 #!/usr/bin/env python3

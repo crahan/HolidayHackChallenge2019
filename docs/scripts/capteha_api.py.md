@@ -1,5 +1,5 @@
 # capteha_api.py
-**Purpose**: bypass the [Frido Sleigh CAPTEHA](../challenges/c8.md)
+**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](../challenges/c8.md) challenge.
 
 ```python
 #!/usr/bin/env python3
