@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tangle Coalbox - Frosty Keypad challenge."""
+"""KringleCon 2 - Frosty Keypad Hint."""
 import itertools
 
 

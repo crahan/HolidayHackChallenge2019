@@ -261,7 +261,7 @@ And, as long as you're traveling around, be sure to solve any other challenges y
 <img alt="Sqlmap Fail" src="../../img/challenges/c9/c9_3.png" /></p>
 <p>The problem can be solved by translating the <code>validator.php</code> response data to a format that sqlmap accepts (i.e. contains a token field name in the header or response body). When the below <a href="../../scripts/token_proxy.py/">Flask proxy script</a> script receives a GET request it grabs a token value from <code>validator.php</code> and adds it as the value to a <code>token</code> field in both the header and body of its own HTTP response. </p>
 <pre><code class="python">#!/usr/bin/env python3
-# token_proxy.py
+&quot;&quot;&quot;KringleCon 2 - Retrieve Scraps of Paper from Server Challenge.&quot;&quot;&quot;
 import requests
 from flask import Flask, Response
 app = Flask(__name__)

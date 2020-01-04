@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Decrypt Encrypted PDF."""
+"""KringleCon 2 - Recover Cleartext Document Challenge."""
 from Crypto.Cipher import DES
 
 seed = 0
