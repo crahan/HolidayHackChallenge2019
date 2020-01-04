@@ -1,7 +1,7 @@
 # Scripts
 
 ## find_code.py
-**Purpose**: generate valid [keypad codes](../hints/h6.md)
+**Purpose**: generate access codes for the [Frosty Keypad](../hints/h6.md) hint.
 
 ```python
 #!/usr/bin/env python3
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 ```
 
 ## capteha_api.py
-**Purpose**: bypass the [Frido Sleigh CAPTEHA](../challenges/c8.md)
+**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](../challenges/c8.md) challenge
 
 ```python
 #!/usr/bin/env python3
@@ -255,7 +255,7 @@ if __name__ == "__main__":
 ```
 
 ## token_proxy.py
-**Purpose**: translate [token responses](../challenges/c9.md) for sqlmap
+**Purpose**: translate tokens for the [Retrieve the Scraps of Paper from Server](../challenges/c9.md) challenge.
 
 ```python
 #!/usr/bin/env python3
@@ -286,7 +286,7 @@ if __name__ == '__main__':
 ```
 
 ## decrypt_pdf.py
-**Purpose**: decrypt [ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc](../challenges/c10.md)
+**Purpose**: decrypt the PDF in the [Recover Cleartext Document](../challenges/c10.md) challenge.
 
 ```python
 #!/usr/bin/env python3
@@ -373,7 +373,7 @@ if __name__ == "__main__":
 ```
 
 ## match_user_agents.py
-**Purpose**: find IP addresses by [matching user agent strings](../challenges/c12.md)
+**Purpose**: find additional IP addresses in the [Filter Out Poisoned Data Sources](../challenges/c12.md) challenge.
 
 ```python
 #!/usr/bin/env python3

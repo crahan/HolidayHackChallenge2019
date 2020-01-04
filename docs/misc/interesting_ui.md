@@ -110,7 +110,7 @@ If you're like me and thought that white pile in the top right corner of the Elf
 
 ![Letter](../img/misc/letter.png)
 
-The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [final note](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. Jack Frost was apparently helping the Tooth Fairy. Cliff hanger indeed!
+The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [final note](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. Jack Frost was apparently helping the Tooth Fairy. Ho-ho-ho-holy cliffhanger, Batman!
 
 > This Christmas must now fall asleep,  
 > But next year comes, and troubles creep.  
