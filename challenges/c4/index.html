@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Windows Log Analysis - Determine Attacker Technique - KringleCon 2019 Write-Up</title>
+        <title>Determine Attacker Technique - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li class="active">
-    <a href="./">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="./">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,45 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#determine-attacker-technique">Determine Attacker Technique</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="determine-attacker-technique">Determine Attacker Technique<a class="headerlink" href="#determine-attacker-technique" title="Permanent link">#</a></h1>
+<p><strong>Hint</strong>: <a href="../../hints/h4/">SugarPlum Mary - Linux Path</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Using these <a href="https://downloads.elfu.org/sysmon-data.json.zip">normalized Sysmon logs</a>, identify the tool the attacker used to retrieve domain password hashes from the lsass.exe process. For hints on achieving this objective, please visit Hermey Hall and talk with SugarPlum Mary.</p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://downloads.elfu.org/sysmon-data.json.zip">Normalized Sysmon logs</a></li>
+<li><a href="https://pen-testing.sans.org/blog/2019/12/10/eql-threat-hunting/">EQL Threat Hunting</a></li>
+<li><a href="https://www.darkoperator.com/blog/2014/8/8/sysinternals-sysmon">Sysinternals New Tool Sysmon</a></li>
+<li><a href="https://www.youtube.com/watch?v=1QmOo0a_LuY">How to find the adversary with EQL</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>We could install EQL to query the normalized Sysmon logs and find the tool that was used to retrieve the domain password hashes from <code>lsass.exe</code>. Fortunately for us though the log only contains a handful of different types of commands. If we grep for lines containing <code>command_line</code> but exclude the ones containing <code>wevtutil</code>, <code>net  use</code>, and <code>powershell</code> only five remain.</p>
+<pre><code class="shell">grep command_line sysmon-data.json | grep -Evi '(powershell|net\s*use|wevtutil)'
+</code></pre>
+
+<p><img alt="Search Sysmon" src="../../img/challenges/c4/c4_1.png" /></p>
+<p>MITRE ATT&amp;CK technique <a href="https://attack.mitre.org/techniques/T1003/">T1003</a> covers credential dumping and provides an overview of some of the commonly used tools. One of the ways to retrieve password hashes in a Windows domain setup is to use the Windows builtin <code>ntdsutil.exe</code> command line tool to grab a copy of the main Active Directory database file (i.e. <a href="https://blogs.msdn.microsoft.com/servergeeks/2014/10/14/active-directory-files-and-their-functions/">NTDS.dit</a>), which is exactly what our attacker did.</p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>Tool: <code>ntdsutil</code></p>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<p>None</p></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Wunorse Openslae - Zeek JSON Analysis - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../../challenges/c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../../challenges/c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../../challenges/c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -270,7 +208,7 @@
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../../conversations/alabaster-snowball/">
+                                <a rel="prev" href="../../scripts/find_code.py/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -282,15 +220,61 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#wunorse-openslae-zeek-json-analysis">Wunorse Openslae - Zeek JSON Analysis</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="wunorse-openslae-zeek-json-analysis">Wunorse Openslae - Zeek JSON Analysis<a class="headerlink" href="#wunorse-openslae-zeek-json-analysis" title="Permanent link">#</a></h1>
+<p><img alt="Wunorse Openslae" class="elf_avatar" src="../../img/hints/h12/wunorse_openslae.png" /></p>
+<p><strong>Challenge</strong>: <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Wunorse Openslae here, just looking at some Zeek logs.<br />
+I'm pretty sure one of these connections is a malicious C2 channel...<br />
+Do you think you could take a look?<br />
+I hear a lot of C2 channels have very long connection times.<br />
+Please use jq to find the longest connection in this data set.<br />
+We have to kick out any and all grinchy activity!</p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://pen-testing.sans.org/blog/2019/12/03/parsing-zeek-json-logs-with-jq-2">Parsing Zeek JSON Logs with JQ</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>Start by displaying a single log entry and its properties using <code>cat conn.log | jq -s '.[0]'</code>.</p>
+<p><img alt="Show Log Format" src="../../img/hints/h12/h12_terminal1.png" /></p>
+<p>Looks like the <code>duration</code> field contains the information we need. Execute <code>cat conn.log | jq -s 'sort_by(.duration) | reverse | .[0]'</code> to reverse sort by <code>duration</code> and show the log entry matching the longest connection time.</p>
+<p><img alt="Longest Connection" src="../../img/hints/h12/h12_terminal2.png" /></p>
+<p>The destination IP address with the longest connection duration is <code>13.107.21.200</code>.</p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>IP address: <code>13.107.21.200</code></p>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>That's got to be the one - thanks!<br />
+Hey, you know what? We've got a crisis here.<br />
+You see, Santa's flight route is planned by a complex set of machine learning algorithms which use available weather data.<br />
+All the weather stations are reporting severe weather to Santa's Sleigh. I think someone might be forging intentionally false weather data!<br />
+I'm so flummoxed I can't even remember how to login!<br />
+Hmm... Maybe the Zeek http.log could help us.<br />
+I worry about <a href="https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion">LFI</a>, <a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">XSS</a>, and <a href="https://www.owasp.org/index.php/SQL_Injection">SQLi</a> in the Zeek log - oh my!<br />
+And I'd be shocked if there weren't some <a href="https://en.wikipedia.org/wiki/Shellshock_(software_bug)">shell stuff</a> in there too.<br />
+I'll bet if you pick through, you can find some naughty data from naughty hosts and block it in the firewall.<br />
+If you find a log entry that definitely looks bad, try pivoting off other unusual attributes in that entry to find more bad IPs.<br />
+The sleigh's machine learning device (SRF) needs most of the malicious IPs blocked in order to calculate a good route.<br />
+Try not to block many legitimate weather station IPs as that could also cause route calculation failure.<br />
+Remember, when looking at JSON data, jq is the tool for you!</p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

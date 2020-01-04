@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Kent Tinseltooth - Smart Braces - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../../challenges/c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../../challenges/c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../../challenges/c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,83 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#kent-tinseltooth-smart-braces">Kent Tinseltooth - Smart Braces</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="kent-tinseltooth-smart-braces">Kent Tinseltooth - Smart Braces<a class="headerlink" href="#kent-tinseltooth-smart-braces" title="Permanent link">#</a></h1>
+<p><img alt="Kent Tinseltooth" class="elf_avatar" src="../../img/hints/h11/kent_tinseltooth.png" /></p>
+<p><strong>Challenge</strong>: <a href="../../challenges/c11/">Open the Sleigh Shop Door</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>OK, this is starting to freak me out!<br />
+Oh sorry, I'm Kent Tinseltooth. My Smart Braces are acting up.<br />
+Do... Do you ever get the feeling you can hear things? Like, voices?<br />
+I know, I sound crazy, but ever since I got these... Oh!<br />
+Do you think you could take a look at my Smart Braces terminal?<br />
+I'll bet you can keep other students out of my head, so to speak.<br />
+It might just take a bit of Iptables work.</p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://upcloud.com/community/tutorials/configure-iptables-centos/">How to configure iptables on CentOS</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>The challenge starts off with a conversation between Kent and a mysterious voice his head. It doesn't provide any real tips or hints except maybe for a little bit of context and a mention of the <code>srf.elfu.org</code> domain which we'll be using in <a href="../../challenges/c12/">challenge 12</a>.</p>
+<p><img alt="Conversation" src="../../img/hints/h11/h11_terminal1_nopass.png" /></p>
+<p><code>/home/elfuuser/IOTteethBraces.md</code> contains the firewall configuration for the Smart Braces:</p>
+<ol>
+<li>Set the default policies to DROP for the INPUT, FORWARD, and OUTPUT chains.</li>
+<li>Create a rule to ACCEPT all connections that are ESTABLISHED,RELATED on the INPUT and the OUTPUT chains.</li>
+<li>Create a rule to ACCEPT only remote source IP address 172.19.0.225 to access the local SSH server (on port 22).</li>
+<li>Create a rule to ACCEPT any source IP to the local TCP services on ports 21 and 80.</li>
+<li>Create a rule to ACCEPT all OUTPUT traffic with a destination TCP port of 80.</li>
+<li>Create a rule applied to the INPUT chain to ACCEPT all traffic from the lo interface.</li>
+</ol>
+<p><img alt="Iptables Configuration" src="../../img/hints/h11/h11_terminal2.png" /></p>
+<p>Set up the following iptables rules to match the required configuration:</p>
+<pre><code class="shell">sudo iptables -P INPUT DROP
+sudo iptables -P FORWARD DROP
+sudo iptables -P OUTPUT DROP
+sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A INPUT -s 172.19.0.225 -p tcp --dport 22 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 21 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -i lo -j ACCEPT
+</code></pre>
+
+<p><img alt="Configuration Successful" src="../../img/hints/h11/h11_terminal3.png" /></p>
+<p>That's it! Firewall rules applied and inner peace for Kent achieved!</p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>See <a href="#solution">solution</a>.</p>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Oh thank you! It's so nice to be back in my own head again. Er, alone.<br />
+By the way, have you tried to get into the crate in the Student Union? It has an interesting set of locks.<br />
+There are funny rhymes, references to perspective, and odd mentions of eggs!<br />
+And if you think the stuff in your browser looks strange, you should see the page source...<br />
+Special tools? No, I don't think you'll need any extra tooling for those locks.<br />
+BUT - I'm pretty sure you'll need to use <a href="https://developers.google.com/web/tools/chrome-devtools">Chrome's developer tools</a> for that one.<br />
+Or sorry, you're a <a href="https://developer.mozilla.org/en-US/docs/Tools">Firefox fan</a>?<br />
+Yeah, <a href="https://developer.apple.com/safari/tools/">Safari's fine too</a> - I just have an ineffible hunger for a physical Esc key.<br />
+<a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/console">Edge</a>? That's cool. Hm? No no, I was thinking of an unrelated thing.<br />
+<a href="https://curl.haxx.se/docs/manpage.html">Curl fan</a>? Right on! Just remember: the Windows one doesn't like double quotes.<br />
+Old school, huh? Oh sure - I've got what you need <a href="https://xkcd.com/325/">right here</a>...<br />
+And I hear the Holiday Hack Trail game will give hints on the last screen if you complete it on Hard.  </p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

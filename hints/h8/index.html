@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Alabaster Snowball - Nyanshell - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../../challenges/c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../../challenges/c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../../challenges/c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,62 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#alabaster-snowball-nyanshell">Alabaster Snowball - Nyanshell</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="alabaster-snowball-nyanshell">Alabaster Snowball - Nyanshell<a class="headerlink" href="#alabaster-snowball-nyanshell" title="Permanent link">#</a></h1>
+<p><img alt="Alabaster Snowball" class="elf_avatar" src="../../img/hints/h8/alabaster_snowball.png" /></p>
+<p><strong>Challenge</strong>: <a href="../../challenges/c8/">Bypassing the Frido Sleigh CAPTEHA</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Welcome to the Speaker UNpreparedness Room!<br />
+My name's Alabaster Snowball and I could use a hand.<br />
+I'm trying to log into this terminal, but something's gone horribly wrong.<br />
+Every time I try to log in, I get accosted with ... a hatted cat and a toaster pastry?<br />
+I thought my shell was Bash, not flying feline.<br />
+When I try to overwrite it with something else, I get permission errors.<br />
+Have you heard any chatter about immutable files? And what is sudo -l telling me?  </p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><em>"On Linux, a user's shell is determined by the contents of /etc/passwd"</em>  </li>
+<li><em>"sudo -l says I can run a command as root. What does it do?"</em> </li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p><img alt="Nyan Shell" src="../../img/hints/h8/h8_terminal1.png" /></p>
+<p>When you try to log in as Alabaster using <code>su alabaster_snowball</code> you'll end up with a Nyan cat animation you can't exit from. Follow the steps listed below to replace Alabaster's current shell with a copy of <code>/bin/bash</code>.</p>
+<ol>
+<li><code>grep -i alabaster /etc/passwd</code>: show Alabaster's default shell.</li>
+<li><code>ls -l /bin/nsh</code>: show file permissions. <code>-rwxrwxrwx</code> means anyone can read/write/execute.</li>
+<li><code>lsattr /bin/nsh</code>: show file attributes. <code>i</code> means the immutable flag is set.</li>
+<li><code>sudo -l</code>: show commands we can run with elevated privileges. In this case <code>sudo chattr</code>.</li>
+<li><code>sudo chattr -i /bin/nsh</code>: remove the immutable flag on <code>/bin/nsh</code> so it can be overwritten.</li>
+<li><code>cp /bin/bash /bin/nsh</code>: replace Nyan Shell with Bash.</li>
+<li><code>su alabaster_snowball</code>: log in as alabaster_snowball.</li>
+</ol>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>See <a href="#solution">solution</a>.</p>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Who would do such a thing?? Well, it IS a good looking cat.<br />
+Have you heard about the Frido Sleigh contest?<br />
+There are some serious prizes up for grabs.<br />
+The content is strictly for elves. Only elves can pass the CAPTEHA challenge required to enter.<br />
+I heard there was a talk at KCII about using <a href="https://youtu.be/jmVPLwjm_zs">machine learning</a> to defeat challenges like this.<br />
+I don't think anything could ever beat an elf though!  </p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

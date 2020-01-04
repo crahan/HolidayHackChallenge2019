@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Sparkle Redberry - Xmas Cheer - KringleCon 2019 Write-Up</title>
+        <title>Sparkle Redberry - Xmas Cheer Laser - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../../challenges/c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../../challenges/c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../../challenges/c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li class="active">
-    <a href="./">Sparkle Redberry - Xmas Cheer</a>
+    <a href="./">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,141 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#sparkle-redberry-xmas-cheer-laser">Sparkle Redberry - Xmas Cheer Laser</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="sparkle-redberry-xmas-cheer-laser">Sparkle Redberry - Xmas Cheer Laser<a class="headerlink" href="#sparkle-redberry-xmas-cheer-laser" title="Permanent link">#</a></h1>
+<p><img alt="Sparkle Redberry" class="elf_avatar" src="../../img/hints/h5/sparkle_redberry.png" /></p>
+<p><strong>Challenge</strong>: <a href="../../challenges/c5/">Determine Compromised System</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>I'm Sparkle Redberry and Imma chargin' my laser!<br />
+Problem is: the settings are off.<br />
+Do you know any PowerShell?<br />
+It'd be GREAT if you could hop in and recalibrate this thing.<br />
+It spreads holiday cheer across the Earth ...<br />
+... when it's working!  </p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://blogs.sans.org/pen-testing/files/2016/05/PowerShellCheatSheet_v41.pdf">SANS' PowerShell Cheat Sheet</a> </li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>Before we go over the solution I'd like to direct everyone's attention to the way Sparkle's running this whole laser experiment. Is there really no other option than pointing insanely intense laser beams at a snowman? I mean, what if <a href="../../#kringlecon-3-jack-frost">Jack Frost</a> gets wind of this?</p>
+<p><img alt="Snowman experiment" src="../../img/hints/h5/snowman_experiment_no.png" /></p>
+<p>Anyway, the idea of the challenge is to use a series of PowerShell commands to find the right angle, temperature, refraction, and gas mixture parameters to correctly configure the Xmas Cheer Laser so it reaches 5 Mega-Jollies per liter of laser output. Prepare for a scavenger hunt because this challenge will take a while to get through. Let's start by reading the 'callingcard.txt' file.</p>
+<pre><code class="powershell">Get-Content /home/callingcard.txt
+</code></pre>
+
+<p><img alt="Terminal 1" src="../../img/hints/h5/h5_terminal1_lasers.png" /></p>
+<p>We do as the riddle suggests and show the command history using <code>Get-History</code>. By piping the output of the <code>Get-History</code> command to <code>out-string -Width 150</code> we make sure that long lines are completely visible (in this case we use width 150).</p>
+<pre><code class="powershell">Get-History | out-string -Width 150
+</code></pre>
+
+<p><img alt="Terminal 2" src="../../img/hints/h5/h5_terminal2.png" /></p>
+<p>We found the correct laser angle value, <code>angle?val=65.5</code>, and a new hint which states <em>"I have many name=value variables that I share to applicatons system wide. At a command I will reveal my secrets once you Get my Child Items"</em>. Sounds like we're talking about environment variables so let's grab those.</p>
+<pre><code class="powershell">Get-ChildItem Env: | out-string -Width 300
+</code></pre>
+
+<p><img alt="Terminal 3" src="../../img/hints/h5/h5_terminal3.png" /></p>
+<p>A new hint stored in the environment variable named <code>riddle</code> says <em>"Squeezed and compressed I am hidden away. Expand me from my prison and I will show you the way. Recurse through all /etc and Sort on my LastWriteTime to reveal im the newest of all."</em>. So we need to iterate over the <code>/etc</code> folder and find the file with the most recent <code>LastWriteTime</code> value. We also suppress any error output by setting <code>$ErrorActionPreference = ‘SilentlyContinue’</code>. Got to keep that command output sparkly clean.</p>
+<pre><code class="powershell">Get-ChildItem -Recurse -File /etc | `
+    sort LastWriteTime -Descending -Top 1 | `
+    select-object fullname,lastwritetime
+</code></pre>
+
+<p><img alt="Terminal 4" src="../../img/hints/h5/h5_terminal4.png" /></p>
+<p>Looks like we found an archive at <code>/etc/apt/archive</code>. When we unpack this file to our home folder we find a 2 new files. One named <code>riddle</code> and what looks like an <a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF binary</a>, an executable file format.</p>
+<pre><code class="powershell">Expand-Archive /etc/apt/archive -DestinationPath ./
+</code></pre>
+
+<p><img alt="Terminal 5" src="../../img/hints/h5/h5_terminal5.png" /></p>
+<p>In order to execute the ELF binary we will first need to give it the appropriate execute permissions. This might seem confusing but note that we are running PowerShell on a Linux system which means that commands such as <code>chmod</code> should work as expected. So let's add user execute permissions (u+x) first and then run <code>runme.elf</code>.</p>
+<pre><code class="bash">chmod u+x ./runme.elf
+./runme.elf
+</code></pre>
+
+<p><img alt="Terminal 6" src="../../img/hints/h5/h5_terminal6.png" /></p>
+<p>There's our second laser parameter, <code>refraction?val=1.867</code>, and yet another hint! <em>"Very shallow am I in the depths of your elf home. You can find my entity by using my md5 identity: 25520151A320B5B0D21561F92C8F6224"</em>. The folder named <code>depth</code> contains a ton of nested folder and files. Let's use the following PowerShell command to iterate through them and find the path of the file that matches MD5 25520151A320B5B0D21561F92C8F6224. Just like on *NIX system we pipe together different commands.</p>
+<pre><code class="powershell">Get-ChildItem -Recurse -File ./ | `
+    Get-FileHash -Algorithm MD5 | `
+    Where-Object hash -eq 25520151A320B5B0D21561F92C8F6224 | `
+    Select path
+</code></pre>
+
+<p><img alt="Terminal 7" src="../../img/hints/h5/h5_terminal7.png" /></p>
+<p>Huzzah! Looks like we just found the correct laser temperature, <code>temperature?val=-33.5</code>. Our latest hint reads <em>"I am one of many thousand similar txt's contained within the deepest of /home/elf/depths. Finding me will give you the most strength but doing so will require Piping all the FullName's to Sort Length."</em>. We need to find the file in our home folder with the longest FullName (i.e. path + filename). Note the long width value to ensure the full path is visible.</p>
+<pre><code class="powershell">Get-ChildItem -Recurse ./ | `
+    Select-Object -Property FullName | `
+    Sort-Object -Property {$_.FullName.Length} | `
+    Select-Object -Last 1 | `
+    out-string -Width 500
+</code></pre>
+
+<p><img alt="Terminal 8" src="../../img/hints/h5/h5_terminal8.png" /></p>
+<p>Surprise, another hint! <em>"Get process information to include Username identification. Stop Process to show me you're skilled and in this order they must be killed: bushy, alabaster, minty, holly. Do this for me and then you /shall/see"</em>. So we need to first list all processes with their user information and then kill the processes in the order requested. We can use the following two PowerShell commands for this. Be sure to replace <code>$process_id</code> with the correct process ID.</p>
+<pre><code class="powershell">Get-Process -IncludeUserName
+Stop-Process -Id $process_id
+</code></pre>
+
+<p><img alt="Terminal 9" src="../../img/hints/h5/h5_terminal9.png" /></p>
+<p>Once the processes are killed in the correct order a file named <code>/shall/see</code> will be created which contains the next hint. <em>"Get the .xml children of /etc - an event log to be found. Group all .Id's and the last thing will be in the Properties of the lonely unique event Id."</em>. First we need to find all XML files under <code>/etc/</code>. </p>
+<pre><code class="powershell">Get-Childitem –Path /etc -Include *.xml -File -Recurse
+</code></pre>
+
+<p><img alt="Terminal 10" src="../../img/hints/h5/h5_terminal10.png" /></p>
+<p>Per the previous hint we need to group all entries in the event log by their event ID and then find the one entry with a unique ID value. Once we've identified the correct ID value we need to retrieve its properties. We can use the following two PowerShell commands.</p>
+<pre><code class="powershell">Import-Clixml /etc/systemd/system/timers.target.wants/EventLog.xml | `
+    Group-Object -Property ID -NoElement | `
+    Sort-Object -Property Count -Descending
+Import-Clixml /etc/systemd/system/timers.target.wants/EventLog.xml | `
+    Where-Object {$_.ID -eq 1}
+</code></pre>
+
+<p><img alt="Terminal 11" src="../../img/hints/h5/h5_terminal11.png" /></p>
+<p>Looks like we just found the correct gas mixture, <code>O=6,H=7,He=3,N=4,Ne=22,Ar=11,Xe=10,F=20,Kr=8,Rn=9</code>. We now have all the values we need to correctly configure the Xmas Cheer Laser. Start by turning off the laser and configuring the correct angle, refraction, and temperature.</p>
+<pre><code class="powershell">(Invoke-WebRequest -Uri http://localhost:1225/api/off).RawContent
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/api/angle?val=65.5).RawContent
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/api/refraction?val=1.867).RawContent
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/api/temperature?val=-33.5).RawContent
+</code></pre>
+
+<p><img alt="Terminal 12" src="../../img/hints/h5/h5_terminal12.png" /></p>
+<p>Next we configure the correct gas mixture by defining the POST request body as a variable and then using the variable in the actual HTTP request. All that's left is to turn the laser on and verify we reached the required 5 Mega-Jollies per liter of laser output.</p>
+<pre><code class="powershell">$correct_gases_postbody = @{O=6;H=7;He=3;N=4;Ne=22;Ar=11;Xe=10;F=20;Kr=8;Rn=9}
+(Invoke-WebRequest -Uri http://127.0.0.1:1225/api/gas -Method POST -Body $correct_gases_postbody).RawContent
+(Invoke-WebRequest -Uri http://localhost:1225/api/on).RawContent
+(Invoke-WebRequest http://127.0.0.1:1225/api/output).RawContent
+</code></pre>
+
+<p><img alt="Terminal 13" src="../../img/hints/h5/h5_terminal13.png" /></p>
+<p>Woaa, a whoppin' 6.07 Mega-Jollies! Time to spread some Xmas cheer! But seriously, think of the snowman.</p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<ul>
+<li>Angle: <code>65.5</code></li>
+<li>Refraction: <code>1.867</code></li>
+<li>Temperature: <code>-33.5</code></li>
+<li>Gas mixture: <code>O=6,H=7,He=3,N=4,Ne=22,Ar=11,Xe=10,F=20,Kr=8,Rn=9</code></li>
+</ul>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>You got it - three cheers for cheer!<br />
+For objective 5, have you taken a look at our Zeek logs?<br />
+Something's gone wrong. But I hear someone named <a href="https://www.activecountermeasures.com/free-tools/rita/">Rita</a> can help us.<br />
+Can you and she figure out what happened?  </p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

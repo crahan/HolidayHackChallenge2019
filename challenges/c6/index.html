@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Splunk - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../c5/">Determine Compromised System</a>
 </li>
                                     
 <li class="active">
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,165 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#splunk">Splunk</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
+<h1 id="splunk">Splunk<a class="headerlink" href="#splunk" title="Permanent link">#</a></h1>
+<p><strong>Hint</strong>: <a href="../../hints/h6/">Tangle Coalbox - Frosty Keypad</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Hi, I'm Dr. Banas, professor of Cheerology at Elf University.<br />
+This term, I'm teaching "HOL 404: The Search for Holiday Cheer in Popular Culture," and I've had quite a shock!<br />
+I was at home enjoying a nice cup of Gløgg when I had a call from Kent, one of my students who interns at the Elf U SOC.<br />
+Kent said that my computer has been hacking other computers on campus and that I needed to fix it ASAP!<br />
+If I don't, he will have to report the incident to the boss of the SOC.<br />
+Apparently, I can find out more information from this <a href="https://splunk.elfu.org/">website</a> with the username: elf / Password: elfsocks.<br />
+I don't know anything about computer security. Can you please help me?</p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://splunk.elfu.org/">Elf University Splunk</a></li>
+<li><a href="http://elfu-soc.s3-website-us-east-1.amazonaws.com">Elf University File Archive</a></li>
+<li><a href="https://www.youtube.com/watch?v=qbIhHhRKQCw">James Brodsky, Dashing Through the Logs</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>Jump to the <a href="#challenge">challenge solution</a>.</p>
+<h3 id="question-1">Question 1<a class="headerlink" href="#question-1" title="Permanent link">#</a></h3>
+<p><em>"What is the short host name of Professor Banas' computer?"</em></p>
+<p>The '#ELFU SOC' chat group has the answer to this question. Zippy mentions <em>"Yep. And we have some system called 'sweetums' here on campus communicating with the same weird IP"</em> to which Alice replies <em>"Gah... that's Professor Banas' system from over in the Polar Studies department"</em>. To find the answer using Splunk we can use the following query as well.</p>
+<pre><code class="shell">index=main user=cbanas | table _time user ComputerName
+</code></pre>
+
+<p><img alt="Splunk 1" src="../../img/challenges/c6/c6_1.png" /></p>
+<p><strong>Answer</strong>: <code>sweetums</code></p>
+<h3 id="question-2">Question 2<a class="headerlink" href="#question-2" title="Permanent link">#</a></h3>
+<p><em>"What is the name of the sensitive file that was likely accessed and copied by the attacker? Please provide the fully qualified location of the file. (Example: C:\temp\report.pdf)"</em></p>
+<p>Similar to question 1, searching for a simple keyword can provide useful results. In this case we query for the string 'santa' to find an event containing a message from Santa to professor Banas referencing the text file <code>Naughty_and_Nice_2019_draft.txt</code>. </p>
+<pre><code class="shell">index=main santa
+</code></pre>
+
+<p><img alt="Splunk 2" src="../../img/challenges/c6/c6_2.png" /></p>
+<p><strong>Answer</strong>: <code>C:\Users\cbanas\Documents\Naughty_and_Nice_2019_draft.txt</code> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The BASE64-encoded string found in this Splunk event decodes to a PowerShell script that tries to disable <a href="https://docs.splunk.com/Documentation/UBA/5.0.0/GetDataIn/AddPowerShell">script block logging</a>, downloads encrypted data from http://144.202.46[.]214:8080/admin/get.php (i.e. the command and control IP address found in <a href="../c5/">LISA</a>), decrypts it using an embedded key, and finally executes the decrypted code.</p>
 </div>
+<h3 id="question-3">Question 3<a class="headerlink" href="#question-3" title="Permanent link">#</a></h3>
+<p><em>"What is the fully-qualified domain name(FQDN) of the command and control(C2) server? (Example: badguy.baddies.com)"</em></p>
+<p>Search the collected Sysmon data for network connection activity (i.e. <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=90003">Sysmon event ID 3</a>) and add 'powershell' to narrow down the results. Use fields like <code>dest_host</code> and <code>DestinationHostname</code> in the left sidebar to show specific information.</p>
+<pre><code class="shell">index=main sourcetype=&quot;XmlWinEventLog:Microsoft-Windows-Sysmon/Operational&quot; powershell EventCode=3
+</code></pre>
+
+<p><img alt="Splunk 3" src="../../img/challenges/c6/c6_3.png" /></p>
+<p><strong>Answer</strong>: <code>144.202.46.214.vultr.com</code> </p>
+<h3 id="question-4">Question 4<a class="headerlink" href="#question-4" title="Permanent link">#</a></h3>
+<p><em>"What document is involved with launching the malicious PowerShell code? Please provide just the filename. (Example: results.txt)"</em></p>
+<p>Start by searching for all PowerShell activity by specifying the appropriate source and reverse the sort order so the oldest search results are at the top of the list. Click on the timestamp and in the popup dialog select a +/- five-second window. </p>
+<pre><code class="shell">index=main sourcetype=&quot;WinEventLog:Microsoft-Windows-Powershell/Operational&quot; | reverse
+</code></pre>
+
+<p><img alt="Splunk 4" src="../../img/challenges/c6/c6_4.png" /></p>
+<p>Now that we have all PowerShell activity in this 10-second timeframe we need to pivot to another source to find the associated process IDs. Powershell logs don't provide this information but Sysmon logs do so replace the PowerShell sourcetype with the one for Sysmon and look at the <code>process_id</code> or <code>ProcessId</code> fields.</p>
+<pre><code class="shell">index=main source=&quot;WinEventLog:Microsoft-Windows-Sysmon/Operational&quot;
+</code></pre>
+
+<p><img alt="Splunk 5" src="../../img/challenges/c6/c6_5.png" /></p>
+<p>Now that we have two process IDs we need to determine what was responsible for spawning these PowerShell processes. Process creation events can be found in either Sysmon logs as <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=90001">Sysmon event ID 1</a> or in Windows logs as <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4688">Windows event ID 4688</a>. When searching for the latter, any process ID values need to be specified in hexadecimal. So, <code>5864</code> and <code>6268</code> have to be translated to <code>0x16E8</code> and <code>0x187C</code>. Be sure to set the search window to 'All time' again as the parent process for these PowerShell processes will most likely fall outside of the currently selected 10-second timeframe.</p>
+<pre><code class="shell">index=main sourcetype=WinEventLog EventCode=4688 (process_id=0x16e8 OR process_id=0x187c)
+</code></pre>
+
+<p><img alt="Splunk 6" src="../../img/challenges/c6/c6_6.png" /></p>
+<p><strong>Answer</strong>: <code>19th Century Holiday Cheer Assignment.docm</code></p>
+<h3 id="question-5">Question 5<a class="headerlink" href="#question-5" title="Permanent link">#</a></h3>
+<p><em>"How many unique email addresses were used to send Holiday Cheer essays to Professor Banas? Please provide the numeric value. (Example: 1)"</em></p>
+<p>According to Alice <em>"You should be aware that Professor Banas was very clear in his instructions to his students: All assignment submissions must be made via email and must have the subject 'Holiday Cheer Assignment Submission'"</em>. As email addresses are not case sensitive we need to make sure we don't double-count any search results. Search stoQ logs for the correct subject line and count the number of results.</p>
+<pre><code class="shell">index=main sourcetype=stoq &quot;results{}.workers.smtp.subject&quot;=&quot;Holiday Cheer Assignment Submission&quot; 
+| stats count by results{}.workers.smtp.subject
+</code></pre>
+
+<p><img alt="Splunk 7" src="../../img/challenges/c6/c6_7.png" /></p>
+<p><strong>Answer</strong>: <code>21</code></p>
+<h3 id="question-6">Question 6<a class="headerlink" href="#question-6" title="Permanent link">#</a></h3>
+<p><em>"What was the password for the zip archive that contained the suspicious file?"</em></p>
+<p>MITRE ATT&amp;CK <a href="https://attack.mitre.org/techniques/T1193/">Technique 1193</a> which Alice refers to is 'Spearphishing Attachment'. If the document is password protected then the attacker needs to let the victim know the password in order to open the document and execute the malicious code. In other words, we should be able to find a mention of it in the body of an email.</p>
+<pre><code class="shell">index=main sourcetype=stoq &quot;results{}.workers.smtp.body&quot;=*password* 
+| table results{}.workers.smtp.from results{}.workers.smtp.body
+</code></pre>
+
+<p><img alt="Splunk 8" src="../../img/challenges/c6/c6_8.png" /></p>
+<p><strong>Answer</strong>: <code>123456789</code></p>
+<h3 id="question-7">Question 7<a class="headerlink" href="#question-7" title="Permanent link">#</a></h3>
+<p><em>"What email address did the suspicious file come from?"</em></p>
+<p>The answer is provided by exactly the same Splunk query we used for the previous question.</p>
+<pre><code class="shell">index=main sourcetype=stoq &quot;results{}.workers.smtp.body&quot;=*password* 
+| table results{}.workers.smtp.from results{}.workers.smtp.body
+</code></pre>
+
+<p><img alt="Splunk 9" src="../../img/challenges/c6/c6_9.png" /></p>
+<p><strong>Answer</strong>: <code>bradly.buttercups@eifu.org</code></p>
+<h3 id="challenge">Challenge<a class="headerlink" href="#challenge" title="Permanent link">#</a></h3>
+<p><em>"What was the message for Kent that the adversary embedded in this attack?"</em></p>
+<p>Alice provides the initial Splunk query to get us started. stoQ will store any file metadata in Splunk but the raw artifact is uploaded to the <a href="http://elfu-soc.s3-website-us-east-1.amazonaws.com">File Archive</a>. Start by running Alice's query and look at the JSON output. The combination of <code>archivers.filedir.path</code> and <code>payload_meta.extra_data.filename</code> in the <code>results</code> array provides the path to each artifact in the Elf-U File Archive.</p>
+<pre><code class="shell">index=main sourcetype=stoq &quot;results{}.workers.smtp.from&quot;=&quot;bradly buttercups &lt;bradly.buttercups@eifu.org&gt;&quot;
+</code></pre>
+
+<p><img alt="Splunk 10" src="../../img/challenges/c6/c6_10.png" /></p>
+<p>Next we extract the results array using <a href="https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Spath">spath</a>, loop over its items using <a href="https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Mvexpand">mvexpand</a>, and for each list item extract both <code>archivers.filedir.path</code> and <code>payload_meta.extra_data.filename</code> (again, using spath). To keep things clean we only show results where <code>archivers.filedir.path</code> is not an empty string.</p>
+<pre><code class="shell">index=main sourcetype=stoq &quot;results{}.workers.smtp.from&quot;=&quot;bradly buttercups &lt;bradly.buttercups@eifu.org&gt;&quot; 
+| eval results = spath(_raw, &quot;results{}&quot;) 
+| mvexpand results 
+| eval path=spath(results, &quot;archivers.filedir.path&quot;),
+       filename=spath(results, &quot;payload_meta.extra_data.filename&quot;)
+| search path!=&quot;&quot;
+| table filename, path
+</code></pre>
+
+<p><img alt="Splunk 11" src="../../img/challenges/c6/c6_11.png" /></p>
+<p>The obvious candidates for further investigation are <code>Buttercups_HOL404_assignment.zip</code> and <code>19th Century Holiday Cheer Assignment.docm</code> but both of these have been sanitized and contain a warning message. Luckily the .docm artifact also provides a hint about <code>core.xml</code>, stating <em>"The core.xml file that was a component of this original macro-enabled Word doc is still in this File Archive thanks to stoQ. Find it and you will be a happy elf :-)"</em>. Saves us some work of having to verify all remaining artifacts.</p>
+<p><img alt="Splunk 12" src="../../img/challenges/c6/c6_12.png" /></p>
+<p><strong>Answer</strong>: <code>Kent you are so unfair. And we were going to make you the king of the Winter Carnival.</code></p>
+<p>All of the 20 remaining documents, who submitted them, the associated File Archive link, and email message body can be retrieved using the below Splunk query. Looks like some of the elves spent just a little more time on this assignment than others.</p>
+<pre><code class="shell">index=main sourcetype=stoq &quot;results{}.workers.smtp.subject&quot;=&quot;Holiday Cheer Assignment Submission&quot;
+| eval results = spath(_raw, &quot;results{}&quot;), 
+       from = spath(_raw, &quot;results{}.workers.smtp.from&quot;), 
+       body = spath(_raw, &quot;results{}.workers.smtp.body&quot;)
+| mvexpand results 
+| eval path=spath(results, &quot;archivers.filedir.path&quot;),
+       filename=spath(results, &quot;payload_meta.extra_data.filename&quot;)
+| search filename=&quot;*.docx&quot; OR filename=&quot;*.zip&quot;
+| table from, filename, path, body
+</code></pre>
+
+<p><img alt="Splunk 13" src="../../img/challenges/c6/c6_13.png" /></p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<ol>
+<li><code>sweetums</code></li>
+<li><code>C:\Users\cbanas\Documents\Naughty_and_Nice_2019_draft.txt</code></li>
+<li><code>144.202.46.214.vultr.com</code></li>
+<li><code>19th Century Holiday Cheer Assignment.docm</code></li>
+<li><code>21</code></li>
+<li><code>123456789</code></li>
+<li><code>bradly.buttercups@eifu.org</code></li>
+<li><code>Kent you are so unfair. And we were going to make you the king of the Winter Carnival.</code></li>
+</ol>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Oh, thanks so much for your help! Sorry I was freaking out.<br />
+I've got to talk to Kent about using my email again...<br />
+...and picking up my dry cleaning.</p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

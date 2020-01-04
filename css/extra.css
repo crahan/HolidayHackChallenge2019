@@ -43,6 +43,9 @@
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
         background-color: #bb2c21;
     }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        background-color: #bb2c21;
+    }
 }
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
@@ -71,5 +74,24 @@ blockquote p {
 }
 
 .col-md-9 img {
-    margin: 15px auto 15px auto;
+    margin: 5px auto 15px auto;
+}
+
+img.right {
+    float: right; 
+    margin: 0px 0px 15px 25px;
+}
+
+img.elf_avatar {
+    float: right; 
+    margin: 10px 0px 15px 25px;
+}
+
+.admonition {
+    margin-top: 20px;
+}
+
+.admonition.note a {
+    text-decoration: underline;
+    color: #3a87ad;
 }

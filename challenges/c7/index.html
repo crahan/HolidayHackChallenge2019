@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Get Access to the Steam Tunnels - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -240,19 +182,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../misc/progress_tokens/">Progress Tokens</a>
-</li>
-                                    
-<li >
     <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
 </li>
                                     
 <li >
-    <a href="../../misc/user_accounts/">User Accounts</a>
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../../misc/badge_hints/">Badge Hints</a>
+    <a href="../../misc/user_accounts/">User Accounts</a>
 </li>
                                 </ul>
                             </li>
@@ -282,15 +220,71 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#get-access-to-the-steam-tunnels">Get Access to the Steam Tunnels</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#hint">Hint</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="get-access-to-the-steam-tunnels">Get Access to the Steam Tunnels<a class="headerlink" href="#get-access-to-the-steam-tunnels" title="Permanent link">#</a></h1>
+<p><strong>Hint</strong>: <a href="../../hints/h7/">Minty Candycane - Holiday Hack Trail</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Gain access to the steam tunnels.<br />
+Who took the turtle doves? Please tell us their first and last name.<br />
+For hints on achieving this objective, please visit Minty's dorm room and talk with Minty Candy Cane.</p>
+</blockquote>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://github.com/deviantollam/decoding">Key and Lock Decoding Tools</a></li>
+<li><a href="https://www.youtube.com/watch?v=KU6FJnbkeLA">Deviant Ollam, Optical Decoding of Keys</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>To enter the steam tunnels we need to copy the right key and use it with the lock in the dorm room closet. When you enter the dorm room a mysterious figure with a key hanging from his belt will linger for a few seconds and then run away into the closet. No matter the amount of zooming and enhancing, the key resolution is far too low to be useful. We need to find a better image.</p>
+<p><img alt="Krampus Dorm" src="../../img/challenges/c7/c7_1_enhance.png" /></p>
+<p>Each elf has their own specific CSS class and avatar image (there's even a few <a href="../../misc/interesting_ui/#unused-elves">elves</a> and <a href="../../misc/interesting_ui/#toy-elf-soldiers">toy soldiers</a> which are listed in the CSS but don't seem to appear in the game itself). For example, the CSS class and associated image for Minty's avatar are shown below.</p>
+<p><img alt="Minty CSS" src="../../img/challenges/c7/c7_2.png" /></p>
+<p>Additionally, the HTML for Minty's room contains a div with a class titled <code>krampus</code> and a <code>krampus.png</code> background image that is stored in the same location as the other elf avatars, <code>/images/avatars/elves/</code>.</p>
+<p><img alt="Krampus CSS" src="../../img/challenges/c7/c7_3.png" /></p>
+<p>Unlike other avatars that are low res though, <code>krampus.png</code> has quite a <a href="https://2019.kringlecon.com//images/avatars/elves/krampus.png">high resolution</a> (i.e. 881 × 1950 pixels)</p>
+<p><img alt="Krampus Key" src="../../img/challenges/c7/c7_4.png" /></p>
+<p>Now use the files in the <a href="https://github.com/deviantollam/decoding">Key and Lock Decoding Tools</a> Github repository to identify the correct key type (i.e. Schlage). I skipped this step and just winged it by drawing evenly spaced horizontal lines on the key image using the first and second cut as a reference (see the image below). I was fairly certain about cuts 1, 2, 3, and 5, but the fourth cut was off by one. Tweaking it slightly gave me a working key on my second attempt. That said, the Schlage <a href="https://github.com/deviantollam/decoding/blob/master/Key%20Measurments/Key%20Measurments%20-%20Schlage.png">measurements</a> and <a href="https://github.com/deviantollam/decoding/blob/master/Key%20Decoding/Decoding%20-%20Schlage.png">decoding</a> templates provide the correct measurements and will allow you to make a good copy on the first try.</p>
+<p><img alt="Key Cuts" src="../../img/challenges/c7/c7_5.png" /></p>
+<p>Use the key grinder in Minty's dorm room, enter <code>122520</code> for the cuts, and giggle at the <em>bzzzzt... ting!</em> sound effect.</p>
+<p><img alt="Key Grinder" src="../../img/challenges/c7/c7_6.png" /></p>
+<p>Download the <code>122520.png</code> file and use it on the lock in the dorm room closet. A hidden door will open, revealing a message on the wall that reads 'This is it'. Follow the steam tunnels to meet up with the mysterious figure you first saw running away in Minty's room. He'll introduce himself as Krampus Hollyfeld and explain why he borrowed Jane and Michael.</p>
+<p><img alt="Steam Tunnels" src="../../img/challenges/c7/c7_7.png" /></p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>Who took the doves: <code>Krampus Hollyfeld</code></p>
+<h2 id="hint">Hint<a class="headerlink" href="#hint" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Hello there! I’m Krampus Hollyfeld.<br />
+I maintain the steam tunnels underneath Elf U,<br />
+Keeping all the elves warm and jolly.<br />
+Though I spend my time in the tunnels and smoke,<br />
+In this whole wide world, there's no happier bloke!<br />
+Yes, I borrowed Santa’s turtle doves for just a bit.<br />
+Someone left some scraps of paper near that fireplace, which is a big fire hazard.<br />
+I sent the turtle doves to fetch the paper scraps.<br />
+But, before I can tell you more, I need to know that I can trust you.<br />
+Tell you what – if you can help me beat the Frido Sleigh contest (Objective 8), then I'll know I can trust you.<br />
+The contest is here on my screen and at <a href="https://fridosleigh.com/">fridosleigh.com</a>.<br />
+No purchase necessary, enter as often as you want, so I am!<br />
+They set up the rules, and lately, I have come to realize that I have certain materialistic, cookie needs.<br />
+Unfortunately, it's restricted to elves only, and I can't bypass the CAPTEHA.<br />
+(That's Completely Automated Public Turing test to tell Elves and Humans Apart.)<br />
+I've already cataloged <a href="https://downloads.elfu.org/capteha_images.tar.gz">12,000 images</a> and decoded the <a href="https://downloads.elfu.org/capteha_api.py">API interface</a>.<br />
+Can you help me bypass the CAPTEHA and submit lots of entries?</p>
+</blockquote></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

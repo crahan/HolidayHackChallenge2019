@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Thomas Bouve">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Scripts - KringleCon 2019 Write-Up</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">KringleCon 2019 Write-Up</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">TL;DR</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Challenges <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../challenges/c1/">Talk to Santa & Find the Turtle Doves</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c2/">Unredact Threatening Document</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c3/">Evaluate Attack Outcome</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c4/">Determine Attacker Technique</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c5/">Determine Compromised System</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c6/">Splunk</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c7/">Get Access to the Steam Tunnels</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c8/">Bypassing the Frido Sleigh CAPTEHA</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c9/">Retrieve the Scraps of Paper from Server</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c10/">Recover Cleartext Document</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c11/">Open the Sleigh Shop Door</a>
+</li>
+                                    
+<li >
+    <a href="../challenges/c12/">Filter Out Poisoned Data Sources</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hints <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../hints/h3/">Bushy Evergreen - Escape Ed</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h4/">SugarPlum Mary - Linux Path</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h6/">Tangle Coalbox - Frosty Keypad</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h7/">Minty Candycane - Holiday Hack Trail</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h8/">Alabaster Snowball - Nyanshell</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h9/">Pepper Minstix - Graylog</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h10/">Holly Evergreen - Mongo Pilfer</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h11/">Kent Tinseltooth - Smart Braces</a>
+</li>
+                                    
+<li >
+    <a href="../hints/h12/">Wunorse Openslae - Zeek JSON Analysis</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="find_code.py/">find_code.py</a>
+</li>
+                                    
+<li >
+    <a href="capteha_api.py/">capteha_api.py</a>
+</li>
+                                    
+<li >
+    <a href="token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="match_user_agents.py/">match_user_agents.py</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Misc <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../misc/interesting_ui/">Interesting UI Elements</a>
+</li>
+                                    
+<li >
+    <a href="../misc/progress_tokens/">Progress Tokens</a>
+</li>
+                                    
+<li >
+    <a href="../misc/user_accounts/">User Accounts</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#scripts">Scripts</a></li>
+            <li><a href="#find_codepy">find_code.py</a></li>
+            <li><a href="#capteha_apipy">capteha_api.py</a></li>
+            <li><a href="#token_proxypy">token_proxy.py</a></li>
+            <li><a href="#decrypt_pdfpy">decrypt_pdf.py</a></li>
+            <li><a href="#match_user_agentspy">match_user_agents.py</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="scripts">Scripts<a class="headerlink" href="#scripts" title="Permanent link">#</a></h1>
+<h2 id="find_codepy">find_code.py<a class="headerlink" href="#find_codepy" title="Permanent link">#</a></h2>
+<p><strong>Purpose</strong>: generate access codes for the <a href="../hints/h6/">Frosty Keypad</a> hint.</p>
+<pre><code class="python">#!/usr/bin/env python3
+&quot;&quot;&quot;Tangle Coalbox - Frosty Keypad challenge.&quot;&quot;&quot;
+import itertools
+
+
+def is_prime(number):
+    &quot;&quot;&quot;Verify if a number is a prime.&quot;&quot;&quot;
+    return 2 in [number, 2**number % number]
+
+
+def main():
+    &quot;&quot;&quot;Execute.&quot;&quot;&quot;
+    digit_sets = [
+        ['1', '1', '3', '7'],
+        ['1', '3', '3', '7'],
+        ['1', '3', '7', '7']
+    ]
+
+    primes = []
+
+    for digits in digit_sets:
+        for subset in itertools.permutations(digits):
+            val = int(''.join(subset))
+            if is_prime(val) and val not in primes:
+                primes.append(val)
+                print(f'{val} is a prime number')
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre>
+
+<h2 id="capteha_apipy">capteha_api.py<a class="headerlink" href="#capteha_apipy" title="Permanent link">#</a></h2>
+<p><strong>Purpose</strong>: bypass the CAPTHEHA in the <a href="../challenges/c8/">Bypassing the Frido Sleigh CAPTEHA</a> challenge.</p>
+<pre><code class="python">#!/usr/bin/env python3
+# Image Recognition Using Tensorflow Exmaple.
+# Code based on example at:
+# https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py
+import os
+import base64
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import tensorflow as tf  # noqa
+tf.logging.set_verbosity(tf.logging.ERROR)
+import numpy as np  # noqa
+import threading  # noqa
+import queue  # noqa
+import time  # noqa
+import requests  # noqa
+import sys  # noqa
+import json  # noqa
+
+# sudo apt install python3-pip
+# sudo python3 -m pip install --upgrade pip
+# sudo python3 -m pip install --upgrade setuptools
+# sudo python3 -m pip install --upgrade tensorflow==1.15
+
+
+def load_labels(label_file):
+    &quot;&quot;&quot;Load labels.&quot;&quot;&quot;
+    label = []
+    proto_as_ascii_lines = tf.gfile.GFile(label_file).readlines()
+    for l in proto_as_ascii_lines:
+        label.append(l.rstrip())
+    return label
+
+
+def predict_image(
+        q,
+        sess,
+        graph,
+        image_bytes,
+        img_uuid,
+        labels,
+        input_operation,
+        output_operation):
+    &quot;&quot;&quot;Predict image.&quot;&quot;&quot;
+    image = read_tensor_from_image_bytes(image_bytes)
+    results = sess.run(output_operation.outputs[0], {
+        input_operation.outputs[0]: image
+    })
+    results = np.squeeze(results)
+    prediction = results.argsort()[-5:][::-1][0]
+    q.put({
+        'img_uuid': img_uuid,
+        'prediction': labels[prediction].title(),
+        'percent': results[prediction]
+    })
+
+
+def load_graph(model_file):
+    &quot;&quot;&quot;Load graph.&quot;&quot;&quot;
+    graph = tf.Graph()
+    graph_def = tf.GraphDef()
+    with open(model_file, &quot;rb&quot;) as f:
+        graph_def.ParseFromString(f.read())
+    with graph.as_default():
+        tf.import_graph_def(graph_def)
+    return graph
+
+
+def read_tensor_from_image_bytes(
+        imagebytes,
+        input_height=128,
+        input_width=128,
+        input_mean=0,
+        input_std=255):
+    &quot;&quot;&quot;Read Tensor from image bytes.&quot;&quot;&quot;
+    image_reader = tf.image.decode_png(
+        imagebytes,
+        channels=3,
+        name=&quot;png_reader&quot;
+    )
+    float_caster = tf.cast(image_reader, tf.float32)
+    dims_expander = tf.expand_dims(float_caster, 0)
+    resized = tf.image.resize_bilinear(
+        dims_expander,
+        [input_height, input_width]
+    )
+    normalized = tf.divide(tf.subtract(resized, [input_mean]), [input_std])
+    sess = tf.compat.v1.Session()
+    result = sess.run(normalized)
+    return result
+
+
+def main():
+    &quot;&quot;&quot;Execute.&quot;&quot;&quot;
+    # Loading the Trained Machine Learning Model created from
+    # running retrain.py on the training_images directory
+    graph = load_graph('./tmp/retrain_tmp/output_graph.pb')
+    labels = load_labels(&quot;./tmp/retrain_tmp/output_labels.txt&quot;)
+
+    # Load up our session
+    input_operation = graph.get_operation_by_name(&quot;import/Placeholder&quot;)
+    output_operation = graph.get_operation_by_name(&quot;import/final_result&quot;)
+    sess = tf.compat.v1.Session(graph=graph)
+
+    url = &quot;https://fridosleigh.com/&quot;
+
+    # Create session
+    s = requests.Session()
+
+    # Get CAPTEHA images and types
+    r = s.post(f'{url}api/capteha/request')
+    if (r.json()['request']):
+        images = r.json()['images']
+        types = [x.strip() for x in r.json()['select_type'].split(',')]
+        types[-1] = types[-1].replace('and ', '')
+
+    # Can use queues and threading to spead up the processing
+    q = queue.Queue()
+
+    # Going to iterate over each of our images.
+    for image in images:
+        img_uuid = image['uuid']
+        img_base64 = image['base64']
+        print('Processing Image {}'.format(img_uuid))
+
+        # We don't want to process too many images at once. 10 threads max
+        while len(threading.enumerate()) &gt; 10:
+            time.sleep(0.0001)
+
+        # Predict_image function is expecting png image bytes so we read
+        # image as 'rb' to get a bytes object
+        image_bytes = base64.b64decode(img_base64)
+        threading.Thread(
+            target=predict_image,
+            args=(
+                q,
+                sess,
+                graph,
+                image_bytes,
+                img_uuid,
+                labels,
+                input_operation,
+                output_operation
+            )
+        ).start()
+
+    print('Waiting For Threads to Finish...')
+    while q.qsize() &lt; len(images):
+        time.sleep(0.001)
+
+    # Getting a list of all threads returned results
+    prediction_results = [q.get() for x in range(q.qsize())]
+    answers = []
+
+    # What are we looking for?
+    print(f'Looking for {types}')
+
+    # Get the matching images
+    for prediction in prediction_results:
+        if prediction['prediction'] in types:
+            print(f&quot;{prediction['img_uuid']} is a {prediction['prediction']}.&quot;)
+            answers.append(prediction['img_uuid'])
+
+    final_answer = ','.join(answers)
+
+    # Submit CAPTHEHA answers
+    json_resp = json.loads(
+        s.post(
+            f'{url}api/capteha/submit',
+            data={'answer': final_answer}
+        ).text
+    )
+
+    # WOMP WOMP
+    if not json_resp['request']:
+        # If it fails just run again. ML might get one wrong occasionally
+        print('FAILED MACHINE LEARNING GUESS')
+        print('-------\nOur ML Guess:\n--------\n{}'.format(final_answer))
+        print('------\nServer Response:\n------\n{}'.format(json_resp['data']))
+        sys.exit(1)
+
+    # Found the CAPTEHA
+    print('CAPTEHA Solved!')
+
+    # If we get to here, we are successful and can submit a bunch
+    # of entries till we win
+    userinfo = {
+        'name': 'Krampus Hollyfeld',
+        'email': 'crahan@example.com',
+        'age': 180,
+        'about': &quot;Cause they're so flippin yummy!&quot;,
+        'favorites': 'thickmints'
+    }
+    # If we win the once-per minute drawing, it will tell us we were emailed.
+    # Should be no more than 200 times before we win. If more, somethings
+    # wrong.
+    entry_response = ''
+    entry_count = 1
+    while 'crahan@example.com' not in entry_response and entry_count &lt; 200:
+        print(
+            f'Submitting lots of entries until '
+            f'we win the contest! Entry #{entry_count}'
+        )
+        entry_response = s.post(
+            f'{url}api/entry',
+            data=userinfo
+        ).text
+        entry_count += 1
+
+    print(entry_response)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre>
+
+<h2 id="token_proxypy">token_proxy.py<a class="headerlink" href="#token_proxypy" title="Permanent link">#</a></h2>
+<p><strong>Purpose</strong>: translate tokens for the <a href="../challenges/c9/">Retrieve the Scraps of Paper from Server</a> challenge.</p>
+<pre><code class="python">#!/usr/bin/env python3
+# token_proxy.py
+import requests
+from flask import Flask, Response
+app = Flask(__name__)
+
+
+@app.route(&quot;/&quot;)
+def token():
+    &quot;&quot;&quot;Return a token.&quot;&quot;&quot;
+    url = 'https://studentportal.elfu.org/validator.php'
+    token = requests.Session().get(url).text
+    # Put the token in the body, input tag, and header.
+    resp = Response(
+        f'Token:{token}\n'
+        '&lt;form&gt;\n'
+        f'  &lt;input type=&quot;hidden&quot; id=&quot;token&quot; name=&quot;token&quot; value=&quot;{token}&quot;/&gt;\n'
+        '&lt;/form&gt;\n'
+    )
+    resp.headers['token'] = token
+    return resp
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+</code></pre>
+
+<h2 id="decrypt_pdfpy">decrypt_pdf.py<a class="headerlink" href="#decrypt_pdfpy" title="Permanent link">#</a></h2>
+<p><strong>Purpose</strong>: decrypt the PDF in the <a href="../challenges/c10/">Recover Cleartext Document</a> challenge.</p>
+<pre><code class="python">#!/usr/bin/env python3
+&quot;&quot;&quot;Decrypt Encrypted PDF.&quot;&quot;&quot; 
+from Crypto.Cipher import DES
+
+seed = 0
+
+
+def rand():
+    &quot;&quot;&quot;Generate random value.&quot;&quot;&quot;
+    # 1. get seed value
+    # 2. multiply seed by 214013
+    # 3. add 2531011 (this is our new seed value)
+    # 4. right shift seed by 16
+    # 5. bitwise AND with 32767
+    global seed
+    seed = (214013 * seed + 2531011)
+    val = seed &gt;&gt; 16
+    return (val &amp; 32767)
+
+
+def generate_key(val):
+    &quot;&quot;&quot;Generate encryption key.&quot;&quot;&quot;
+    global seed
+    seed = val
+    encrypted = []
+    for _x in range(8):
+        tmp = hex(rand())
+        if len(str(tmp)) == 6:
+            encrypted.append(str(tmp)[4:])
+        elif len(str(tmp)) == 5:
+            encrypted.append(str(tmp)[3:])
+        elif len(str(tmp)) == 4:
+            encrypted.append(str(tmp)[2:])
+        elif len(str(tmp)) == 3:
+            encrypted.append(f&quot;0{str(tmp)[-1]}&quot;)
+    return ''.join(encrypted)
+
+
+def main():
+    &quot;&quot;&quot;Execute.&quot;&quot;&quot;
+    # File names
+    encinfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc'
+    pdfoutfile = 'ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf'
+
+    # Friday, December 6, 2019 7:00:00 PM
+    start = 1575658800
+
+    # Loop over 2 hours and generate the key for each
+    for x in range(7200):
+        keyseed = start + x
+        key = generate_key(keyseed)
+        bytekey = bytearray.fromhex(key)
+
+        # Prep for decrypting DES-CBC
+        cipher = DES.new(
+            bytekey,
+            DES.MODE_CBC,
+            iv=bytearray.fromhex('0000000000000000')
+        )
+
+        # Read encrypted file
+        f = open(encinfile, 'rb')
+        encrypted = f.read()
+
+        # Decrypt using the current key
+        msg = (cipher.iv + cipher.decrypt(encrypted))
+
+        # Check if decryption was successful
+        if msg[9:12] == b'PDF':
+            # Yes, we got a PDF!
+            print(f'Pass {x}: {key} decrypts to a PDF!')
+            f = open(pdfoutfile, 'wb')
+            f.write(msg)
+            break
+        else:
+            # Womp womp! On to the next.
+            print(f'Pass {x}: {key} is no bueno!')
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre>
+
+<h2 id="match_user_agentspy">match_user_agents.py<a class="headerlink" href="#match_user_agentspy" title="Permanent link">#</a></h2>
+<p><strong>Purpose</strong>: find additional bad IPs in the <a href="../challenges/c12/">Filter Out Poisoned Data Sources</a> challenge.</p>
+<pre><code class="python">#!/usr/bin/env python3
+&quot;&quot;&quot;Find matching user_agent strings.&quot;&quot;&quot;
+
+
+def main():
+    &quot;&quot;&quot;Execute.&quot;&quot;&quot;
+    file_bad = 'IPs_bad.csv'
+    file_all = 'IPs_all.csv'
+    list_bad = []
+    list_all = []
+
+    # Read the full data log
+    with open(file_all) as fp:
+        line = fp.readline()
+
+        while line:
+            list_all.append(line.split('\t'))
+            line = fp.readline()
+
+    # Read the bad IP data and match on user_agent but only
+    # keep the results if less than 4 matches are found.
+    with open(file_bad) as fp:
+        line = fp.readline()
+
+        while line:
+            tmp = []
+            line_bad = line.split('\t')
+
+            for line_all in list_all:
+                if line_all[4] == line_bad[4]:
+                    tmp.append(line_all[0])
+
+            # Only add if less than 4 matches
+            if len(tmp) &lt; 4:
+                list_bad.extend(tmp)
+
+            # Add the original IP as well
+            list_bad.append(line_bad[0])
+            line = fp.readline()
+
+    # Remove duplicates
+    list_bad = list(dict.fromkeys(list_bad))
+
+    # Tadaaaaa!
+    print(f'Bad IPs: {&quot;,&quot;.join(list_bad)}')
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

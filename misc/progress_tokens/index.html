@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Progress Tokens - KringleCon 2019 Write-Up</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
         <link href="../../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -23,7 +23,10 @@
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/pythons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -64,15 +67,15 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c3/">Windows Log Analysis - Evaluate Attack Outcome</a>
+    <a href="../../challenges/c3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c4/">Windows Log Analysis - Determine Attacker Technique</a>
+    <a href="../../challenges/c4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c5/">Network Log Analysis - Determine Compromised System</a>
+    <a href="../../challenges/c5/">Determine Compromised System</a>
 </li>
                                     
 <li >
@@ -100,7 +103,7 @@
 </li>
                                     
 <li >
-    <a href="../../challenges/c12/">Filter Out Poisoned Sources of Weather Data</a>
+    <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
@@ -117,7 +120,7 @@
 </li>
                                     
 <li >
-    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer</a>
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
 </li>
                                     
 <li >
@@ -150,88 +153,27 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conversations <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../conversations/alabaster-snowball/">Alabaster Snowball</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/bushy-evergreen/">Bushy Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/holly-evergreen/">Holly Evergreen</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/kent-tinseltooth/">Kent Tinseltooth</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/krampus/">Krampus</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/minty-candycane/">Minty Candycane</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/pepper-minstix/">Pepper Minstix</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/professor-banas/">Professor Banas</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/santa/">Santa</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/shinny-upatree/">Shinny Upatree</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sparkle-redberry/">Sparkle Redberry</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/sugarplum-mary/">SugarPlum Mary</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tangle-coalbox/">Tangle Coalbox</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/tooth-fairy/">Tooth Fairy</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/turtle-doves/">Turtle Doves</a>
-</li>
-                                    
-<li >
-    <a href="../../conversations/wunorse-openslae/">Wunorse Openslae</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../scripts/frosty-keypad/">Frosty Keypad</a>
+    <a href="../../scripts/find_code.py/">find_code.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/frido-sleigh-capteha/">Frido Sleigh CAPTEHA</a>
+    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
 </li>
                                     
 <li >
-    <a href="../../scripts/poisoned-source-filter/">Poisoned Source Filter</a>
+    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
+</li>
+                                    
+<li >
+    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
 </li>
                                 </ul>
                             </li>
@@ -239,20 +181,16 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Misc <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li >
+    <a href="../interesting_ui/">Interesting UI Elements</a>
+</li>
+                                    
 <li class="active">
     <a href="./">Progress Tokens</a>
 </li>
                                     
 <li >
-    <a href="../interesting_ui/">Interesting UI Elements</a>
-</li>
-                                    
-<li >
     <a href="../user_accounts/">User Accounts</a>
-</li>
-                                    
-<li >
-    <a href="../badge_hints/">Badge Hints</a>
 </li>
                                 </ul>
                             </li>
@@ -265,12 +203,12 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../../scripts/poisoned-source-filter/">
+                                <a rel="next" href="../interesting_ui/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../interesting_ui/">
+                                <a rel="prev" href="../user_accounts/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -302,8 +240,22 @@
 
 <h1 id="progress-tokens">Progress Tokens<a class="headerlink" href="#progress-tokens" title="Permanent link">#</a></h1>
 <p><img alt="Progress Tokens" src="../../img/misc/progress_tokens.png" /></p>
-<p>As you progress through the game and solve challenges, additional <code>token</code> classes will be added to the <code>hhc-game-elements</code> div element. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade. </p>
-<p>Below is an overview of all tokens I was able to collect and while I completed all main objectives and hint challenges it appears I still might have missed a few of them. For example, even after solving <a href="/challenges/c12/">challenge 12</a>, Krampus keeps repeating the same line <em>"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"</em></p>
+<p>As you progress through the game and solve challenges, additional <code>token</code> classes will be added to the <code>hhc-game-elements</code> div. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade. The token information is probably what triggers the notifications that pop up as you progress throughout the game.</p>
+<p><img alt="Terminal" src="../../img/misc/unlocked_messages.png" /></p>
+<p>Below is an overview of all tokens I was able to collect and, while I completed all main objectives and hint challenges, it appears I still might have missed a few of them. For example, even after solving <a href="/challenges/c12/">challenge 12</a>, Krampus keeps repeating the same line <em>"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"</em>.</p>
+<p>This appears to be confirmed by the <code>hhtTotals</code> const in the <a href="https://2019.kringlecon.com/data/con.js"><code>con.js</code></a> script. Totals for <code>narrative</code>, <code>objective</code>, and <code>area</code> match up with the number of tokens collected, but <code>hints</code> is off by one. Looks like I might be missing <code>token-give-hint-rita2</code>.</p>
+<pre><code class="javascript">const hhcTotals = {
+    &quot;hint&quot;: 32,
+    &quot;achievement&quot;: 25,
+    &quot;objective&quot;: 13,
+    &quot;narrative&quot;: 10,
+    &quot;info&quot;: 2,
+    &quot;areas&quot;: 20,
+    &quot;collectibles&quot;: 0,
+    &quot;talks&quot;: 15
+};
+</code></pre>
+
 <h2 id="areas-visited">Areas Visited<a class="headerlink" href="#areas-visited" title="Permanent link">#</a></h2>
 <ul>
 <li>token-trainstation_visited</li>
@@ -428,28 +380,28 @@
 </ul>
 <h2 id="completed">Completed<a class="headerlink" href="#completed" title="Permanent link">#</a></h2>
 <ul>
-<li>token-bitting_completed</li>
-<li>token-bitting-keyhole_completed</li>
-<li>token-iptables_completed</li>
-<li>token-graylog_completed</li>
-<li>token-nyanshell_completed</li>
+<li>token-edescape_completed</li>
+<li>token-path_completed</li>
+<li>token-powershell_completed</li>
 <li>token-keypad_completed</li>
 <li>token-trail_completed</li>
-<li>token-edescape_completed</li>
-<li>token-capteha_completed</li>
-<li>token-jq_completed</li>
-<li>token-powershell_completed</li>
-<li>token-path_completed</li>
+<li>token-nyanshell_completed</li>
+<li>token-graylog_completed</li>
 <li>token-mongo_completed</li>
-<li>token-deepbluecli_completed</li>
-<li>token-consolehack_completed</li>
-<li>token-eql_completed</li>
-<li>token-sqlmap_completed</li>
+<li>token-iptables_completed</li>
+<li>token-jq_completed</li>
 <li>token-turtledoves_completed</li>
-<li>token-rita_completed</li>
-<li>token-elfscrow_completed</li>
 <li>token-redacted_completed</li>
+<li>token-deepbluecli_completed</li>
+<li>token-eql_completed</li>
+<li>token-rita_completed</li>
 <li>token-splunk_completed</li>
+<li>token-bitting_completed</li>
+<li>token-bitting-keyhole_completed</li>
+<li>token-capteha_completed</li>
+<li>token-sqlmap_completed</li>
+<li>token-elfscrow_completed</li>
+<li>token-consolehack_completed</li>
 <li>token-flightroute_completed</li>
 <li>token-hhc19_completed</li>
 </ul>
@@ -518,6 +470,7 @@
 
         <footer class="col-md-12">
             <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
