@@ -1,12 +1,11 @@
-# TL;DR
+![Banner](./img/misc/banner.png)
 
 ## Introduction
-![KringleCon Logo](./img/misc/logo.png){: .left}
-Welcome to my write-up of the 2019 [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). After having such an awesome time helping Santa and all the Elves during KringleCon in 2018 I was super excited when an even bigger event was announcement for 2019. Elf University is one of the most renowned places on earth and a location I've always wanted to visit. No way I was going to miss this opportunity!
+Hi there! Welcome to my write-up of 2019's [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). 
 
-I was very honored to finish KringleCon with a [super honorable mention](https://www.holidayhackchallenge.com/2018/winners_answers.html) and while I initially only planned to help my festive friends at the North Pole out with a new series of exciting challenges I ultimately decided that I couldn't really skip submitting a write-up. Last year I went with a [PDF report](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf) and this year I'm submitting both this [online write-up](http://fix-this-url) and a [series of videos](http://youtube.com/something) to help illustrate how I solved each of the main and hint challenges.
+The menu at the top gets you to all the goodies. This page serves as a  summary for the main challenge answers, university map, and overall narrative. Challenges and hints can be found in their respective sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
 
-Thanks for taking the time to read through my write-up and I hope you gain something from it. If you have any questions, please feel free to ping me on [Twitter]([mailto:crahan-at-n00-dot-be](https://twitter.com/crahan)) or simply leave a comment on one of the videos.
+All site content is generated from Markdown files using [MkDocs](https://www.mkdocs.org) and hosted using [Github](https://github.com/crahan/kringlecon2019) pages. My 2018 KringleCon write-up can be [downloaded here](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf). If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
 ## Answers
 1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
