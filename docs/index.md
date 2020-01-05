@@ -86,7 +86,7 @@ All site content is generated from Markdown files using [MkDocs](https://www.mkd
 > No dental dealer can so keep  
 > Our red-clad hero in ordeal!  
 >
-> *Cliff Hangers*  
+> *Cliff Hanger*  
 > This Christmas must now fall asleep,  
 > But next year comes, and troubles creep.  
 > And Jack Frost hasn't made a peep,  
