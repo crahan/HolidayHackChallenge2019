@@ -93,12 +93,11 @@ The CSS also references a version of Krampus which, based on the `.npc-krampus-n
 
 Not quite sure why Tangle Coalbox was having issues with the keypad code in the [Frosty Keypad](/hints/h6/) challenge as he could've probably just peered through the windows and see that the actual code, `7331`, is written on the left side of the dorm wall. Looks like we also have some Doctor Who fans at Elf University judging by the [TARDIS](https://en.wikipedia.org/wiki/TARDIS) drawn around the second door from the left.
 
-## Lucky Elf
+## Golden Tickets
 
-![Lucky Elf](../img/misc/lucky_elf.png)
+![Golden Tickets](../img/misc/lucky_elf.png)
 
-The second Elf from the right at the bottom right table in the Netwars room looks like a real winner. If you download the [laptop image](https://2019.kringlecon.com/textures/lappys.png) you'll see that one of the laptop screens is displaying a golden ticket and while other laptops are duplicated across some of the Netwars participants in the room, the laptop with the [golden ticket](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory) is used only once. Congratulations mystery Elf!
-
+Two of the elves in the Netwars room, the elf sitting at the top left and the second elf from the right at the bottom right table, look like they're paying more attention to the [golden ticket](https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory) on their [laptop screens](https://2019.kringlecon.com/textures/lappys.png) than the actual Netwars Continuous training. Not quite sure if they're busy designing those tickets or if they just won them, but they might want to focus a little more on the task at hand.
 
 ## Bag of Teeth, Literally
 
