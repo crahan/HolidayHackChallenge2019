@@ -3,9 +3,11 @@
 ## Introduction
 Hi there! Welcome to my write-up of 2019's [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). 
 
-The menu at the top gets you to all the goodies. This page serves as a  summary for the main challenge answers, university map, and overall narrative. Challenges and hints can be found in their respective sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
+The menu at the top gets you to all the goodies. This page serves as a  summary for the main challenge answers, [university map](http://127.0.0.1:8000/img/misc/map_large.png), and overall narrative. Challenges and hints can be found in their respective sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
 
-All site content is generated from Markdown files using [MkDocs](https://www.mkdocs.org) and hosted using [Github](https://github.com/crahan/kringlecon2019) pages. My 2018 KringleCon write-up can be [downloaded here](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf). If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
+Each hint and challenge also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [HolidayHackChallenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
+
+All site content is generated from Markdown files using [MkDocs](https://www.mkdocs.org) and hosted using [Github](https://github.com/crahan/kringlecon2019) pages. My HolidayHackChallenge 2018 write-up can be [downloaded here](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf). If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
 ## Answers
 1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
