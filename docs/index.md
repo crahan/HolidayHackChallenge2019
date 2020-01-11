@@ -7,7 +7,7 @@ The menu at the top gets you to all the goodies. This page serves as a  summary 
 
 Each hint and challenge also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [HolidayHackChallenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
 
-All site content is generated from Markdown files using [MkDocs](https://www.mkdocs.org) and hosted using [Github](https://github.com/crahan/kringlecon2019) pages. My HolidayHackChallenge 2018 write-up can be [downloaded here](http://n00.be/files/CraHan%20-%20KringleCon%202018%20writeup.pdf). If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
+If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
 ## Answers
 1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
