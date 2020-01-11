@@ -8,7 +8,7 @@
         <meta name="author" content="Thomas Bouve">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Progress Tokens - CraHan's KringleCon 2 Write-Up</title>
+        <title>Progress Tokens - </title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../..">CraHan's KringleCon 2 Write-Up</a>
+                    <a class="navbar-brand" href="../.."></a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -52,63 +52,63 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="../..">Home</a>
+                                <a href="../..">Welcome</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Challenges <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Objectives <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../challenges/c1/">Talk to Santa & Find the Turtle Doves</a>
+    <a href="../../objectives/o1/">Talk to Santa & Find the Turtle Doves</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c2/">Unredact Threatening Document</a>
+    <a href="../../objectives/o2/">Unredact Threatening Document</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c3/">Evaluate Attack Outcome</a>
+    <a href="../../objectives/o3/">Evaluate Attack Outcome</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c4/">Determine Attacker Technique</a>
+    <a href="../../objectives/o4/">Determine Attacker Technique</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c5/">Determine Compromised System</a>
+    <a href="../../objectives/o5/">Determine Compromised System</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c6/">Splunk</a>
+    <a href="../../objectives/o6/">Splunk</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c7/">Get Access to the Steam Tunnels</a>
+    <a href="../../objectives/o7/">Get Access to the Steam Tunnels</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c8/">Bypassing the Frido Sleigh CAPTEHA</a>
+    <a href="../../objectives/o8/">Bypassing the Frido Sleigh CAPTEHA</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c9/">Retrieve the Scraps of Paper from Server</a>
+    <a href="../../objectives/o9/">Retrieve Scraps of Paper from Server</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c10/">Recover Cleartext Document</a>
+    <a href="../../objectives/o10/">Recover Cleartext Document</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c11/">Open the Sleigh Shop Door</a>
+    <a href="../../objectives/o11/">Open the Sleigh Shop Door</a>
 </li>
                                     
 <li >
-    <a href="../../challenges/c12/">Filter Out Poisoned Data Sources</a>
+    <a href="../../objectives/o12/">Filter Out Poisoned Data Sources</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hints <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Terminal Hints <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
@@ -152,33 +152,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scripts <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../scripts/find_code.py/">find_code.py</a>
-</li>
-                                    
-<li >
-    <a href="../../scripts/capteha_api.py/">capteha_api.py</a>
-</li>
-                                    
-<li >
-    <a href="../../scripts/token_proxy.py/">token_proxy.py</a>
-</li>
-                                    
-<li >
-    <a href="../../scripts/decrypt_pdf.py/">decrypt_pdf.py</a>
-</li>
-                                    
-<li >
-    <a href="../../scripts/match_user_agents.py/">match_user_agents.py</a>
-</li>
-                                </ul>
-                            </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Misc <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscellaneous <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
@@ -193,6 +168,9 @@
     <a href="../user_accounts/">User Accounts</a>
 </li>
                                 </ul>
+                            </li>
+                            <li >
+                                <a href="../../scripts/">Scripts</a>
                             </li>
                         </ul>
 
@@ -242,7 +220,7 @@
 <p><img alt="Progress Tokens" src="../../img/misc/progress_tokens.png" /></p>
 <p>As you progress through the game and solve challenges, additional <code>token</code> classes will be added to the <code>hhc-game-elements</code> div. Tokens can be grouped under different categories like areas visited, hints given, narrative sections given, objectives given, initial chat conversations, completed chat conversations, attempted challenges, completed challeges, booth conversations, end credits, and miscellaneous events like receiving the badge upgrade. The token information is probably what triggers the notifications that pop up as you progress throughout the game.</p>
 <p><img alt="Terminal" src="../../img/misc/unlocked_messages.png" /></p>
-<p>Below is an overview of all tokens I was able to collect and, while I completed all main objectives and hint challenges, it appears I still might have missed a few of them. For example, even after solving <a href="/challenges/c12/">challenge 12</a>, Krampus keeps repeating the same line <em>"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"</em>.</p>
+<p>Below is an overview of all tokens I was able to collect and, while I completed all main objectives and hint challenges, it appears I still might have missed a few of them. For example, even after solving <a href="../../objectives/o12/">objective 12</a>, Krampus keeps repeating the same line <em>"But there’s still time! Solve the final challenge in your badge by blocking the bad IPs at srf.elfu.org and save the holiday season!"</em>.</p>
 <p>This appears to be confirmed by the <code>hhtTotals</code> const in the <a href="https://2019.kringlecon.com/data/con.js"><code>con.js</code></a> script. Totals for <code>narrative</code>, <code>objective</code>, and <code>area</code> match up with the number of tokens collected, but <code>hints</code> is off by one. Looks like I might be missing <code>token-give-hint-rita2</code>.</p>
 <pre><code class="javascript">const hhcTotals = {
     &quot;hint&quot;: 32,

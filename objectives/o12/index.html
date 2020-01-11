@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Thomas Bouve">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Filter Out Poisoned Data Sources - </title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/gruvbox-light.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../.."></a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Welcome</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Objectives <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../o1/">Talk to Santa & Find the Turtle Doves</a>
+</li>
+                                    
+<li >
+    <a href="../o2/">Unredact Threatening Document</a>
+</li>
+                                    
+<li >
+    <a href="../o3/">Evaluate Attack Outcome</a>
+</li>
+                                    
+<li >
+    <a href="../o4/">Determine Attacker Technique</a>
+</li>
+                                    
+<li >
+    <a href="../o5/">Determine Compromised System</a>
+</li>
+                                    
+<li >
+    <a href="../o6/">Splunk</a>
+</li>
+                                    
+<li >
+    <a href="../o7/">Get Access to the Steam Tunnels</a>
+</li>
+                                    
+<li >
+    <a href="../o8/">Bypassing the Frido Sleigh CAPTEHA</a>
+</li>
+                                    
+<li >
+    <a href="../o9/">Retrieve Scraps of Paper from Server</a>
+</li>
+                                    
+<li >
+    <a href="../o10/">Recover Cleartext Document</a>
+</li>
+                                    
+<li >
+    <a href="../o11/">Open the Sleigh Shop Door</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Filter Out Poisoned Data Sources</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Terminal Hints <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../hints/h3/">Bushy Evergreen - Escape Ed</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h4/">SugarPlum Mary - Linux Path</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h5/">Sparkle Redberry - Xmas Cheer Laser</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h6/">Tangle Coalbox - Frosty Keypad</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h7/">Minty Candycane - Holiday Hack Trail</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h8/">Alabaster Snowball - Nyanshell</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h9/">Pepper Minstix - Graylog</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h10/">Holly Evergreen - Mongo Pilfer</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h11/">Kent Tinseltooth - Smart Braces</a>
+</li>
+                                    
+<li >
+    <a href="../../hints/h12/">Wunorse Openslae - Zeek JSON Analysis</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscellaneous <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../misc/interesting_ui/">Interesting UI Elements</a>
+</li>
+                                    
+<li >
+    <a href="../../misc/progress_tokens/">Progress Tokens</a>
+</li>
+                                    
+<li >
+    <a href="../../misc/user_accounts/">User Accounts</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../scripts/">Scripts</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../o11/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../../hints/h3/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#filter-out-poisoned-data-sources">Filter Out Poisoned Data Sources</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#answer">Answer</a></li>
+            <li><a href="#response">Response</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="filter-out-poisoned-data-sources">Filter Out Poisoned Data Sources<a class="headerlink" href="#filter-out-poisoned-data-sources" title="Permanent link">#</a></h1>
+<p><strong>Terminal Hint</strong>: <a href="../../hints/h12/">Wunorse Openslae - Zeek JSON Analysis</a></p>
+<h2 id="request">Request<a class="headerlink" href="#request" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Use the data supplied in the <a href="https://downloads.elfu.org/http.log.gz">Zeek JSON logs</a> to identify the IP addresses of attackers poisoning Santa's flight mapping software. <a href="https://srf.elfu.org/">Block the 100 offending sources</a> of information to guide Santa's sleigh through the attack.<br />
+Submit the Route ID ("RID") success value that you're given.<br />
+For hints on achieving this objective, please visit the Sleigh Shop and talk with Wunorse Openslae.</p>
+</blockquote>
+<h2 id="video">Video<a class="headerlink" href="#video" title="Permanent link">#</a></h2>
+<p><div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4CS02y-G5zA?start=211" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></p>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://downloads.elfu.org/http.log.gz">Zeek JSON logs</a></li>
+<li><a href="https://pen-testing.sans.org/blog/2019/12/03/parsing-zeek-json-logs-with-jq-2">Parsing Zeek JSON Logs with JQ</a></li>
+<li><a href="https://srf.elfu.org/">Sleigh Route Finder API</a></li>
+<li><a href="https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion">Local File Inclusion (LFI)</a></li>
+<li><a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">Cross-Site Scripting (XSS)</a></li>
+<li><a href="https://www.owasp.org/index.php/SQL_Injection">SQL Injection (SQLi)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shellshock_(software_bug)">ShellShock</a></li>
+</ul>
+<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">#</a></h2>
+<p>Before diving into the <a href="https://downloads.elfu.org/http.log.gz">Zeek JSON logs</a> and finding all the bad activity we first need log in to the <a href="https://srf.elfu.org/">Sleigh Route Finder API</a> website. The <a href="../../files/ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf">Super Sled-O-Matic quick-start guide</a> provides information on where we can find the login credentials, stating <em>"The default login credentials should be changed on startup and can be found in the readme in the ElfU Research Labs git repository."</em></p>
+<p>Git readme files are typically named <code>README.md</code> so search the logs for that particular string.</p>
+<pre><code class="shell">cat http.log | jq '.[] | select(.uri|test(&quot;README&quot;)) | select(.status_code==200)'
+</code></pre>
+
+<p><img alt="README.md Location" src="../../img/objectives/o12/o12_1.png" /></p>
+<p>Download <a href="https://srf.elfu.org/README.md"><code>README.md</code></a>. The default admin credentials are <code>admin 924158F9522B3744F5FCD4D10FAC4356</code>.</p>
+<p><img alt="README.md Location" src="../../img/objectives/o12/o12_2.png" /></p>
+<p>Now that we have access to the Sleigh Route Finder API we can start going through the logs to find all the IP addresses responsible for the bad activity. Wunorse tells us we might want to look for <a href="https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion">LFI</a>, <a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">XSS</a>, <a href="https://www.owasp.org/index.php/SQL_Injection">SQLi</a>, and <a href="https://en.wikipedia.org/wiki/Shellshock_(software_bug)">Shellshock</a>. Remember to search more than just the <code>uri</code> field for these exploits. <code>host</code>, <code>user_agent</code>, and <code>username</code> can also contain interesting artifacts. Let's kick things off with <a href="https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion">Local File Inclusion (LFI)</a>. To keep things clean the output is limited to just the source IP and the field being searched.</p>
+<pre><code class="shell">jq -j '.[] | select(.uri|contains(&quot;../&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .uri, &quot;\n&quot;' http.log
+jq -j '.[] | select(.uri|test(&quot;.*=.*passwd.*&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .uri, &quot;\n&quot;' http.log
+</code></pre>
+
+<p><img alt="LFI" src="../../img/objectives/o12/o12_3.png" /></p>
+<p>We have our first set of 11 bad IPs. Moving on to <a href="https://www.owasp.org/index.php/SQL_Injection">SQL Injection (SQLi)</a>.</p>
+<pre><code class="shell">jq -j '.[] | select(.uri|contains(&quot;UNION&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .uri, &quot;\n&quot;' http.log
+jq -j '.[] | select(.user_agent|contains(&quot;UNION&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .user_agent, &quot;\n&quot;' http.log
+jq -j '.[] | select(.username|contains(&quot;1=1&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .username, &quot;\n&quot;' http.log
+</code></pre>
+
+<p><img alt="SQLi" src="../../img/objectives/o12/o12_4.png" /></p>
+<p>29 results. Quite the haul! Next up, <a href="https://en.wikipedia.org/wiki/Shellshock_(software_bug)">Shellshock</a>.</p>
+<pre><code class="shell">jq -j '.[] | select(.user_agent|contains(&quot;:;&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .user_agent, &quot;\n&quot;' http.log
+</code></pre>
+
+<p><img alt="Shellshock" src="../../img/objectives/o12/o12_5.png" /></p>
+<p>6 additional IPs. Last but not least, <a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">Cross-Site Scripting (XSS)</a>.</p>
+<pre><code class="shell">jq -j '.[] | select(.host|contains(&quot;&lt;&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .host, &quot;\n&quot;' http.log
+jq -j '.[] | select(.uri|contains(&quot;&lt;&quot;)) | .&quot;id.orig_h&quot;, &quot;\t&quot;, .uri, &quot;\n&quot;' http.log
+</code></pre>
+
+<p><img alt="Cross-Site Scripting" src="../../img/objectives/o12/o12_6.png" /></p>
+<p>With the XSS results we now have a total of 62 IP addresses. Not enough to cover all of the malicious traffic unfortunately. To find more IPs we need to use information from the current set and match those with other, less obvious log entries. Let's take a look at the User-Agent strings for the <a href="../../files/IPs_bad.csv">IP addresses</a> we found so far.</p>
+<pre><code class="shell">cat IPs_bad.csv | cut -d$'\t' -f 1,5 | grep -vEi '.*UNION|:;.*'
+</code></pre>
+
+<p><img alt="User-Agent" src="../../img/objectives/o12/o12_7.png" /></p>
+<p>While not all of these jump out as suspicious, a few definitely do. The below <a href="../../scripts/#match_user_agentspy"><code>match_user_agents.py</code></a> Python script takes 2 CSV files with <code>id.orig_h</code>, <code>host</code>, <code>username</code>, <code>uri</code>, and <code>user_agent</code> fields from the Zeek logs as input. One log containing only the clearly bad IPs and the other containing all of them. If we find more than 3 matches for a specific IP address (i.e. more than 2 additional values) then chances are we're including legitimate traffic so we ignore those just to be on the safe side.</p>
+<pre><code class="python">#!/usr/bin/env python3
+&quot;&quot;&quot;SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources.&quot;&quot;&quot;
+
+
+def main():
+    &quot;&quot;&quot;Execute.&quot;&quot;&quot;
+    file_bad = 'IPs_bad.csv'
+    file_all = 'IPs_all.csv'
+    list_bad = []
+    list_all = []
+
+    # Read the full data log
+    with open(file_all) as fp:
+        line = fp.readline()
+
+        while line:
+            list_all.append(line.split('\t'))
+            line = fp.readline()
+
+    # Read the bad IP data and match on user_agent but only
+    # keep the results if less than 4 matches are found.
+    with open(file_bad) as fp:
+        line = fp.readline()
+
+        while line:
+            tmp = []
+            line_bad = line.split('\t')
+
+            for line_all in list_all:
+                if line_all[4] == line_bad[4]:
+                    tmp.append(line_all[0])
+
+            # Only add if less than 4 matches
+            if len(tmp) &lt; 4:
+                list_bad.extend(tmp)
+
+            # Add the original IP as well
+            list_bad.append(line_bad[0])
+            line = fp.readline()
+
+    # Remove duplicates
+    list_bad = list(dict.fromkeys(list_bad))
+
+    # Tadaaaaa!
+    print(f'Found {len(list_bad)} IPs: {&quot;,&quot;.join(list_bad)}')
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre>
+
+<p><img alt="Bad IPs" src="../../img/objectives/o12/o12_8.png" /></p>
+<p>We only have 97 IPs, but let's give it a shot anyway. Take the CSV data and deny it on the <a href="https://srf.elfu.org/home.html#contact">SRF firewall</a>.</p>
+<p><img alt="IPs Blocked" src="../../img/objectives/o12/o12_9.png" /></p>
+<p>The RID seems to be made up of 2 dates, 08-07-1985 and 08-26-1964, but I'm not sure what they signify. Enter the Bell Tower and meet up with Santa, Krampus, and the Tooth Fairy. In the top left corner you'll also find a <a href="../../misc/interesting_ui/#jack-frost-kringlecon-3">final note</a>. Roll credits!</p>
+<p><img alt="Bell Tower" src="../../img/objectives/o12/o12_10.png" /></p>
+<h2 id="answer">Answer<a class="headerlink" href="#answer" title="Permanent link">#</a></h2>
+<p>RID: <code>0807198508261964</code> </p>
+<h2 id="response">Response<a class="headerlink" href="#response" title="Permanent link">#</a></h2>
+<blockquote>
+<p>Krampus:<br />
+Congratulations on a job well done!<br />
+Oh, by the way, I won the Frido Sleigh contest.<br />
+I got 31.8% of the prizes, though I'll have to figure that out.  </p>
+<p>Santa:<br />
+You did it! Thank you! You uncovered the sinister plot to destroy the holiday season!<br />
+Through your diligent efforts, we’ve brought the Tooth Fairy to justice and saved the holidays!<br />
+Ho Ho Ho!<br />
+The more I laugh, the more I fill with glee.<br />
+And the more the glee,<br />
+The more I'm a merrier me!<br />
+Merry Christmas and Happy Holidays.  </p>
+<p>The Tooth Fairy:<br />
+You foiled my dastardly plan! I’m ruined!<br />
+And I would have gotten away with it too, if it weren't for you meddling kids!</p>
+</blockquote></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

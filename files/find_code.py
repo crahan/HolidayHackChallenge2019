@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KringleCon 2 - Frosty Keypad Hint."""
+"""KringleCon 2 - Frosty Keypad."""
 import itertools
 
 

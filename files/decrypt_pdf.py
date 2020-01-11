@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KringleCon 2 - Recover Cleartext Document Challenge."""
+"""KringleCon 2 - Recover Cleartext Document."""
 from Crypto.Cipher import DES
 
 seed = 0
