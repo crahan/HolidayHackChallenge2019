@@ -55,9 +55,3 @@ nav:
   - Progress Tokens: 'misc/progress_tokens.md'
   - User Accounts: 'misc/user_accounts.md'
 - Scripts: 'scripts.md'
-#- Scripts:
-#  - find_code.py: 'scripts/find_code.py.md'
-#  - capteha_api.py: 'scripts/capteha_api.py.md'
-#  - token_proxy.py: 'scripts/token_proxy.py.md'
-#  - decrypt_pdf.py: 'scripts/decrypt_pdf.py.md'
-#  - match_user_agents.py: 'scripts/match_user_agents.py.md'
