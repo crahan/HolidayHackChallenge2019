@@ -1,9 +1,9 @@
 # capteha_api.py
-**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](../challenges/c8.md) challenge.
+**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](../objectives/o8.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Bypassing the Frido Sleigh CAPTEHA Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Bypassing the Frido Sleigh CAPTEHA."""
 # Image Recognition Using Tensorflow Exmaple.
 # Code based on example at:
 # https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py

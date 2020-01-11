@@ -1,9 +1,9 @@
 # match_user_agents.py
-**Purpose**: find additional bad IPs in the [Filter Out Poisoned Data Sources](../challenges/c12.md) challenge.
+**Purpose**: find additional bad IPs in the [Filter Out Poisoned Data Sources](../objectives/o12.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Filter Out Poisoned Data Sources Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources."""
 
 
 def main():

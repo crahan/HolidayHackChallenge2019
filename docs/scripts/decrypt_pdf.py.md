@@ -1,9 +1,9 @@
 # decrypt_pdf.py
-**Purpose**: decrypt the PDF in the [Recover Cleartext Document](../challenges/c10.md) challenge.
+**Purpose**: decrypt the PDF in the [Recover Cleartext Document](../objectives/o10.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Recover Cleartext Document Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Recover Cleartext Document."""
 from Crypto.Cipher import DES
 
 seed = 0

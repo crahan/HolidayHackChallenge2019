@@ -5,7 +5,7 @@ Hi there! Welcome to my write-up for the [SANS Holiday Hack Challenge 2019](http
 
 The menu at the top gets you to all the goodies. This page serves as a summary for the main objective answers, [university map](./img/misc/map_large.png), and overall narrative. Objectives and terminal hint write-ups can be found in their respective menu sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
 
-Each terminal hint and objective also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [HolidayHackChallenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
+Each terminal hint and objective also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [SANS Holiday Hack Challenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
 
 If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
@@ -94,7 +94,7 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 > And Jack Frost hasn't made a peep,  
 > And Jack Frost hasn't made a peep...
 
-## KringleCon 3: Jack Frost
+## KringleCon 3: Jack Frost?
 After thwarting the Tooth Fairy's dastardly plans and meeting up with Santa and Krampus at the top of the Bell Tower at Elf University you'll find a letter in the back left corner of the room. It appears that the Tooth Fairy wasn't working alone! Could this be a hint for 2020? Will we be facing off with Jack Frost at KringleCon 3? *Cue the ominous music*.
 
 ![Letter](./img/misc/letter.png)

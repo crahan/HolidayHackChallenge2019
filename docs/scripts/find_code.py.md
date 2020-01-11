@@ -1,9 +1,9 @@
 # find_code.py
-**Purpose**: generate access codes for the [Frosty Keypad](../hints/h6.md) hint.
+**Purpose**: generate access codes for the [Frosty Keypad](../hints/h6.md) terminal hint.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Frosty Keypad Hint."""
+"""SANS Holiday Hack Challenge 2019 - Frosty Keypad."""
 import itertools
 
 

@@ -8,7 +8,7 @@ I'm not quite sure if it's because of the stress from all these KringleCon event
 
 ## Unused Elves
 
-After searching for the avatar for Krampus as part of [challenge 7](/challenges/c7/) I went back and looked at the rest of the elf avatars as some of the avatar images had a filename that matched the name of the elf (e.g. [mintycandycane.png](https://2019.kringlecon.com/images/avatars/elves/mintycandycane.png), [kent.png](https://2019.kringlecon.com/images/avatars/elves/kent.png)) while others used a more generic `elfX.png` file naming convention. Minty Candycane is also the only elf whose avatar looks the same as last year.
+After searching for the avatar for Krampus as part of [objective 7](/objectives/o7/) I went back and looked at the rest of the elf avatars as some of the avatar images had a filename that matched the name of the elf (e.g. [mintycandycane.png](https://2019.kringlecon.com/images/avatars/elves/mintycandycane.png), [kent.png](https://2019.kringlecon.com/images/avatars/elves/kent.png)) while others used a more generic `elfX.png` file naming convention. Minty Candycane is also the only elf whose avatar looks the same as last year.
 
 [elf15.png](https://2019.kringlecon.com/images/avatars/elf15.png), the 6th elf from the left in the image below, is used as a generic image which is then replaced with the correct NPC's avatar. Probably a remnant from the development stages to ensure all NPCs showed up on screen, even if it was with a default image (this includes Santa himself). Worth noting is that not only do some of the Elf characters in the game use a generic `elfX.png` filename, there's also more elf avatar images available than are used in the game.
 
@@ -76,7 +76,7 @@ Elf Soldiers CSS:
 
 ## Netwars Krampus
 
-The CSS also references a version of Krampus which, based on the `.npc-krampus-netwars` class name used, should appear in the Netwars room. Either I didn't trigger the right series of events while playing the game or this code wasn't actually used. `.npc-krampus-steamtunnel`, `.npc-krampus-sleighroom` and `.npc-krampus-lastroom` refer to the different instances of Krampus you talk to, except for the version of Krampus that appears to scamper away in Minty's dorm room, which uses a different type of CSS styling. As with the other CSS classes, it uses the same [high-res Krampus avatar](https://2019.kringlecon.com/images/avatars/elves/krampus.png) background image and the only difference is the location string in the class name.
+The CSS also references a version of Krampus which, based on the `.npc-krampus-netwars` class name used, should appear in the Netwars room. Either I didn't trigger the right series of events while playing the game or this code wasn't actually used. `.npc-krampus-steamtunnel`, `.npc-krampus-sleighroom` and `.npc-krampus-lastroom` refer to the different instances of Krampus you talk to, except for the version of Krampus that appears to scamper away in Minty's dorm room, which uses a different type of CSS styling. Just like the other CSS classes it uses the same [high-res Krampus avatar](https://2019.kringlecon.com/images/avatars/elves/krampus.png) background image and the only difference is the location string in the CSS class name.
 
 ```css
 .viewport .ent.npc.npc-krampus-netwars .npc-avatar {
@@ -91,7 +91,7 @@ The CSS also references a version of Krampus which, based on the `.npc-krampus-n
 
 ![Dorm Wall](../img/misc/dorm-hall_crop.png)
 
-Not quite sure why Tangle Coalbox was having issues with the keypad code in the [Frosty Keypad](/hints/h6/) challenge as he could've probably just peered through the windows and see that the actual code, `7331`, is written on the left side of the dorm wall. Looks like we also have some Doctor Who fans at Elf University judging by the [TARDIS](https://en.wikipedia.org/wiki/TARDIS) drawn around the second door from the left.
+Not quite sure why Tangle Coalbox was having issues with the keypad code in the [Frosty Keypad](/hints/h6/) terminal hint as he could've probably just peered through the windows and see that the actual code, `7331`, is written on the left side of the dorm wall. Looks like we also have some Doctor Who fans at Elf University judging by the [TARDIS](https://en.wikipedia.org/wiki/TARDIS) drawn around the second door from the left.
 
 ## Golden Tickets
 
@@ -109,7 +109,7 @@ If you're like me and thought that white pile in the top right corner of the Elf
 
 ![Letter](../img/misc/letter.png)
 
-The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [final note](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. Jack Frost was apparently helping the Tooth Fairy. Ho-ho-ho-holy cliffhanger, Batman!
+The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [final note](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. All this time Jack Frost was apparently helping the Tooth Fairy? Ho-ho-ho-holy cliffhanger, Batman!
 
 > This Christmas must now fall asleep,  
 > But next year comes, and troubles creep.  

@@ -1,9 +1,9 @@
 # token_proxy.py
-**Purpose**: translate tokens for the [Retrieve the Scraps of Paper from Server](../challenges/c9.md) challenge.
+**Purpose**: translate tokens for the [Retrieve Scraps of Paper from Server](../objectives/o9.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Retrieve Scraps of Paper from Server Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Retrieve Scraps of Paper from Server."""
 import requests
 from flask import Flask, Response
 app = Flask(__name__)

@@ -1,11 +1,11 @@
 # Scripts
 
 ## find_code.py
-**Purpose**: generate access codes for the [Frosty Keypad](hints/h6.md) hint.
+**Purpose**: generate access codes for the [Frosty Keypad](hints/h6.md) terminal hint.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Frosty Keypad Hint."""
+"""SANS Holiday Hack Challenge 2019 - Frosty Keypad."""
 import itertools
 
 
@@ -37,11 +37,11 @@ if __name__ == "__main__":
 ```
 
 ## capteha_api.py
-**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](challenges/c8.md) challenge.
+**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](objectives/o8.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Bypassing the Frido Sleigh CAPTEHA Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Bypassing the Frido Sleigh CAPTEHA."""
 # Image Recognition Using Tensorflow Exmaple.
 # Code based on example at:
 # https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py
@@ -256,11 +256,11 @@ if __name__ == "__main__":
 ```
 
 ## token_proxy.py
-**Purpose**: translate tokens for the [Retrieve the Scraps of Paper from Server](challenges/c9.md) challenge.
+**Purpose**: translate tokens for the [Retrieve Scraps of Paper from Server](objectives/o9.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Retrieve Scraps of Paper from Server Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Retrieve Scraps of Paper from Server."""
 import requests
 from flask import Flask, Response
 app = Flask(__name__)
@@ -287,11 +287,11 @@ if __name__ == '__main__':
 ```
 
 ## decrypt_pdf.py
-**Purpose**: decrypt the PDF in the [Recover Cleartext Document](challenges/c10.md) challenge.
+**Purpose**: decrypt the PDF in the [Recover Cleartext Document](objectives/o10.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Recover Cleartext Document Challenge.""" 
+"""SANS Holiday Hack Challenge 2019 - Recover Cleartext Document."""
 from Crypto.Cipher import DES
 
 seed = 0
@@ -374,11 +374,11 @@ if __name__ == "__main__":
 ```
 
 ## match_user_agents.py
-**Purpose**: find additional bad IPs in the [Filter Out Poisoned Data Sources](challenges/c12.md) challenge.
+**Purpose**: find additional bad IPs in the [Filter Out Poisoned Data Sources](objectives/o12.md) objective.
 
 ```python
 #!/usr/bin/env python3
-"""KringleCon 2 - Filter Out Poisoned Data Sources Challenge."""
+"""SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources."""
 
 
 def main():
