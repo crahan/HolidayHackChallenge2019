@@ -1,4 +1,4 @@
-site_name: CraHan's HHC 2019 Write-Up
+site_name: ''
 site_author: Thomas Bouve
 copyright: Thomas Bouve - <a href="https://twitter.com/crahan">@CraHan</a>
 theme:
@@ -25,21 +25,21 @@ markdown_extensions:
   - toc:
       permalink: "#"
 nav:
-- Home: 'index.md'
-- Challenges:
-  - Talk to Santa & Find the Turtle Doves: 'challenges/c1.md'
-  - Unredact Threatening Document: 'challenges/c2.md'
-  - Evaluate Attack Outcome: 'challenges/c3.md'
-  - Determine Attacker Technique: 'challenges/c4.md'
-  - Determine Compromised System: 'challenges/c5.md'
-  - Splunk: 'challenges/c6.md'
-  - Get Access to the Steam Tunnels: 'challenges/c7.md'
-  - Bypassing the Frido Sleigh CAPTEHA: 'challenges/c8.md'
-  - Retrieve the Scraps of Paper from Server: 'challenges/c9.md'
-  - Recover Cleartext Document: 'challenges/c10.md'
-  - Open the Sleigh Shop Door: 'challenges/c11.md'
-  - Filter Out Poisoned Data Sources:  'challenges/c12.md'
-- Hints:
+- Welcome: 'index.md'
+- Objectives:
+  - Talk to Santa & Find the Turtle Doves: 'objectives/o1.md'
+  - Unredact Threatening Document: 'objectives/o2.md'
+  - Evaluate Attack Outcome: 'objectives/o3.md'
+  - Determine Attacker Technique: 'objectives/o4.md'
+  - Determine Compromised System: 'objectives/o5.md'
+  - Splunk: 'objectives/o6.md'
+  - Get Access to the Steam Tunnels: 'objectives/o7.md'
+  - Bypassing the Frido Sleigh CAPTEHA: 'objectives/o8.md'
+  - Retrieve the Scraps of Paper from Server: 'objectives/o9.md'
+  - Recover Cleartext Document: 'objectives/o10.md'
+  - Open the Sleigh Shop Door: 'objectives/o11.md'
+  - Filter Out Poisoned Data Sources:  'objectives/o12.md'
+- Terminal Hints:
   - Bushy Evergreen - Escape Ed: 'hints/h3.md'
   - SugarPlum Mary - Linux Path: 'hints/h4.md'
   - Sparkle Redberry - Xmas Cheer Laser: 'hints/h5.md'
@@ -57,7 +57,7 @@ nav:
   - token_proxy.py: 'scripts/token_proxy.py.md'
   - decrypt_pdf.py: 'scripts/decrypt_pdf.py.md'
   - match_user_agents.py: 'scripts/match_user_agents.py.md'
-- Misc:
+- Miscellaneous:
   - Interesting UI Elements: 'misc/interesting_ui.md'
   - Progress Tokens: 'misc/progress_tokens.md'
   - User Accounts: 'misc/user_accounts.md'

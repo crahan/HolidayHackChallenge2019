@@ -1,30 +1,30 @@
 ![Banner](./img/misc/banner.png)
 
 ## Introduction
-Hi there! Welcome to my write-up of 2019's [SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) aka [KringleCon 2: Turtle Doves](https://kringlecon.com). 
+Hi there! Welcome to my write-up for the [SANS Holiday Hack Challenge 2019](https://www.holidayhackchallenge.com/2019/).
 
-The menu at the top gets you to all the goodies. This page serves as a  summary for the main challenge answers, [university map](http://127.0.0.1:8000/img/misc/map_large.png), and overall narrative. Challenges and hints can be found in their respective sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
+The menu at the top gets you to all the goodies. This page serves as a summary for the main objective answers, [university map](./img/misc/map_large.png), and overall narrative. Objectives and terminal hint write-ups can be found in their respective menu sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
 
-Each hint and challenge also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [HolidayHackChallenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
+Each terminal hint and objective also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [HolidayHackChallenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
 
 If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
 ## Answers
-1. [Talk to Santa & Find the Turtle Doves](./challenges/c1/): `Student Union fireplace`
-2. [Unredact Threatening Document](./challenges/c2/): `DEMAND`
-3. [Evaluate Attack Outcome](./challenges/c3/): `supatree`
-4. [Determine Attacker Technique](./challenges/c4/): `ntdsutil`
-5. [Determine Compromised System](./challenges/c5/): `192.168.134.130`
-6. [Splunk](./challenges/c6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
-7. [Get Access To The Steam Tunnels](./challenges/c7/): `Krampus Hollyfeld`
-8. [Bypassing the Frido Sleigh CAPTEHA](./challenges/c8/): `8Ia8LiZEwvyZr2WO`
-9. [Retrieve Scraps of Paper from Server](./challenges/c9/): `Super Sled-o-matic`
-10. [Recover Cleartext Document](./challenges/c10/): `Machine Learning Sleigh Route Finder`
-11. [Open the Sleigh Shop Door](./challenges/c11/): `The Tooth Fairy`
-12. [Filter Out Poisoned Data Sources](./challenges/c12/): `0807198508261964`
+1. [Talk to Santa & Find the Turtle Doves](./objectives/o1/): `Student Union fireplace`
+2. [Unredact Threatening Document](./objectives/o2/): `DEMAND`
+3. [Evaluate Attack Outcome](./objectives/o3/): `supatree`
+4. [Determine Attacker Technique](./objectives/o4/): `ntdsutil`
+5. [Determine Compromised System](./objectives/o5/): `192.168.134.130`
+6. [Splunk](./objectives/o6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
+7. [Get Access To The Steam Tunnels](./objectives/o7/): `Krampus Hollyfeld`
+8. [Bypassing the Frido Sleigh CAPTEHA](./objectives/o8/): `8Ia8LiZEwvyZr2WO`
+9. [Retrieve Scraps of Paper from Server](./objectives/o9/): `Super Sled-o-matic`
+10. [Recover Cleartext Document](./objectives/o10/): `Machine Learning Sleigh Route Finder`
+11. [Open the Sleigh Shop Door](./objectives/o11/): `The Tooth Fairy`
+12. [Filter Out Poisoned Data Sources](./objectives/o12/): `0807198508261964`
 
 !!! note "Note"
-    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./challenges/c1/).
+    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./objectives/o1/).
 
 ![Challenges](./img/misc/objectives.png)
 
