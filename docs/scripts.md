@@ -1,7 +1,7 @@
 # Scripts
 
 ## find_code.py
-**Purpose**: generate access codes for the [Frosty Keypad](hints/h6.md) terminal hint.
+**Usage**: generate access codes for the [Frosty Keypad](./hints/h6.md) terminal hint.
 
 ```python
 #!/usr/bin/env python3
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 ```
 
 ## capteha_api.py
-**Purpose**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](objectives/o8.md) objective.
+**Usage**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](./objectives/o8.md) objective.
 
 ```python
 #!/usr/bin/env python3
@@ -256,7 +256,7 @@ if __name__ == "__main__":
 ```
 
 ## token_proxy.py
-**Purpose**: translate tokens for the [Retrieve Scraps of Paper from Server](objectives/o9.md) objective.
+**Usage**: translate CSRF tokens for the [Retrieve Scraps of Paper from Server](./objectives/o9.md) objective.
 
 ```python
 #!/usr/bin/env python3
@@ -287,7 +287,7 @@ if __name__ == '__main__':
 ```
 
 ## decrypt_pdf.py
-**Purpose**: decrypt the PDF in the [Recover Cleartext Document](objectives/o10.md) objective.
+**Usage**: decrypt the PDF in the [Recover Cleartext Document](./objectives/o10.md) objective.
 
 ```python
 #!/usr/bin/env python3
@@ -374,7 +374,7 @@ if __name__ == "__main__":
 ```
 
 ## match_user_agents.py
-**Purpose**: find additional bad IPs in the [Filter Out Poisoned Data Sources](objectives/o12.md) objective.
+**Usage**: find additional bad IPs in the [Filter Out Poisoned Data Sources](./objectives/o12.md) objective.
 
 ```python
 #!/usr/bin/env python3

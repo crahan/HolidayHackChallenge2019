@@ -10,7 +10,7 @@ I'm not quite sure if it's because of the stress from all these KringleCon event
 
 After searching for the avatar for Krampus as part of [objective 7](/objectives/o7/) I went back and looked at the rest of the elf avatars as some of the avatar images had a filename that matched the name of the elf (e.g. [mintycandycane.png](https://2019.kringlecon.com/images/avatars/elves/mintycandycane.png), [kent.png](https://2019.kringlecon.com/images/avatars/elves/kent.png)) while others used a more generic `elfX.png` file naming convention. Minty Candycane is also the only elf whose avatar looks the same as last year.
 
-[elf15.png](https://2019.kringlecon.com/images/avatars/elf15.png), the 6th elf from the left in the image below, is used as a generic image which is then replaced with the correct NPC's avatar. Probably a remnant from the development stages to ensure all NPCs showed up on screen, even if it was with a default image (this includes Santa himself). Worth noting is that not only do some of the Elf characters in the game use a generic `elfX.png` filename, there's also more elf avatar images available than are used in the game.
+[elf15.png](https://2019.kringlecon.com/images/avatars/elves/elf15.png), the 6th elf from the left in the image below, is used as a generic image which is then replaced with the correct NPC's avatar. Probably a remnant from the development stages to ensure all NPCs showed up on screen, even if it was with a default image (this includes Santa himself). Worth noting is that not only do some of the Elf characters in the game use a generic `elfX.png` filename, there's also more elf avatar images available than are used in the game.
 
 ![Unknown Elves](../img/misc/unknown_elves.png)
 
@@ -103,13 +103,13 @@ Two of the elves in the Netwars room, the elf sitting at the top left and the se
 
 ![Bell Tower](../img/misc/bell_tower.png)
 
-If you're like me and thought that white pile in the top right corner of the Elf Univesity Bell Tower was just a heap of snow then you might be unpleasantly surprised. It's actually, as the file name for the image texture puts it, [quite-literally-a-huge-pile-of-teeth](https://2019.kringlecon.com/textures/quite-literally-a-huge-pile-of-teeth.png). Say what you want about the Tooth Fairy, but that is one pretty impressive dental haul right there. 
+If you're like me and thought that white pile in the top right corner of the Elf Univesity Bell Tower was just a heap of snow then you might be unpleasantly surprised. It's actually, as the file name for the image texture puts it, [`quite-literally-a-huge-pile-of-teeth.png`](https://2019.kringlecon.com/textures/quite-literally-a-huge-pile-of-teeth.png). Say what you want about the Tooth Fairy, but that is one pretty impressive dental haul right there. 
 
 ## Jack Frost & KringleCon 3
 
 ![Letter](../img/misc/letter.png)
 
-The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [final note](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. All this time Jack Frost was apparently helping the Tooth Fairy? Ho-ho-ho-holy cliffhanger, Batman!
+The final entry of the narrative, the `.narrativeCliffHanger` CSS class for the final narrative entry, as well as the [letter of wintry magic](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. All this time Jack Frost was apparently helping the Tooth Fairy? Ho-ho-ho-holy cliffhanger, Batman!
 
 > This Christmas must now fall asleep,  
 > But next year comes, and troubles creep.  

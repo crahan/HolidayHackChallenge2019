@@ -5,7 +5,7 @@ Hi there! Welcome to my write-up for the [SANS Holiday Hack Challenge 2019](http
 
 The menu at the top gets you to all the goodies. This page serves as a summary for the main objective answers, [university map](./img/misc/map_large.png), and overall narrative. Objectives and terminal hint write-ups can be found in their respective menu sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
 
-Each terminal hint and objective also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [SANS Holiday Hack Challenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
+Each objective and terminal hint also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [SANS Holiday Hack Challenge 2019 Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
 
 If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
@@ -24,7 +24,7 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 12. [Filter Out Poisoned Data Sources](./objectives/o12/): `0807198508261964`
 
 !!! note "Note"
-    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./objectives/o1/).
+    *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are mainly there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./objectives/o1/).
 
 ![Challenges](./img/misc/objectives.png)
 
