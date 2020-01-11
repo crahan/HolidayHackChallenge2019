@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KringleCon 2 - Bypassing the Frido Sleigh CAPTEHA."""
+"""SANS Holiday Hack Challenge 2019 - Bypassing the Frido Sleigh CAPTEHA."""
 # Image Recognition Using Tensorflow Exmaple.
 # Code based on example at:
 # https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py

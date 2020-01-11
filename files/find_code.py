@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KringleCon 2 - Frosty Keypad."""
+"""SANS Holiday Hack Challenge 2019 - Frosty Keypad."""
 import itertools
 
 
