@@ -1,5 +1,6 @@
 ![Banner](./img/misc/banner.png)
 
+# Welcome
 ## Introduction
 Hi there! Welcome to my write-up for the [SANS Holiday Hack Challenge 2019](https://www.holidayhackchallenge.com/2019/).
 
