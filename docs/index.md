@@ -11,18 +11,18 @@ Each objective and terminal hint also come with their own video versions of the 
 If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
 ## Answers
-1. [Talk to Santa & Find the Turtle Doves](./objectives/o1/): `Student Union fireplace`
-2. [Unredact Threatening Document](./objectives/o2/): `DEMAND`
-3. [Evaluate Attack Outcome](./objectives/o3/): `supatree`
-4. [Determine Attacker Technique](./objectives/o4/): `ntdsutil`
-5. [Determine Compromised System](./objectives/o5/): `192.168.134.130`
-6. [Splunk](./objectives/o6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
-7. [Get Access to the Steam Tunnels](./objectives/o7/): `Krampus Hollyfeld`
-8. [Bypassing the Frido Sleigh CAPTEHA](./objectives/o8/): `8Ia8LiZEwvyZr2WO`
-9. [Retrieve Scraps of Paper from Server](./objectives/o9/): `Super Sled-o-matic`
-10. [Recover Cleartext Document](./objectives/o10/): `Machine Learning Sleigh Route Finder`
-11. [Open the Sleigh Shop Door](./objectives/o11/): `The Tooth Fairy`
-12. [Filter Out Poisoned Data Sources](./objectives/o12/): `0807198508261964`
+1. [Talk to Santa & Find the Turtle Doves](./objectives/o1.md): `Student Union fireplace`
+2. [Unredact Threatening Document](./objectives/o2.md): `DEMAND`
+3. [Evaluate Attack Outcome](./objectives/o3.md): `supatree`
+4. [Determine Attacker Technique](./objectives/o4.md): `ntdsutil`
+5. [Determine Compromised System](./objectives/o5.md): `192.168.134.130`
+6. [Splunk](./objectives/o6.md): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
+7. [Get Access to the Steam Tunnels](./objectives/o7.md): `Krampus Hollyfeld`
+8. [Bypassing the Frido Sleigh CAPTEHA](./objectives/o8.md): `8Ia8LiZEwvyZr2WO`
+9. [Retrieve Scraps of Paper from Server](./objectives/o9.md): `Super Sled-o-matic`
+10. [Recover Cleartext Document](./objectives/o10.md): `Machine Learning Sleigh Route Finder`
+11. [Open the Sleigh Shop Door](./objectives/o11.md): `The Tooth Fairy`
+12. [Filter Out Poisoned Data Sources](./objectives/o12.md): `0807198508261964`
 
 !!! note "Note"
     *Talk to Santa in the Quad* and *Find the Turtle Doves* do not require any answers to be submitted as these objectives are mainly there to set the stage, point you in the right direction, and ensure you visit all areas of Elf University. The write-up for both these objectives has been consolidated under a single entry titled [Talk to Santa & Find the Turtle Doves](./objectives/o1/).
