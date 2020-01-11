@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KringleCon 2 - Filter Out Poisoned Data Sources."""
+"""SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources."""
 
 
 def main():
