@@ -16,7 +16,7 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 4. [Determine Attacker Technique](./objectives/o4/): `ntdsutil`
 5. [Determine Compromised System](./objectives/o5/): `192.168.134.130`
 6. [Splunk](./objectives/o6/): `Kent you are so unfair. And we were going to make you the king of the Winter Carnival.`
-7. [Get Access To The Steam Tunnels](./objectives/o7/): `Krampus Hollyfeld`
+7. [Get Access to the Steam Tunnels](./objectives/o7/): `Krampus Hollyfeld`
 8. [Bypassing the Frido Sleigh CAPTEHA](./objectives/o8/): `8Ia8LiZEwvyZr2WO`
 9. [Retrieve Scraps of Paper from Server](./objectives/o9/): `Super Sled-o-matic`
 10. [Recover Cleartext Document](./objectives/o10/): `Machine Learning Sleigh Route Finder`
