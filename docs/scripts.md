@@ -1,6 +1,7 @@
 # Scripts
 
 ## find_code.py
+**Download**: [`find_code.py`](./files/find_code.py)  
 **Usage**: generate access codes for the [Frosty Keypad](./hints/h6.md) terminal hint.
 
 ```python
@@ -37,6 +38,7 @@ if __name__ == "__main__":
 ```
 
 ## capteha_api.py
+**Download**: [`capteha_api.py`](./files/capteha_api.py)   
 **Usage**: bypass the CAPTHEHA in the [Bypassing the Frido Sleigh CAPTEHA](./objectives/o8.md) objective.
 
 ```python
@@ -256,6 +258,7 @@ if __name__ == "__main__":
 ```
 
 ## token_proxy.py
+**Download**: [`token_proxy.py`](./files/token_proxy.py)  
 **Usage**: translate CSRF tokens for the [Retrieve Scraps of Paper from Server](./objectives/o9.md) objective.
 
 ```python
@@ -287,6 +290,7 @@ if __name__ == '__main__':
 ```
 
 ## decrypt_pdf.py
+**Download**: [`decrypt_pdf.py`](./files/decrypt_pdf.py)  
 **Usage**: decrypt the PDF in the [Recover Cleartext Document](./objectives/o10.md) objective.
 
 ```python
@@ -374,6 +378,7 @@ if __name__ == "__main__":
 ```
 
 ## match_user_agents.py
+**Download**: [`match_user_agents.py`](./files/match_user_agents.py)  
 **Usage**: find additional bad IPs in the [Filter Out Poisoned Data Sources](./objectives/o12.md) objective.
 
 ```python
