@@ -50,8 +50,8 @@ nav:
   - Holly Evergreen - Mongo Pilfer: 'hints/h10.md'
   - Kent Tinseltooth - Smart Braces: 'hints/h11.md'
   - Wunorse Openslae - Zeek JSON Analysis: 'hints/h12.md'
+- Scripts: 'scripts.md'
 - Miscellaneous:
   - Interesting UI Elements: 'misc/interesting_ui.md'
   - Progress Tokens: 'misc/progress_tokens.md'
   - User Accounts: 'misc/user_accounts.md'
-- Scripts: 'scripts.md'
