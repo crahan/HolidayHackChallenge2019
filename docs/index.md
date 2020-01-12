@@ -2,9 +2,9 @@
 
 # Welcome
 ## Introduction
-Hi there! Welcome to my write-up for the [2019 SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/).
+Hi there! Welcome to my [2019 SANS Holiday Hack Challenge](https://www.holidayhackchallenge.com/2019/) write-up.
 
-The menu at the top gets you to all the goodies. This page serves as a summary for the main objective answers, [university map](./img/misc/map_large.png), and overall narrative. Objectives and terminal hint write-ups can be found in their respective menu sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
+The menu at the top gets you to all the goodies. This page provides the [answers](#answers) to the main objectives, [Elf University map](#elf-university-map), full [narrative](#narrative), and [some thoughts](#kringlecon-3) on what might be coming next. Objectives and terminal hint write-ups can be found in their respective menu sections. Some odds and ends like interesting UI elements, user accounts, and a few notes about tokens are stored under Miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate or `s` to search the site.
 
 Each objective and terminal hint also comes with its own video version of the write-up. If you're more of a visual learner and prefer watching just the videos then feel free to check out [this playlist](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) on YouTube to watch all 11 episodes in the correct order. 
 
@@ -34,7 +34,7 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 
 [![Elf University Map](./img/misc/map_small.png){: .map}](./img/misc/map_large.png)
 
-## Full Narrative
+## Narrative
 > *Arrive*  
 > Whose grounds these are, I think I know  
 > His home is in the North Pole though  
@@ -95,7 +95,7 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 > And Jack Frost hasn't made a peep,  
 > And Jack Frost hasn't made a peep...
 
-## KringleCon 3: Jack Frost?
-After thwarting the Tooth Fairy's dastardly plans and meeting up with Santa and Krampus at the top of the Bell Tower at Elf University you'll find a letter in the back left corner of the room. It appears that the Tooth Fairy wasn't working alone! Could this be a hint for 2020? Will we be facing off with Jack Frost at KringleCon 3? *Cue the ominous music*.
+## KringleCon 3
+The final piece of the [narrative](#narrative), its CSS class, as well as the [letter of wintry magic](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. It appears that the Tooth Fairy wasn't working alone and all this time Jack Frost had apparently been helping her out! Ho-ho-ho-holy cliffhanger, Batman!
 
 ![Letter](./img/misc/letter.png)
