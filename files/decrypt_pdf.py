@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Recover Cleartext Document."""
+"""2019 SANS Holiday Hack Challenge - Recover Cleartext Document."""
 from Crypto.Cipher import DES
 
 seed = 0

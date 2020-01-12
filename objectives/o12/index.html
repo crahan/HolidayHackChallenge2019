@@ -271,7 +271,7 @@ jq -j '.[] | select(.uri|contains(&quot;&lt;&quot;)) | .&quot;id.orig_h&quot;, &
 <p><img alt="User-Agent" src="../../img/objectives/o12/o12_7.png" /></p>
 <p>While not all of these jump out as suspicious, a few definitely do. The below <a href="../../scripts/#match_user_agentspy"><code>match_user_agents.py</code></a> Python script takes 2 CSV files with <code>id.orig_h</code>, <code>host</code>, <code>username</code>, <code>uri</code>, and <code>user_agent</code> fields from the Zeek logs as input. One log containing only the clearly bad IPs and the other containing all of them. If we find more than 3 matches for a specific IP address (i.e. more than 2 additional values) then chances are we're including legitimate traffic so we ignore those just to be on the safe side.</p>
 <pre><code class="python">#!/usr/bin/env python3
-&quot;&quot;&quot;SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources.&quot;&quot;&quot;
+&quot;&quot;&quot;2019 SANS Holiday Hack Challenge - Filter Out Poisoned Data Sources.&quot;&quot;&quot;
 
 
 def main():

@@ -235,7 +235,7 @@ I've got a few clues for you. </p>
 <p><img alt="Keypad" src="../../img/hints/h6/h6_terminal1_yeeaaah.png" /></p>
 <p>Based on the hints and the keypad image we see that 1, 3, 7, and 'enter' are the keys that are used most frequently. Since one of the 3 digits is also repeated once the total code has a length of 4. This limits the options to <a href="https://en.wikipedia.org/wiki/Permutation">permutations</a> of the following 3 number sets: [1, 1, 3, 7], [1, 3, 3, 7], and [1, 3, 7, 7]. Finally our 4-digit number needs to be prime. To help solve this we can use the following <a href="../../scripts/#find_codepy"><code>find_code.py</code></a> Python script.</p>
 <pre><code class="python">#!/usr/bin/env python3
-&quot;&quot;&quot;SANS Holiday Hack Challenge 2019 - Frosty Keypad.&quot;&quot;&quot;
+&quot;&quot;&quot;2019 SANS Holiday Hack Challenge - Frosty Keypad.&quot;&quot;&quot;
 import itertools
 
 

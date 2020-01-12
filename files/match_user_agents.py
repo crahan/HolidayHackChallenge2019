@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources."""
+"""2019 SANS Holiday Hack Challenge - Filter Out Poisoned Data Sources."""
 
 
 def main():

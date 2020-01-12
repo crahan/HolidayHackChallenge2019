@@ -244,7 +244,7 @@ And, as long as you're traveling around, be sure to solve any other challenges y
 <img alt="Sqlmap Fail" src="../../img/objectives/o9/o9_3.png" /></p>
 <p>The problem can be solved by translating the <code>validator.php</code> response data to a format that sqlmap accepts (i.e. contains a token field name in the header or response body). When the below <a href="../../scripts/#token_proxypy"><code>token_proxy.py</code></a> Python script receives a GET request it grabs a token value from <code>validator.php</code> and adds it as the value to a <code>token</code> field in both the header and body of its own HTTP response. </p>
 <pre><code class="python">#!/usr/bin/env python3
-&quot;&quot;&quot;SANS Holiday Hack Challenge 2019 - Retrieve Scraps of Paper from Server.&quot;&quot;&quot;
+&quot;&quot;&quot;2019 SANS Holiday Hack Challenge - Retrieve Scraps of Paper from Server.&quot;&quot;&quot;
 import requests
 from flask import Flask, Response
 app = Flask(__name__)
