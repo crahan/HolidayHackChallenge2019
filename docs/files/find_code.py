@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Frosty Keypad."""
+"""2019 SANS Holiday Hack Challenge - Frosty Keypad."""
 import itertools
 
 

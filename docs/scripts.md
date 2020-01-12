@@ -6,7 +6,7 @@
 
 ```python
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Frosty Keypad."""
+"""2019 SANS Holiday Hack Challenge - Frosty Keypad."""
 import itertools
 
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
 ```python
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Bypassing the Frido Sleigh CAPTEHA."""
+"""2019 SANS Holiday Hack Challenge - Bypassing the Frido Sleigh CAPTEHA."""
 # Image Recognition Using Tensorflow Exmaple.
 # Code based on example at:
 # https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/examples/label_image/label_image.py
@@ -263,7 +263,7 @@ if __name__ == "__main__":
 
 ```python
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Retrieve Scraps of Paper from Server."""
+"""2019 SANS Holiday Hack Challenge - Retrieve Scraps of Paper from Server."""
 import requests
 from flask import Flask, Response
 app = Flask(__name__)
@@ -295,7 +295,7 @@ if __name__ == '__main__':
 
 ```python
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Recover Cleartext Document."""
+"""2019 SANS Holiday Hack Challenge - Recover Cleartext Document."""
 from Crypto.Cipher import DES
 
 seed = 0
@@ -383,7 +383,7 @@ if __name__ == "__main__":
 
 ```python
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Filter Out Poisoned Data Sources."""
+"""2019 SANS Holiday Hack Challenge - Filter Out Poisoned Data Sources."""
 
 
 def main():

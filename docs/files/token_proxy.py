@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SANS Holiday Hack Challenge 2019 - Retrieve Scraps of Paper from Server."""
+"""2019 SANS Holiday Hack Challenge - Retrieve Scraps of Paper from Server."""
 import requests
 from flask import Flask, Response
 app = Flask(__name__)
