@@ -1,2 +1,2 @@
-# kringlecon2019
-KringleCon 2019 writeup
+# HolidayHackChallenge2019
+2019 SANS Holiday Hack Challenge write-up
