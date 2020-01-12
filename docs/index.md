@@ -6,7 +6,7 @@ Hi there! Welcome to my write-up for the [2019 SANS Holiday Hack Challenge](http
 
 The menu at the top gets you to all the goodies. This page serves as a summary for the main objective answers, [university map](./img/misc/map_large.png), and overall narrative. Objectives and terminal hint write-ups can be found in their respective menu sections. Some odds and ends like interesting UI elements, login credentials, and a few notes about tokens are stored under miscellaneous. If you prefer keyboard shortcuts you can use `n` and `p` to navigate through all the content or use `s` to search.
 
-Each objective and terminal hint also come with their own video versions of the write-up. If you are more of a visual learner and prefer watching just the videos then please check out my [2019 SANS Holiday Hack Challenge Solutions](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) playlist on Youtube to watch all 11 episodes (2 hours and 50 minutes) in the correct order. 
+Each objective and terminal hint also comes with its own video version of the write-up. If you're more of a visual learner and prefer watching just the videos then feel free to check out [this playlist](https://www.youtube.com/playlist?list=PLkC9YoWVx3xKJgL7TrBsjmy8triY9RDjC) on YouTube to watch all 11 episodes in the correct order. 
 
 If you have any feedback or questions please feel free to reach out to me on [Twitter](https://twitter.com/crahan).
 
@@ -30,9 +30,9 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 ![Challenges](./img/misc/objectives.png)
 
 ## Elf University Map
-[Click](./img/misc/map_large.png) for larger version.
+[Click for a larger version](./img/misc/map_large.png)
 
-![Elf University Map](./img/misc/map_small.png)
+[![Elf University Map](./img/misc/map_small.png){: .map}](./img/misc/map_large.png)
 
 ## Full Narrative
 > *Arrive*  

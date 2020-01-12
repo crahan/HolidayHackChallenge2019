@@ -119,3 +119,10 @@ img.elf_avatar {
     height: 100%;
     border: 0;
 }
+
+a img.map {
+    border: 1px solid #ddd;
+}
+a img.map:hover {
+    border: 1px solid #a71d13;
+}
