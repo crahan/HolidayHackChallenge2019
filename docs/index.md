@@ -96,6 +96,6 @@ If you have any feedback or questions please feel free to reach out to me on [Tw
 > And Jack Frost hasn't made a peep...
 
 ## KringleCon 3
-The final piece of the [narrative](#narrative), its CSS class, as well as the [letter of wintry magic](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. It appears that the Tooth Fairy wasn't working alone and all this time Jack Frost had apparently been helping her out! Ho-ho-ho-holy cliffhanger, Batman!
+The final piece of the [narrative](#narrative), its CSS class, as well as the [letter of wintry magic](https://downloads.elfu.org/LetterOfWintryMagic.pdf) you find in the top left corner of the Elf University Bell Tower all hint at what might be in store for next year's KringleCon event. It appears that the Tooth Fairy wasn't working alone and all this time Jack Frost had apparently been helping her out!
 
-![Letter](./img/misc/letter.png)
+![Letter](./img/misc/letter_hohohoholy.png)
